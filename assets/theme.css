@@ -10978,6 +10978,9 @@ body {
   padding: 0 calc(var(--inner) / 2);
   background-color: var(--COLOR-BG);
   transition: opacity 0.3s ease, visibility 0.3s;
+  visibility: visible;
+  opacity: 1;
+  pointer-events: auto;
 }
 .radio__fieldset--small .radio__button label {
   padding: 5px;
@@ -11472,6 +11475,10 @@ body {
   font-style: var(--FONT-STYLE-BODY-ITALIC);
   transition: opacity 0.3s ease, visibility 0.3s;
   cursor: pointer;
+
+  opacity: 0;
+  /*visibility: hidden;*/
+  /*pointer-events: none;*/
 }
 .no-js .product-item__swatches__count {
   position: relative;

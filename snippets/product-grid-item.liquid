@@ -141,8 +141,8 @@
                 data-sibling-cutline="{{ sib_product.metafields.theme.cutline | strip_html | escape }}"
                 data-sibling-image="{{ sib_product.featured_media.preview_image.src | image_url }}">
 
-                <div class="sibling__link{{ current_class }}">
-                  !!!!
+                <div class="sibling__link{{ current_class }}" style="background-color: {{ sib_product.metafields.theme.sibling-color-hex.value }}">
+
                 </div>
               </div>
             {%- endfor -%}

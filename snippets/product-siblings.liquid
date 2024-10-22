@@ -80,8 +80,8 @@
                     </div>
                   </quick-add-product>
                 {%- else -%}
-                  <a href="{{ sib_product.url }}" class="sibling__link{{ modifier_class }}">
-                    {%- render 'image', image: sib_product.featured_media.preview_image, widths: '26, 52, 78, 104', aspect_ratio: 1, show_backfill: false -%}
+                  <a href="{{ sib_product.url }}" class="sibling__link{{ modifier_class }}" style="background-color: {{ sib_product.metafields.theme.sibling-color-hex.value }}">
+
                     <span class="visually-hidden">{{ color_name }}</span>
                   </a>
                 {%- endif -%}
