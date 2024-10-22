@@ -142,6 +142,9 @@
                 data-sibling-image="{{ sib_product.featured_media.preview_image.src | image_url }}">
 
                 <div class="sibling__link{{ current_class }}" style="background-color: {{ sib_product.metafields.theme.sibling-color-hex.value }}">
+                  {% if  sib_product.metafields.theme.siblings_image.value %}
+                    {%- render 'image', image:  sib_product.metafields.theme.siblings_image.value, widths: '26, 52, 78, 104', aspect_ratio: 1 -%}
+                  {% endif %}
 
                 </div>
               </div>
