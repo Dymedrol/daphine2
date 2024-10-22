@@ -65,7 +65,7 @@
           "settings": {
             "show_line": true,
             "padding_top": 20,
-            "padding_bottom": 16
+            "padding_bottom": 10
           }
         },
         "buttons": {
