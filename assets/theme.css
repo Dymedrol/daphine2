@@ -11179,6 +11179,7 @@ body {
 .swatch__button .sibling__link--current,
 .swatch__button input:checked ~ label {
   overflow: initial;
+  border: 1px solid #000;
 }
 
 .swatch__button .sibling__link--current:after,
