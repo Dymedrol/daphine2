@@ -409,14 +409,6 @@
         <p class="product-item__title">{{ product.title | strip_html | escape }}</p>
 
         <div class="product-item__price__holder{% if has_siblings %} has-siblings{% endif %}">
-          {%- if has_siblings or product_item_cutline != blank -%}
-            <span class="product-item__cutline" data-product-cutline>{{ product_item_cutline }}</span>
-          {%- endif -%}
-
-          {%- if has_siblings -%}
-            <span class="product-item__sep">&#8212;</span>
-          {%- endif -%}
-
           <div class="product-item__price" data-product-price>
             {% comment %} Price on product grid item {% endcomment %}
 
