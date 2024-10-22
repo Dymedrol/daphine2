@@ -81,6 +81,9 @@
                   </quick-add-product>
                 {%- else -%}
                   <a href="{{ sib_product.url }}" class="sibling__link{{ modifier_class }}" style="background-color: {{ sib_product.metafields.theme.sibling-color-hex.value }}">
+                      {% if sib_product.metafields.theme.siblings_image.value %}
+                          {%- render 'image', image: sib_product.metafields.theme.siblings_image.value, widths: '26, 52, 78, 104', aspect_ratio: 1, show_backfill: false -%}
+                      {% endif %}
 
                     <span class="visually-hidden">{{ color_name }}</span>
                   </a>
