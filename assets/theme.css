@@ -11004,6 +11004,14 @@ body {
   margin: 0 5px;
   cursor: pointer;
 }
+@media only screen and (max-width: 480px) {
+  .radio__fieldset--small .swatch__button {
+    --swatch-size: 20px;
+    padding: 7px 0;
+    margin: 0 3px;
+    cursor: pointer;
+  }
+}
 .radio__fieldset--small .swatch__button input:checked ~ label {
   margin: 0;
 }
