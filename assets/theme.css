@@ -11138,6 +11138,19 @@ body {
   pointer-events: initial;
 }
 
+@media only screen and (max-width: 480px) {
+  .swatch__button {
+    --swatch: #CCC;
+    --swatch-size: 20px;
+    --swatch-outline-offset: 3px;
+    display: inline-block;
+    padding: 7px 0;
+    margin: 0 10px 10px 0;
+    position: relative;
+    pointer-events: initial;
+  }
+}
+
 .swatch__button.sale:before {
   content: "";
   position: absolute;
