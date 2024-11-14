@@ -109,6 +109,149 @@
         "padding_bottom": 50
       }
     },
+    "section_columns_nVzeTF": {
+      "type": "section-columns",
+      "blocks": {
+        "image_grCCkd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Chris_tennis_necklace.jpg",
+            "title": "",
+            "heading_size": 3,
+            "mobile_heading_size": 2,
+            "text": "",
+            "text_size": 3,
+            "mobile_text_size": 3,
+            "button_text": "",
+            "button_url": "shopify://products/chris-tennis-necklace",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--text",
+            "show_arrow": false
+          }
+        },
+        "image_kJ4Nby": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Daphine_Christy_Earrings.jpg",
+            "title": "",
+            "heading_size": 3,
+            "mobile_heading_size": 2,
+            "text": "",
+            "text_size": 3,
+            "mobile_text_size": 3,
+            "button_text": "",
+            "button_url": "shopify://products/fran-earrings-silver",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--text",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_grCCkd",
+        "image_kJ4Nby"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": 5,
+        "mobile_heading_size": 5,
+        "align_text": "text-center",
+        "align_columns": "flex-align-center",
+        "width": "wrapper",
+        "image_aspect_ratio": 1.2,
+        "mobile_image_aspect_ratio": 1.2,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 50,
+        "layout_mobile": "grid"
+      }
+    },
+    "section_collection_7jnifn": {
+      "type": "section-collection",
+      "settings": {
+        "heading": "",
+        "description": "<h6>Most Wanted</h6>",
+        "layout": "inline",
+        "link_text": "EXPLORE ALL",
+        "link_url": "shopify://collections/tennis-jewellery",
+        "button_type": "btn--primary",
+        "button_size": "btn--small",
+        "button_style": "btn--text",
+        "show_arrow": false,
+        "featured_collection": "tennis-jewellery",
+        "style": "slider",
+        "grid": 4,
+        "rows": 1,
+        "layout_mobile": "carousel",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "section_columns_4c6BmR": {
+      "type": "section-columns",
+      "blocks": {
+        "image_HJf6ed": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Daphine_Fran-earrings_silver_b7723493-6778-4700-a20b-009f80bf6953.jpg",
+            "title": "",
+            "heading_size": 3,
+            "mobile_heading_size": 2,
+            "text": "",
+            "text_size": 3,
+            "mobile_text_size": 3,
+            "button_text": "",
+            "button_url": "shopify://products/chris-tennis-necklace",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--text",
+            "show_arrow": false
+          }
+        },
+        "image_CVFxjm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Daphine_Fran-earrings_gold-2.jpg",
+            "title": "",
+            "heading_size": 3,
+            "mobile_heading_size": 2,
+            "text": "",
+            "text_size": 3,
+            "mobile_text_size": 3,
+            "button_text": "",
+            "button_url": "shopify://products/fran-earrings-silver",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--text",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_HJf6ed",
+        "image_CVFxjm"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": 5,
+        "mobile_heading_size": 5,
+        "align_text": "text-center",
+        "align_columns": "flex-align-center",
+        "width": "wrapper",
+        "image_aspect_ratio": 1.2,
+        "mobile_image_aspect_ratio": 1.2,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "layout_mobile": "grid"
+      }
+    },
     "section_collection_MGNTMk": {
       "type": "section-collection",
       "settings": {
@@ -138,7 +281,7 @@
         "heading_TeafD9": {
           "type": "heading",
           "settings": {
-            "title": "Agathe Earrings",
+            "title": "",
             "heading_size": 4,
             "mobile_heading_size": 3
           }
@@ -148,9 +291,9 @@
         "heading_TeafD9"
       ],
       "settings": {
-        "height": "seven-fifty-height-hero",
+        "height": "image-height",
         "width": "wrapper--full-padded",
-        "image_1": "shopify://shop_images/Still_2024-08-20_162725_1.167.2_copybw_1_de1f945d-3b31-4e85-bbc3-729baddc94c0.jpg",
+        "image_1": "shopify://shop_images/Chris_tennis_necklace_1.jpg",
         "mobile_height": "screen-height-one-half--mobile",
         "flex_align": "align--bottom-left",
         "overlay_opacity": 0,
@@ -269,89 +412,6 @@
         "show_overlay_text": false,
         "bg_color": "",
         "color": "#212121"
-      }
-    },
-    "section_columns_nVzeTF": {
-      "type": "section-columns",
-      "blocks": {
-        "image_grCCkd": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Chris_tennis_necklace.jpg",
-            "title": "",
-            "heading_size": 3,
-            "mobile_heading_size": 2,
-            "text": "",
-            "text_size": 3,
-            "mobile_text_size": 3,
-            "button_text": "",
-            "button_url": "shopify://products/chris-tennis-necklace",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--text",
-            "show_arrow": false
-          }
-        },
-        "image_kJ4Nby": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Daphine_Christy_Earrings.jpg",
-            "title": "",
-            "heading_size": 3,
-            "mobile_heading_size": 2,
-            "text": "",
-            "text_size": 3,
-            "mobile_text_size": 3,
-            "button_text": "",
-            "button_url": "shopify://products/fran-earrings-silver",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--text",
-            "show_arrow": false
-          }
-        }
-      },
-      "block_order": [
-        "image_grCCkd",
-        "image_kJ4Nby"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": 5,
-        "mobile_heading_size": 5,
-        "align_text": "text-center",
-        "align_columns": "flex-align-center",
-        "width": "wrapper",
-        "image_aspect_ratio": 1.2,
-        "mobile_image_aspect_ratio": 1.2,
-        "bg_color": "",
-        "color": "",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "layout_mobile": "grid"
-      }
-    },
-    "section_collection_7jnifn": {
-      "type": "section-collection",
-      "settings": {
-        "heading": "",
-        "description": "<h6>Most Wanted</h6>",
-        "layout": "inline",
-        "link_text": "EXPLORE ALL",
-        "link_url": "shopify://collections/tennis-jewellery",
-        "button_type": "btn--primary",
-        "button_size": "btn--small",
-        "button_style": "btn--text",
-        "show_arrow": false,
-        "featured_collection": "tennis-jewellery",
-        "style": "slider",
-        "grid": 4,
-        "rows": 1,
-        "layout_mobile": "carousel",
-        "bg_color": "",
-        "color": "",
-        "padding_top": 50,
-        "padding_bottom": 50
       }
     },
     "section_hero_b7yg8x": {
@@ -479,6 +539,7 @@
     "section_rich_text_ephmEJ",
     "section_columns_nVzeTF",
     "section_collection_7jnifn",
+    "section_columns_4c6BmR",
     "section_collection_MGNTMk",
     "section_hero_Dnjiw4",
     "section_columns_QWXp6G",
