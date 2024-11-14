@@ -271,66 +271,6 @@
         "color": "#212121"
       }
     },
-    "section_columns_d7QDWT": {
-      "type": "section-columns",
-      "blocks": {
-        "image_LNrXJ7": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/IMG_1244-ezgif.com-optimize.gif",
-            "title": "",
-            "heading_size": 3,
-            "mobile_heading_size": 2,
-            "text": "",
-            "text_size": 3,
-            "mobile_text_size": 3,
-            "button_text": "",
-            "button_url": "shopify://products/christy-hoops",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--text",
-            "show_arrow": false
-          }
-        },
-        "image_KpfgVp": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Daphine_Christy_Earrings.jpg",
-            "title": "",
-            "heading_size": 3,
-            "mobile_heading_size": 2,
-            "text": "",
-            "text_size": 3,
-            "mobile_text_size": 3,
-            "button_text": "",
-            "button_url": "shopify://products/fran-earrings-silver",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--text",
-            "show_arrow": false
-          }
-        }
-      },
-      "block_order": [
-        "image_LNrXJ7",
-        "image_KpfgVp"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": 5,
-        "mobile_heading_size": 5,
-        "align_text": "text-center",
-        "align_columns": "flex-align-center",
-        "width": "wrapper",
-        "image_aspect_ratio": 1.2,
-        "mobile_image_aspect_ratio": 1.2,
-        "bg_color": "",
-        "color": "",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "layout_mobile": "grid"
-      }
-    },
     "section_columns_nVzeTF": {
       "type": "section-columns",
       "blocks": {
@@ -537,14 +477,13 @@
     "main",
     "section_hero_HPkDYN",
     "section_rich_text_ephmEJ",
+    "section_columns_nVzeTF",
+    "section_collection_7jnifn",
     "section_collection_MGNTMk",
     "section_hero_Dnjiw4",
     "section_columns_QWXp6G",
     "section_collection_RBnfp9",
     "section_hero_6LGWAt",
-    "section_columns_d7QDWT",
-    "section_columns_nVzeTF",
-    "section_collection_7jnifn",
     "section_hero_b7yg8x",
     "section_columns_ngPgqR",
     "text_promo_cxKh3X"
