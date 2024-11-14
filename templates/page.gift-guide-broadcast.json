@@ -29,15 +29,39 @@
     },
     "section_hero_HPkDYN": {
       "type": "section-hero",
+      "blocks": {
+        "heading_L7eGUn": {
+          "type": "heading",
+          "settings": {
+            "title": "The Gift Shop",
+            "heading_size": 9,
+            "mobile_heading_size": 4
+          }
+        },
+        "text_idtgYn": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "description": "",
+            "text_size": 5,
+            "mobile_text_size": 5,
+            "text_style": "font-heading"
+          }
+        }
+      },
+      "block_order": [
+        "heading_L7eGUn",
+        "text_idtgYn"
+      ],
       "settings": {
         "height": "image-height",
         "width": "wrapper--full-padded",
-        "image_1": "shopify://shop_images/Screenshot_2024-09-06_at_12.26.57_522fae83-6452-4e11-8b9e-9e87d4705619.png",
+        "image_1": "shopify://shop_images/Daphine_Chris_tennis_bracelet_7760ad19-a121-4eb0-a4ff-39f5a5a7a97c.jpg",
         "mobile_height": "image-height--mobile",
-        "flex_align": "align--middle-center",
-        "overlay_opacity": 0,
+        "flex_align": "align--bottom-center",
+        "overlay_opacity": 20,
         "overlay_color": "#000000",
-        "show_overlay_text": false,
+        "show_overlay_text": true,
         "bg_color": "",
         "color": "#ffffff"
       }
@@ -253,15 +277,15 @@
         "image_LNrXJ7": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Daphine_Fran-earrings_gold-2_3e897601-1462-48cf-9a42-72596b8d481a.jpg",
+            "image": "shopify://shop_images/IMG_1244-ezgif.com-optimize.gif",
             "title": "",
             "heading_size": 3,
             "mobile_heading_size": 2,
-            "text": "<h6>Fran Earrings in Gold</h6>",
+            "text": "",
             "text_size": 3,
             "mobile_text_size": 3,
-            "button_text": "SHOP",
-            "button_url": "shopify://products/fran-earrings-gold",
+            "button_text": "",
+            "button_url": "shopify://products/christy-hoops",
             "button_type": "btn--primary",
             "button_size": "",
             "button_style": "btn--text",
@@ -271,14 +295,14 @@
         "image_KpfgVp": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Daphine_Fran-earrings_silver_b7723493-6778-4700-a20b-009f80bf6953.jpg",
+            "image": "shopify://shop_images/Daphine_Christy_Earrings.jpg",
             "title": "",
             "heading_size": 3,
             "mobile_heading_size": 2,
-            "text": "<h6>Fran Earrings in Silver</h6>",
+            "text": "",
             "text_size": 3,
             "mobile_text_size": 3,
-            "button_text": "SHOP",
+            "button_text": "",
             "button_url": "shopify://products/fran-earrings-silver",
             "button_type": "btn--primary",
             "button_size": "",
@@ -298,8 +322,68 @@
         "align_text": "text-center",
         "align_columns": "flex-align-center",
         "width": "wrapper",
-        "image_aspect_ratio": 1,
-        "mobile_image_aspect_ratio": 1,
+        "image_aspect_ratio": 1.2,
+        "mobile_image_aspect_ratio": 1.2,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "layout_mobile": "grid"
+      }
+    },
+    "section_columns_nVzeTF": {
+      "type": "section-columns",
+      "blocks": {
+        "image_grCCkd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Chris_tennis_necklace.jpg",
+            "title": "",
+            "heading_size": 3,
+            "mobile_heading_size": 2,
+            "text": "",
+            "text_size": 3,
+            "mobile_text_size": 3,
+            "button_text": "",
+            "button_url": "shopify://products/chris-tennis-necklace",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--text",
+            "show_arrow": false
+          }
+        },
+        "image_kJ4Nby": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Daphine_Christy_Earrings.jpg",
+            "title": "",
+            "heading_size": 3,
+            "mobile_heading_size": 2,
+            "text": "",
+            "text_size": 3,
+            "mobile_text_size": 3,
+            "button_text": "",
+            "button_url": "shopify://products/fran-earrings-silver",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--text",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_grCCkd",
+        "image_kJ4Nby"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": 5,
+        "mobile_heading_size": 5,
+        "align_text": "text-center",
+        "align_columns": "flex-align-center",
+        "width": "wrapper",
+        "image_aspect_ratio": 1.2,
+        "mobile_image_aspect_ratio": 1.2,
         "bg_color": "",
         "color": "",
         "padding_top": 50,
@@ -311,22 +395,22 @@
       "type": "section-collection",
       "settings": {
         "heading": "",
-        "description": "",
-        "layout": "center",
-        "link_text": "",
-        "link_url": "",
+        "description": "<h6>Most Wanted</h6>",
+        "layout": "inline",
+        "link_text": "EXPLORE ALL",
+        "link_url": "shopify://collections/tennis-jewellery",
         "button_type": "btn--primary",
-        "button_size": "",
-        "button_style": "btn--solid",
+        "button_size": "btn--small",
+        "button_style": "btn--text",
         "show_arrow": false,
-        "featured_collection": "aw24-edit-3",
-        "style": "grid",
+        "featured_collection": "tennis-jewellery",
+        "style": "slider",
         "grid": 4,
         "rows": 1,
-        "layout_mobile": "2",
+        "layout_mobile": "carousel",
         "bg_color": "",
         "color": "",
-        "padding_top": 0,
+        "padding_top": 50,
         "padding_bottom": 50
       }
     },
@@ -459,6 +543,7 @@
     "section_collection_RBnfp9",
     "section_hero_6LGWAt",
     "section_columns_d7QDWT",
+    "section_columns_nVzeTF",
     "section_collection_7jnifn",
     "section_hero_b7yg8x",
     "section_columns_ngPgqR",
