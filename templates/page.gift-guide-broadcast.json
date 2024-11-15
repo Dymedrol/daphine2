@@ -309,7 +309,7 @@
         "image_PAWGkT": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Daphine_Agathe-earrings_gold_43a74c16-9fc3-4d6f-b130-36d02f907101.jpg",
+            "image": "shopify://shop_images/Daphine_Agathe-earrings_gold-2.jpg",
             "title": "",
             "heading_size": 3,
             "mobile_heading_size": 2,
@@ -326,6 +326,25 @@
         },
         "image_MkQ9pg": {
           "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Daphine_Cleo-earrings-4.jpg",
+            "title": "",
+            "heading_size": 3,
+            "mobile_heading_size": 2,
+            "text": "<h6>Cleo Earrings</h6>",
+            "text_size": 3,
+            "mobile_text_size": 3,
+            "button_text": "SHOP",
+            "button_url": "shopify://products/cleo-earrings",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--text",
+            "show_arrow": false
+          }
+        },
+        "image_VdcArd": {
+          "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Daphine_Monikh-pt.II_Rochelle-earrings-silver_1_044d25c2-43ef-4094-9dc0-db48899f8523.jpg",
             "title": "",
@@ -345,7 +364,8 @@
       },
       "block_order": [
         "image_PAWGkT",
-        "image_MkQ9pg"
+        "image_MkQ9pg",
+        "image_VdcArd"
       ],
       "settings": {
         "title": "",
