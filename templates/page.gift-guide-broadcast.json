@@ -72,7 +72,7 @@
         "subheading_aGcWh6": {
           "type": "subheading",
           "settings": {
-            "subheading": "Introducing",
+            "subheading": "Featuring",
             "text_size": 3,
             "mobile_text_size": 3
           }
@@ -88,7 +88,7 @@
         "text_8JmqEC": {
           "type": "text",
           "settings": {
-            "text": "<p>Discover treasures imbued with meaning and intention. Each piece, from sculptural forms to timeless essentials, designed to transcend seasons and resonate deeply. It’s a gesture, a keepsake, a memory waiting to unfold.</p>",
+            "text": "<p>Discover treasures filled with meaning and intention. Each piece, from sculptural forms to timeless essentials, designed to transcend seasons and resonate deeply. It’s a gesture, a keepsake, a memory waiting to unfold.</p>",
             "text_size": 3,
             "mobile_text_size": 3,
             "text_style": "font-body"
