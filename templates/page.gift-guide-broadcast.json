@@ -188,7 +188,7 @@
         "layout_mobile": "carousel",
         "bg_color": "",
         "color": "",
-        "padding_top": 50,
+        "padding_top": 30,
         "padding_bottom": 50
       }
     },
@@ -431,7 +431,7 @@
         "layout_mobile": "2",
         "bg_color": "",
         "color": "",
-        "padding_top": 0,
+        "padding_top": 30,
         "padding_bottom": 50
       }
     },
@@ -656,6 +656,29 @@
         "layout_mobile": "grid"
       }
     },
+    "section_collection_NGAaam": {
+      "type": "section-collection",
+      "settings": {
+        "heading": "",
+        "description": "",
+        "layout": "center",
+        "link_text": "",
+        "link_url": "",
+        "button_type": "btn--primary",
+        "button_size": "",
+        "button_style": "btn--solid",
+        "show_arrow": false,
+        "featured_collection": "everyday-classics",
+        "style": "grid",
+        "grid": 4,
+        "rows": 1,
+        "layout_mobile": "2",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
     "section_columns_AGpLDB": {
       "type": "section-columns",
       "blocks": {
@@ -734,29 +757,6 @@
         "padding_top": 50,
         "padding_bottom": 40,
         "layout_mobile": "grid"
-      }
-    },
-    "section_collection_NGAaam": {
-      "type": "section-collection",
-      "settings": {
-        "heading": "",
-        "description": "",
-        "layout": "center",
-        "link_text": "",
-        "link_url": "",
-        "button_type": "btn--primary",
-        "button_size": "",
-        "button_style": "btn--solid",
-        "show_arrow": false,
-        "featured_collection": "everyday-classics",
-        "style": "grid",
-        "grid": 4,
-        "rows": 1,
-        "layout_mobile": "2",
-        "bg_color": "",
-        "color": "",
-        "padding_top": 50,
-        "padding_bottom": 50
       }
     },
     "section_hero_iNKzXe": {
@@ -889,8 +889,8 @@
     "section_columns_PfhJ3B",
     "section_collection_eD3DAx",
     "section_columns_Gp4H8J",
-    "section_columns_AGpLDB",
     "section_collection_NGAaam",
+    "section_columns_AGpLDB",
     "section_hero_iNKzXe",
     "section_hero_9eXPpp",
     "text_promo_cxKh3X",
