@@ -329,7 +329,7 @@
         "bg_color": "",
         "color": "",
         "padding_top": 50,
-        "padding_bottom": 50
+        "padding_bottom": 0
       }
     },
     "section_columns_QWXp6G": {
@@ -470,7 +470,7 @@
         "bg_color": "",
         "color": "",
         "padding_top": 50,
-        "padding_bottom": 50
+        "padding_bottom": 0
       }
     },
     "section_columns_PfhJ3B": {
@@ -573,7 +573,7 @@
         "bg_color": "",
         "color": "",
         "padding_top": 50,
-        "padding_bottom": 50
+        "padding_bottom": 0
       }
     },
     "section_columns_Gp4H8J": {
@@ -755,7 +755,7 @@
         "layout_mobile": "2",
         "bg_color": "",
         "color": "",
-        "padding_top": 0,
+        "padding_top": 50,
         "padding_bottom": 50
       }
     },
@@ -777,7 +777,7 @@
             "link_text": "EXPLORE MORE GIFTS",
             "link": "shopify://collections/all",
             "button_type": "btn--white",
-            "button_size": "",
+            "button_size": "btn--small",
             "button_style": "btn--outline",
             "show_arrow": false
           }
