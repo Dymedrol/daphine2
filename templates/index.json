@@ -255,7 +255,7 @@
           "settings": {
             "heading": "Necklaces",
             "url": "shopify://collections/necklaces",
-            "image": "shopify://shop_images/Daphine_Agathe-necklace_gold-2_b960cfa4-221e-435d-b6ce-915e06636172.jpg",
+            "image": "shopify://shop_images/Vita_necklace_Steffi_necklace.jpg",
             "color": "#ffffff",
             "bg_color": "#f0f0f0",
             "border_color": ""
@@ -264,9 +264,9 @@
         "highlight_XCdCp4": {
           "type": "highlight",
           "settings": {
-            "heading": "New In",
-            "url": "shopify://collections/aw24",
-            "image": "shopify://shop_images/Daphine_Ella-earrings_5eb07057-abcd-4454-afe7-57b1930e6308.jpg",
+            "heading": "Bracelets",
+            "url": "shopify://collections/bracelets",
+            "image": "shopify://shop_images/Daphine_Mene_bangle.jpg",
             "color": "#ffffff",
             "bg_color": "#f0f0f0",
             "border_color": ""
