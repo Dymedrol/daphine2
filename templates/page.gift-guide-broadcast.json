@@ -192,6 +192,35 @@
         "padding_bottom": 50
       }
     },
+    "section_hero_XrddJi": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_fMdmfk": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "Ella Ring",
+            "heading_size": 4,
+            "mobile_heading_size": 3
+          }
+        }
+      },
+      "block_order": [
+        "heading_fMdmfk"
+      ],
+      "settings": {
+        "height": "image-height",
+        "width": "wrapper--full-padded",
+        "image_1": "shopify://shop_images/Daphine_Packaging_pink_pouch_gift_box_2.jpg",
+        "mobile_height": "screen-height-one-half--mobile",
+        "flex_align": "align--bottom-left",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "bg_color": "",
+        "color": "#212121"
+      }
+    },
     "section_columns_4c6BmR": {
       "type": "section-columns",
       "blocks": {
@@ -383,34 +412,6 @@
         "layout_mobile": "grid"
       }
     },
-    "section_hero_9eXPpp": {
-      "type": "section-hero",
-      "blocks": {
-        "heading_TqiNDV": {
-          "type": "heading",
-          "settings": {
-            "title": "",
-            "heading_size": 4,
-            "mobile_heading_size": 3
-          }
-        }
-      },
-      "block_order": [
-        "heading_TqiNDV"
-      ],
-      "settings": {
-        "height": "image-height",
-        "width": "wrapper--full-padded",
-        "image_1": "shopify://shop_images/Chris_tennis_necklace_1.jpg",
-        "mobile_height": "screen-height-one-half--mobile",
-        "flex_align": "align--bottom-left",
-        "overlay_opacity": 0,
-        "overlay_color": "#000000",
-        "show_overlay_text": false,
-        "bg_color": "",
-        "color": "#212121"
-      }
-    },
     "section_collection_RBnfp9": {
       "type": "section-collection",
       "settings": {
@@ -439,6 +440,7 @@
       "blocks": {
         "heading_waBADz": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "title": "Ella Ring",
             "heading_size": 4,
@@ -450,9 +452,9 @@
         "heading_waBADz"
       ],
       "settings": {
-        "height": "seven-fifty-height-hero",
+        "height": "image-height",
         "width": "wrapper--full-padded",
-        "image_1": "shopify://shop_images/Daphine_Ella-ring-2.jpg",
+        "image_1": "shopify://shop_images/Vita_necklace_Steffi_necklace.jpg",
         "mobile_height": "screen-height-one-half--mobile",
         "flex_align": "align--bottom-left",
         "overlay_opacity": 0,
@@ -462,35 +464,58 @@
         "color": "#212121"
       }
     },
-    "section_columns_ngPgqR": {
+    "section_collection_XVerWN": {
+      "type": "section-collection",
+      "settings": {
+        "heading": "",
+        "description": "<h6>Statement Necklaces</h6>",
+        "layout": "inline",
+        "link_text": "EXPLORE ALL",
+        "link_url": "shopify://collections/statement-necklaces",
+        "button_type": "btn--primary",
+        "button_size": "btn--small",
+        "button_style": "btn--text",
+        "show_arrow": false,
+        "featured_collection": "statement-necklaces",
+        "style": "slider",
+        "grid": 4,
+        "rows": 1,
+        "layout_mobile": "carousel",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "section_columns_PfhJ3B": {
       "type": "section-columns",
       "blocks": {
-        "image_8pYLM9": {
+        "image_JtDTHp": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Daphine_Cleo-earrings-4_ca49fbf6-69b1-411e-8699-2b14a15f6a4f.jpg",
+            "image": "shopify://shop_images/Daphine_Agathe-necklace-silver_Clara-hoops-silver_5d060a57-7fbf-45f7-bc82-b741c033b1f8.jpg",
             "title": "",
             "heading_size": 3,
             "mobile_heading_size": 2,
-            "text": "<h6>Cleo Earrings</h6>",
+            "text": "<h6>Clara Hoops</h6>",
             "text_size": 3,
             "mobile_text_size": 3,
             "button_text": "SHOP",
-            "button_url": "shopify://products/cleo-earrings",
+            "button_url": "shopify://products/clara-hoops-silver",
             "button_type": "btn--primary",
             "button_size": "",
             "button_style": "btn--text",
             "show_arrow": false
           }
         },
-        "image_PdFW3E": {
+        "image_H8bGbd": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Still_2024-08-17_212505_1.170.1_copybw_1_copy.jpg",
+            "image": "shopify://shop_images/Daphine_Agathe_neckalce_gold_silver.jpg",
             "title": "",
             "heading_size": 3,
             "mobile_heading_size": 2,
-            "text": "<h6>Agathe Necklace in Silver</h6>",
+            "text": "<h6>Agathe Necklace</h6>",
             "text_size": 3,
             "mobile_text_size": 3,
             "button_text": "SHOP",
@@ -500,11 +525,31 @@
             "button_style": "btn--text",
             "show_arrow": false
           }
+        },
+        "image_MyGdjH": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Daphine_Monikh-pt.II_Rochelle-earrings-silver_1_044d25c2-43ef-4094-9dc0-db48899f8523.jpg",
+            "title": "",
+            "heading_size": 3,
+            "mobile_heading_size": 2,
+            "text": "<h6>Rochelle Earrings</h6>",
+            "text_size": 3,
+            "mobile_text_size": 3,
+            "button_text": "SHOP",
+            "button_url": "shopify://products/rochelle-silver-plated-earrings",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--text",
+            "show_arrow": false
+          }
         }
       },
       "block_order": [
-        "image_8pYLM9",
-        "image_PdFW3E"
+        "image_JtDTHp",
+        "image_H8bGbd",
+        "image_MyGdjH"
       ],
       "settings": {
         "title": "",
@@ -513,13 +558,145 @@
         "align_text": "text-center",
         "align_columns": "flex-align-center",
         "width": "wrapper",
-        "image_aspect_ratio": 1,
-        "mobile_image_aspect_ratio": 1,
+        "image_aspect_ratio": 1.2,
+        "mobile_image_aspect_ratio": 1.2,
         "bg_color": "",
         "color": "",
         "padding_top": 50,
         "padding_bottom": 50,
         "layout_mobile": "grid"
+      }
+    },
+    "section_collection_eD3DAx": {
+      "type": "section-collection",
+      "settings": {
+        "heading": "",
+        "description": "<h6>Monikh's Favourites</h6>",
+        "layout": "inline",
+        "link_text": "EXPLORE ALL",
+        "link_url": "shopify://collections/monikh-x-daphine-vii",
+        "button_type": "btn--primary",
+        "button_size": "btn--small",
+        "button_style": "btn--text",
+        "show_arrow": false,
+        "featured_collection": "monikh-x-daphine-vii",
+        "style": "slider",
+        "grid": 4,
+        "rows": 1,
+        "layout_mobile": "carousel",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "section_columns_Gp4H8J": {
+      "type": "section-columns",
+      "blocks": {
+        "image_jpazAi": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Daphine_Swinnecklace.jpg",
+            "title": "",
+            "heading_size": 3,
+            "mobile_heading_size": 2,
+            "text": "<h6>Swin Necklace</h6>",
+            "text_size": 3,
+            "mobile_text_size": 3,
+            "button_text": "SHOP",
+            "button_url": "shopify://products/swin-necklace",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--text",
+            "show_arrow": false
+          }
+        },
+        "image_fhbxKt": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Daphine_Monikh-pt.II_Singh-necklace-gold_1.jpg",
+            "title": "",
+            "heading_size": 3,
+            "mobile_heading_size": 2,
+            "text": "<h6>Singh Necklace</h6>",
+            "text_size": 3,
+            "mobile_text_size": 3,
+            "button_text": "SHOP",
+            "button_url": "shopify://products/singh-gold-plated-pendant",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--text",
+            "show_arrow": false
+          }
+        },
+        "image_acHhdw": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Daphine_Monikh-pt.II_Rochelle-earrings-silver_1_044d25c2-43ef-4094-9dc0-db48899f8523.jpg",
+            "title": "",
+            "heading_size": 3,
+            "mobile_heading_size": 2,
+            "text": "<h6>Rochelle Earrings</h6>",
+            "text_size": 3,
+            "mobile_text_size": 3,
+            "button_text": "SHOP",
+            "button_url": "shopify://products/rochelle-silver-plated-earrings",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--text",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_jpazAi",
+        "image_fhbxKt",
+        "image_acHhdw"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": 5,
+        "mobile_heading_size": 5,
+        "align_text": "text-center",
+        "align_columns": "flex-align-center",
+        "width": "wrapper",
+        "image_aspect_ratio": 1.2,
+        "mobile_image_aspect_ratio": 1.2,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 40,
+        "layout_mobile": "grid"
+      }
+    },
+    "section_hero_9eXPpp": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_TqiNDV": {
+          "type": "heading",
+          "settings": {
+            "title": "",
+            "heading_size": 4,
+            "mobile_heading_size": 3
+          }
+        }
+      },
+      "block_order": [
+        "heading_TqiNDV"
+      ],
+      "disabled": true,
+      "settings": {
+        "height": "image-height",
+        "width": "wrapper--full-padded",
+        "image_1": "shopify://shop_images/Chris_tennis_necklace_1.jpg",
+        "mobile_height": "screen-height-one-half--mobile",
+        "flex_align": "align--bottom-left",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "bg_color": "",
+        "color": "#212121"
       }
     },
     "text_promo_cxKh3X": {
@@ -528,8 +705,8 @@
         "button_pjKX6X": {
           "type": "button",
           "settings": {
-            "button_text": "SHOP ALL NEW ARRIVALS",
-            "button_url": "shopify://collections/aw24",
+            "button_text": "DISCOVER MORE GIFT IDEAS",
+            "button_url": "shopify://collections/all",
             "button_type": "btn--black",
             "button_size": "",
             "button_style": "btn--outline",
@@ -559,14 +736,18 @@
     "section_rich_text_ephmEJ",
     "section_columns_nVzeTF",
     "section_collection_7jnifn",
+    "section_hero_XrddJi",
     "section_columns_4c6BmR",
     "section_hero_Dnjiw4",
     "section_collection_EeMcVK",
     "section_columns_QWXp6G",
-    "section_hero_9eXPpp",
     "section_collection_RBnfp9",
     "section_hero_b7yg8x",
-    "section_columns_ngPgqR",
+    "section_collection_XVerWN",
+    "section_columns_PfhJ3B",
+    "section_collection_eD3DAx",
+    "section_columns_Gp4H8J",
+    "section_hero_9eXPpp",
     "text_promo_cxKh3X"
   ]
 }
