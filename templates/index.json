@@ -86,6 +86,48 @@
         "autoplay_speed": 4
       }
     },
+    "section_hero_73jmJi": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_B7kGXE": {
+          "type": "heading",
+          "settings": {
+            "title": "The Gift Shop",
+            "heading_size": 8,
+            "mobile_heading_size": 7
+          }
+        },
+        "button_V3d8t6": {
+          "type": "button",
+          "settings": {
+            "link_text": "EXPLORE NOW",
+            "link": "shopify://collections/all",
+            "button_type": "btn--white",
+            "button_size": "btn--small",
+            "button_style": "btn--text",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_B7kGXE",
+        "button_V3d8t6"
+      ],
+      "disabled": true,
+      "settings": {
+        "height": "sixty-fifty-height-hero",
+        "width": "wrapper--full",
+        "image_1": "shopify://shop_images/Chris_tennis_necklace_1.jpg",
+        "mobile_height": "image-height--mobile",
+        "mobile_image": "shopify://shop_images/Daphine_Chris_tennis_necklace.jpg",
+        "flex_align": "align--middle-center",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "bg_color": "",
+        "color": "#ffffff"
+      }
+    },
     "section_hero_phKhAa": {
       "type": "section-hero",
       "blocks": {
@@ -331,9 +373,7 @@
         "button"
       ],
       "disabled": true,
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "height": "sixty-fifty-height-hero",
         "width": "wrapper--full",
@@ -408,6 +448,120 @@
         "heading_qUUiJc",
         "text_BPbWyw",
         "button_hfAjbK"
+      ],
+      "disabled": true,
+      "settings": {
+        "height": "sixty-fifty-height-hero",
+        "width": "wrapper--full",
+        "image_1": "shopify://shop_images/Screenshot_2024-09-27_at_11.53.11.png",
+        "mobile_height": "image-height--mobile",
+        "mobile_image": "shopify://shop_images/Daphine_Monikh-pt.II_Swin-necklace-2_3e9d94ac-3a6b-4316-a33c-f1fe0c4c5dc8.jpg",
+        "flex_align": "align--middle-center",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "bg_color": "",
+        "color": "#ffffff"
+      }
+    },
+    "section_columns_JNkRLG": {
+      "type": "section-columns",
+      "blocks": {
+        "image_Lt4aA8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Daphine_Packaging_pink_pouch_gift_box.jpg",
+            "title": "",
+            "heading_size": 4,
+            "mobile_heading_size": 4,
+            "text": "",
+            "text_size": 3,
+            "mobile_text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_UVWX6P": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Daphine_Oli_hoops_Oli_hoops_mini.jpg",
+            "title": "",
+            "heading_size": 4,
+            "mobile_heading_size": 4,
+            "text": "",
+            "text_size": 3,
+            "mobile_text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_Lt4aA8",
+        "image_UVWX6P"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "heading_size": 5,
+        "mobile_heading_size": 5,
+        "align_text": "text-left",
+        "align_columns": "flex-align-top",
+        "width": "wrapper--full-padded",
+        "image_aspect_ratio": 1.2,
+        "mobile_image_aspect_ratio": 1.2,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "layout_mobile": "carousel"
+      }
+    },
+    "section_hero_iQGcmb": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_xgcet7": {
+          "type": "heading",
+          "settings": {
+            "title": "Monikh x Daphine Vol. ii",
+            "heading_size": 7,
+            "mobile_heading_size": 6
+          }
+        },
+        "text_WF3pBA": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "description": "",
+            "text_size": 4,
+            "mobile_text_size": 5,
+            "text_style": "font-heading"
+          }
+        },
+        "button_dtUc7P": {
+          "type": "button",
+          "settings": {
+            "link_text": "Explore",
+            "link": "shopify://collections/monikh-x-daphine-vol-ii",
+            "button_type": "btn--white",
+            "button_size": "",
+            "button_style": "btn--text",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_xgcet7",
+        "text_WF3pBA",
+        "button_dtUc7P"
       ],
       "settings": {
         "height": "sixty-fifty-height-hero",
@@ -901,9 +1055,7 @@
         "9e819c58-40e4-4d4f-81f3-7dd5f365c5f8"
       ],
       "disabled": true,
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "width": "wrapper",
         "align_text": "text-left",
@@ -916,6 +1068,7 @@
   },
   "order": [
     "slideshow",
+    "section_hero_73jmJi",
     "section_hero_phKhAa",
     "080de123-cd67-4a8f-b095-390fa30c932d",
     "section_collection_BFWXfV",
@@ -923,6 +1076,8 @@
     "hero",
     "3724238a-bd73-47d6-a513-56d7af654198",
     "section_hero_XJzeQM",
+    "section_columns_JNkRLG",
+    "section_hero_iQGcmb",
     "section_divider_baciga",
     "image-with-text",
     "8c3fa3c0-64fa-406c-9f65-ced0a2e3da8f",
