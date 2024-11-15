@@ -303,6 +303,66 @@
         "padding_bottom": 50
       }
     },
+    "section_columns_QWXp6G": {
+      "type": "section-columns",
+      "blocks": {
+        "image_PAWGkT": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Daphine_Agathe-earrings_gold_43a74c16-9fc3-4d6f-b130-36d02f907101.jpg",
+            "title": "",
+            "heading_size": 3,
+            "mobile_heading_size": 2,
+            "text": "<h6>Agathe Earrings</h6>",
+            "text_size": 3,
+            "mobile_text_size": 3,
+            "button_text": "SHOP",
+            "button_url": "shopify://products/agathe-earrings-gold",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--text",
+            "show_arrow": false
+          }
+        },
+        "image_MkQ9pg": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Daphine_Monikh-pt.II_Rochelle-earrings-silver_1_044d25c2-43ef-4094-9dc0-db48899f8523.jpg",
+            "title": "",
+            "heading_size": 3,
+            "mobile_heading_size": 2,
+            "text": "<h6>Rochelle Earrings</h6>",
+            "text_size": 3,
+            "mobile_text_size": 3,
+            "button_text": "SHOP",
+            "button_url": "shopify://products/rochelle-silver-plated-earrings",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--text",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_PAWGkT",
+        "image_MkQ9pg"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": 5,
+        "mobile_heading_size": 5,
+        "align_text": "text-center",
+        "align_columns": "flex-align-center",
+        "width": "wrapper",
+        "image_aspect_ratio": 1.2,
+        "mobile_image_aspect_ratio": 1.2,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "layout_mobile": "grid"
+      }
+    },
     "section_hero_9eXPpp": {
       "type": "section-hero",
       "blocks": {
@@ -329,66 +389,6 @@
         "show_overlay_text": false,
         "bg_color": "",
         "color": "#212121"
-      }
-    },
-    "section_columns_QWXp6G": {
-      "type": "section-columns",
-      "blocks": {
-        "image_PAWGkT": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Daphine_Agathe-earrings_silver.jpg",
-            "title": "",
-            "heading_size": 3,
-            "mobile_heading_size": 2,
-            "text": "<h6>Agathe Earrings in Silver</h6>",
-            "text_size": 3,
-            "mobile_text_size": 3,
-            "button_text": "SHOP",
-            "button_url": "shopify://products/agathe-earrings-silver",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--text",
-            "show_arrow": false
-          }
-        },
-        "image_MkQ9pg": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Daphine_Agathe-necklace_gold-2_b960cfa4-221e-435d-b6ce-915e06636172.jpg",
-            "title": "",
-            "heading_size": 3,
-            "mobile_heading_size": 2,
-            "text": "<h6>Agathe Necklace in Gold</h6>",
-            "text_size": 3,
-            "mobile_text_size": 3,
-            "button_text": "SHOP",
-            "button_url": "shopify://products/agathe-necklace-gold",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--text",
-            "show_arrow": false
-          }
-        }
-      },
-      "block_order": [
-        "image_PAWGkT",
-        "image_MkQ9pg"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": 5,
-        "mobile_heading_size": 5,
-        "align_text": "text-center",
-        "align_columns": "flex-align-center",
-        "width": "wrapper",
-        "image_aspect_ratio": 1,
-        "mobile_image_aspect_ratio": 1,
-        "bg_color": "",
-        "color": "",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "layout_mobile": "grid"
       }
     },
     "section_collection_RBnfp9": {
@@ -542,8 +542,8 @@
     "section_columns_4c6BmR",
     "section_hero_Dnjiw4",
     "section_collection_EeMcVK",
-    "section_hero_9eXPpp",
     "section_columns_QWXp6G",
+    "section_hero_9eXPpp",
     "section_collection_RBnfp9",
     "section_hero_b7yg8x",
     "section_columns_ngPgqR",
