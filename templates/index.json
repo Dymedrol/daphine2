@@ -101,7 +101,7 @@
           "type": "button",
           "settings": {
             "link_text": "EXPLORE NOW",
-            "link": "shopify://collections/all",
+            "link": "shopify://pages/gift-guide-1",
             "button_type": "btn--white",
             "button_size": "btn--small",
             "button_style": "btn--text",
