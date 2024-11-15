@@ -680,6 +680,7 @@
         "image_mbfefT": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/Moune_Bangles_B_W.jpg",
             "title": "",
             "heading_size": 3,
             "mobile_heading_size": 2,
