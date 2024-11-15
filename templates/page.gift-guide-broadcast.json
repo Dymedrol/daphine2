@@ -202,10 +202,22 @@
             "heading_size": 4,
             "mobile_heading_size": 3
           }
+        },
+        "button_bhBPUC": {
+          "type": "button",
+          "settings": {
+            "link_text": "Shop",
+            "link": "shopify://products/bangle",
+            "button_type": "btn--white",
+            "button_size": "btn--small",
+            "button_style": "btn--text",
+            "show_arrow": false
+          }
         }
       },
       "block_order": [
-        "heading_fMdmfk"
+        "heading_fMdmfk",
+        "button_bhBPUC"
       ],
       "settings": {
         "height": "image-height",
