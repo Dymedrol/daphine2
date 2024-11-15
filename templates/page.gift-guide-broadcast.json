@@ -80,16 +80,16 @@
         "heading_BHbWAt": {
           "type": "heading",
           "settings": {
-            "title": "Autumn/Winter '24",
-            "text_size": 6,
+            "title": "Gifts With Meaning",
+            "text_size": 5,
             "mobile_text_size": 3
           }
         },
         "text_8JmqEC": {
           "type": "text",
           "settings": {
-            "text": "<p>A celebration of the enduring allure of simple, strong design—crafted for the woman who knows the power of less. A harmonious combination of timeless elegance with modern glamour, redefining contemporary jewellery with an unwavering commitment to timelessness and modern sophistication.</p>",
-            "text_size": 4,
+            "text": "<p>Discover treasures imbued with meaning and intention. Each piece, from sculptural forms to timeless essentials, designed to transcend seasons and resonate deeply. It’s a gesture, a keepsake, a memory waiting to unfold.</p>",
+            "text_size": 3,
             "mobile_text_size": 3,
             "text_style": "font-body"
           }
@@ -106,7 +106,7 @@
         "bg_color": "",
         "color": "",
         "padding_top": 50,
-        "padding_bottom": 50
+        "padding_bottom": 60
       }
     },
     "section_columns_nVzeTF": {
@@ -119,10 +119,10 @@
             "title": "",
             "heading_size": 3,
             "mobile_heading_size": 2,
-            "text": "",
+            "text": "<h6>Chris Tennis Necklace</h6>",
             "text_size": 3,
             "mobile_text_size": 3,
-            "button_text": "",
+            "button_text": "SHOP",
             "button_url": "shopify://products/chris-tennis-necklace",
             "button_type": "btn--primary",
             "button_size": "",
@@ -137,11 +137,11 @@
             "title": "",
             "heading_size": 3,
             "mobile_heading_size": 2,
-            "text": "",
+            "text": "<h6>Christy Hoops</h6>",
             "text_size": 3,
             "mobile_text_size": 3,
-            "button_text": "",
-            "button_url": "shopify://products/fran-earrings-silver",
+            "button_text": "SHOP",
+            "button_url": "shopify://products/christy-hoops",
             "button_type": "btn--primary",
             "button_size": "",
             "button_style": "btn--text",
@@ -202,11 +202,11 @@
             "title": "",
             "heading_size": 3,
             "mobile_heading_size": 2,
-            "text": "",
+            "text": "<h6>Fran Earrings in silver</h6>",
             "text_size": 3,
             "mobile_text_size": 3,
-            "button_text": "",
-            "button_url": "shopify://products/chris-tennis-necklace",
+            "button_text": "SHOP",
+            "button_url": "shopify://products/fran-earrings-silver",
             "button_type": "btn--primary",
             "button_size": "",
             "button_style": "btn--text",
@@ -220,11 +220,11 @@
             "title": "",
             "heading_size": 3,
             "mobile_heading_size": 2,
-            "text": "",
+            "text": "<h6>Fran Earrings in gold</h6>",
             "text_size": 3,
             "mobile_text_size": 3,
-            "button_text": "",
-            "button_url": "shopify://products/fran-earrings-silver",
+            "button_text": "SHOP",
+            "button_url": "shopify://products/fran-earrings-gold",
             "button_type": "btn--primary",
             "button_size": "",
             "button_style": "btn--text",
@@ -252,29 +252,6 @@
         "layout_mobile": "grid"
       }
     },
-    "section_collection_MGNTMk": {
-      "type": "section-collection",
-      "settings": {
-        "heading": "",
-        "description": "",
-        "layout": "center",
-        "link_text": "",
-        "link_url": "",
-        "button_type": "btn--primary",
-        "button_size": "",
-        "button_style": "btn--solid",
-        "show_arrow": false,
-        "featured_collection": "aw24-edit-1",
-        "style": "grid",
-        "grid": 4,
-        "rows": 1,
-        "layout_mobile": "2",
-        "bg_color": "",
-        "color": "",
-        "padding_top": 0,
-        "padding_bottom": 50
-      }
-    },
     "section_hero_Dnjiw4": {
       "type": "section-hero",
       "blocks": {
@@ -289,6 +266,57 @@
       },
       "block_order": [
         "heading_TeafD9"
+      ],
+      "settings": {
+        "height": "image-height",
+        "width": "wrapper--full-padded",
+        "image_1": "shopify://shop_images/Daphine_Jewellery_0393_copy_2.jpg",
+        "mobile_height": "screen-height-one-half--mobile",
+        "flex_align": "align--bottom-left",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "bg_color": "",
+        "color": "#212121"
+      }
+    },
+    "section_collection_EeMcVK": {
+      "type": "section-collection",
+      "settings": {
+        "heading": "",
+        "description": "<h6>Statement Earrings</h6>",
+        "layout": "inline",
+        "link_text": "EXPLORE ALL",
+        "link_url": "shopify://collections/statement-earrings-1",
+        "button_type": "btn--primary",
+        "button_size": "btn--small",
+        "button_style": "btn--text",
+        "show_arrow": false,
+        "featured_collection": "statement-earrings-1",
+        "style": "slider",
+        "grid": 4,
+        "rows": 1,
+        "layout_mobile": "carousel",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "section_hero_9eXPpp": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_TqiNDV": {
+          "type": "heading",
+          "settings": {
+            "title": "",
+            "heading_size": 4,
+            "mobile_heading_size": 3
+          }
+        }
+      },
+      "block_order": [
+        "heading_TqiNDV"
       ],
       "settings": {
         "height": "image-height",
@@ -384,34 +412,6 @@
         "color": "",
         "padding_top": 0,
         "padding_bottom": 50
-      }
-    },
-    "section_hero_6LGWAt": {
-      "type": "section-hero",
-      "blocks": {
-        "heading_Fr3KNR": {
-          "type": "heading",
-          "settings": {
-            "title": "Sabine Ear Cuff",
-            "heading_size": 4,
-            "mobile_heading_size": 3
-          }
-        }
-      },
-      "block_order": [
-        "heading_Fr3KNR"
-      ],
-      "settings": {
-        "height": "seven-fifty-height-hero",
-        "width": "wrapper--full-padded",
-        "image_1": "shopify://shop_images/Daphine_Sabine-ear-cuff_2.jpg",
-        "mobile_height": "screen-height-one-half--mobile",
-        "flex_align": "align--bottom-left",
-        "overlay_opacity": 0,
-        "overlay_color": "#000000",
-        "show_overlay_text": false,
-        "bg_color": "",
-        "color": "#212121"
       }
     },
     "section_hero_b7yg8x": {
@@ -540,11 +540,11 @@
     "section_columns_nVzeTF",
     "section_collection_7jnifn",
     "section_columns_4c6BmR",
-    "section_collection_MGNTMk",
     "section_hero_Dnjiw4",
+    "section_collection_EeMcVK",
+    "section_hero_9eXPpp",
     "section_columns_QWXp6G",
     "section_collection_RBnfp9",
-    "section_hero_6LGWAt",
     "section_hero_b7yg8x",
     "section_columns_ngPgqR",
     "text_promo_cxKh3X"
