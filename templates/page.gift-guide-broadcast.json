@@ -452,6 +452,7 @@
       "blocks": {
         "text_KGeWmt": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "description": "Vita Necklace\nSteffi Necklace",
             "text_size": 5,
@@ -461,6 +462,7 @@
         },
         "button_U448My": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "link_text": "Shop",
             "link": "",
