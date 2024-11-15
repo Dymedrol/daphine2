@@ -35,7 +35,7 @@
           "settings": {
             "title": "The Gift Shop",
             "heading_size": 9,
-            "mobile_heading_size": 4
+            "mobile_heading_size": 6
           }
         },
         "text_idtgYn": {
@@ -300,7 +300,7 @@
         "height": "image-height",
         "width": "wrapper--full-padded",
         "image_1": "shopify://shop_images/Daphine_Jewellery_0393_copy_2.jpg",
-        "mobile_height": "screen-height-one-half--mobile",
+        "mobile_height": "image-height--mobile",
         "flex_align": "align--bottom-left",
         "overlay_opacity": 0,
         "overlay_color": "#000000",
@@ -455,7 +455,7 @@
         "height": "image-height",
         "width": "wrapper--full-padded",
         "image_1": "shopify://shop_images/Vita_necklace_Steffi_necklace.jpg",
-        "mobile_height": "screen-height-one-half--mobile",
+        "mobile_height": "image-height--mobile",
         "flex_align": "align--bottom-left",
         "overlay_opacity": 0,
         "overlay_color": "#000000",
