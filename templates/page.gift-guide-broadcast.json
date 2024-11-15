@@ -224,6 +224,24 @@
     "section_columns_4c6BmR": {
       "type": "section-columns",
       "blocks": {
+        "image_HJf6ed": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Daphine017_MouneBangles.png",
+            "title": "",
+            "heading_size": 3,
+            "mobile_heading_size": 2,
+            "text": "<h6>Moune Bangles</h6>",
+            "text_size": 3,
+            "mobile_text_size": 3,
+            "button_text": "SHOP",
+            "button_url": "shopify://products/moune-bangles",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--text",
+            "show_arrow": false
+          }
+        },
         "image_CVFxjm": {
           "type": "image",
           "settings": {
@@ -231,29 +249,11 @@
             "title": "",
             "heading_size": 3,
             "mobile_heading_size": 2,
-            "text": "<h6>Fran Earrings in gold</h6>",
+            "text": "<h6>Oli Hoops Mini</h6>",
             "text_size": 3,
             "mobile_text_size": 3,
             "button_text": "SHOP",
-            "button_url": "shopify://products/fran-earrings-gold",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--text",
-            "show_arrow": false
-          }
-        },
-        "image_HJf6ed": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Daphine_Fran-earrings_silver_3a0c41e6-4742-4a56-af93-d6f88f2b3c90.jpg",
-            "title": "",
-            "heading_size": 3,
-            "mobile_heading_size": 2,
-            "text": "<h6>Fran Earrings in silver</h6>",
-            "text_size": 3,
-            "mobile_text_size": 3,
-            "button_text": "SHOP",
-            "button_url": "shopify://products/fran-earrings-silver",
+            "button_url": "shopify://products/mini-oli-hoops",
             "button_type": "btn--primary",
             "button_size": "",
             "button_style": "btn--text",
@@ -262,8 +262,8 @@
         }
       },
       "block_order": [
-        "image_CVFxjm",
-        "image_HJf6ed"
+        "image_HJf6ed",
+        "image_CVFxjm"
       ],
       "settings": {
         "title": "",
