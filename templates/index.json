@@ -215,6 +215,7 @@
     },
     "section_collection_BFWXfV": {
       "type": "section-collection",
+      "disabled": true,
       "settings": {
         "heading": "Bestsellers",
         "description": "",
@@ -451,6 +452,7 @@
     },
     "3724238a-bd73-47d6-a513-56d7af654198": {
       "type": "section-collection",
+      "disabled": true,
       "settings": {
         "heading": "New Arrivals",
         "description": "",
@@ -578,6 +580,17 @@
       }
     },
     "section_divider_baciga": {
+      "type": "section-divider",
+      "settings": {
+        "show_line": true,
+        "width": "wrapper",
+        "border_color": "",
+        "bg_color": "",
+        "padding_top": 64,
+        "padding_bottom": 0
+      }
+    },
+    "section_divider_LUCiLi": {
       "type": "section-divider",
       "settings": {
         "show_line": true,
@@ -1137,12 +1150,13 @@
     "080de123-cd67-4a8f-b095-390fa30c932d",
     "section_collection_BFWXfV",
     "21a05252-aed6-490f-aa5f-589a9685314f",
+    "section_divider_baciga",
     "section_columns_JNkRLG",
     "hero",
     "3724238a-bd73-47d6-a513-56d7af654198",
     "section_hero_XJzeQM",
     "section_hero_eVFVnh",
-    "section_divider_baciga",
+    "section_divider_LUCiLi",
     "section_hero_iQGcmb",
     "section_divider_7p4VqC",
     "image-with-text",
