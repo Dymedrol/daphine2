@@ -92,7 +92,7 @@
         "heading_B7kGXE": {
           "type": "heading",
           "settings": {
-            "title": "The Gift Shop",
+            "title": "Early Access",
             "heading_size": 8,
             "mobile_heading_size": 7
           }
@@ -333,6 +333,17 @@
         "bg_color": "#ffffff",
         "layout_mobile": "1",
         "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_divider_baciga": {
+      "type": "section-divider",
+      "settings": {
+        "show_line": true,
+        "width": "wrapper",
+        "border_color": "",
+        "bg_color": "",
+        "padding_top": 64,
         "padding_bottom": 0
       }
     },
@@ -577,17 +588,6 @@
         "show_overlay_text": false,
         "bg_color": "",
         "color": "#ffffff"
-      }
-    },
-    "section_divider_baciga": {
-      "type": "section-divider",
-      "settings": {
-        "show_line": true,
-        "width": "wrapper",
-        "border_color": "",
-        "bg_color": "",
-        "padding_top": 64,
-        "padding_bottom": 0
       }
     },
     "section_divider_LUCiLi": {
