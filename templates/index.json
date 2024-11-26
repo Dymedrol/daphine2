@@ -92,7 +92,7 @@
         "heading_B7kGXE": {
           "type": "heading",
           "settings": {
-            "title": "Early Access",
+            "title": "THE DAPHINE SALE",
             "heading_size": 8,
             "mobile_heading_size": 7
           }
@@ -116,9 +116,9 @@
       "settings": {
         "height": "image-height",
         "width": "wrapper--full",
-        "image_1": "shopify://shop_images/Chris_tennis_necklace_1.jpg",
+        "image_1": "shopify://shop_images/Screenshot_2023-11-20_at_17.32.00.png",
         "mobile_height": "image-height--mobile",
-        "mobile_image": "shopify://shop_images/Daphine_Chris_tennis_necklace.jpg",
+        "mobile_image": "shopify://shop_images/Screenshot_2023-11-20_at_17.32.00_f178135d-a75a-41a5-97a0-4ec3bf507c9b.jpg",
         "flex_align": "align--middle-center",
         "overlay_opacity": 0,
         "overlay_color": "#000000",
@@ -202,6 +202,7 @@
         "code_cMp3qX",
         "code_pMqncd"
       ],
+      "disabled": true,
       "settings": {
         "layout": "marquee",
         "slider_speed": 7,
@@ -318,6 +319,7 @@
         "template--17234605211894__21a05252-aed6-490f-aa5f-589a9685314f-highlight-3",
         "template--17234605211894__21a05252-aed6-490f-aa5f-589a9685314f-highlight-2"
       ],
+      "disabled": true,
       "custom_css": [
         ".highlights__item__content {top: unset !important; bottom: 0; font-family: var(--FONT-STACK-HEADING); font-style: var(--FONT-STYLE-HEADING); font-weight: var(--FONT-WEIGHT-HEADING); font-size: calc(var(--font-5) * var(--FONT-ADJUST-HEADING));}"
       ],
@@ -576,6 +578,7 @@
         "text_Mt4P3w",
         "button_69BiGV"
       ],
+      "disabled": true,
       "settings": {
         "height": "image-height",
         "width": "wrapper--full",
@@ -592,6 +595,7 @@
     },
     "section_divider_LUCiLi": {
       "type": "section-divider",
+      "disabled": true,
       "settings": {
         "show_line": true,
         "width": "wrapper",
@@ -639,6 +643,7 @@
         "text_WF3pBA",
         "button_dtUc7P"
       ],
+      "disabled": true,
       "settings": {
         "height": "sixty-fifty-height-hero",
         "width": "wrapper--full",
@@ -655,6 +660,7 @@
     },
     "section_divider_7p4VqC": {
       "type": "section-divider",
+      "disabled": true,
       "settings": {
         "show_line": true,
         "width": "wrapper",
@@ -1060,6 +1066,7 @@
         "icon-2",
         "a1b98347-ffa0-4f15-8187-9916c566a74e"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "heading_size": 3,
