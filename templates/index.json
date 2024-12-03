@@ -462,7 +462,6 @@
     },
     "3724238a-bd73-47d6-a513-56d7af654198": {
       "type": "section-collection",
-      "disabled": true,
       "settings": {
         "heading": "New Arrivals",
         "description": "",
@@ -1152,9 +1151,9 @@
     "section_divider_baciga",
     "section_columns_JNkRLG",
     "hero",
-    "3724238a-bd73-47d6-a513-56d7af654198",
     "section_hero_XJzeQM",
     "section_hero_eVFVnh",
+    "3724238a-bd73-47d6-a513-56d7af654198",
     "section_divider_LUCiLi",
     "section_hero_iQGcmb",
     "section_divider_7p4VqC",
