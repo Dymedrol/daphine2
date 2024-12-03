@@ -101,7 +101,7 @@
           "type": "button",
           "settings": {
             "link_text": "DISCOVER",
-            "link": "shopify://collections/all",
+            "link": "shopify://pages/gift-guide-1",
             "button_type": "btn--white",
             "button_size": "btn--small",
             "button_style": "btn--text",
@@ -460,29 +460,6 @@
         "color": "#ffffff"
       }
     },
-    "3724238a-bd73-47d6-a513-56d7af654198": {
-      "type": "section-collection",
-      "settings": {
-        "heading": "New Arrivals",
-        "description": "",
-        "layout": "inline",
-        "link_text": "Explore all",
-        "link_url": "shopify://collections/aw24",
-        "button_type": "btn--primary",
-        "button_size": "btn--small",
-        "button_style": "btn--text",
-        "show_arrow": false,
-        "featured_collection": "aw24",
-        "style": "slider",
-        "grid": 3,
-        "rows": 3,
-        "layout_mobile": "carousel",
-        "bg_color": "",
-        "color": "",
-        "padding_top": 60,
-        "padding_bottom": 40
-      }
-    },
     "section_hero_XJzeQM": {
       "type": "section-hero",
       "blocks": {
@@ -586,6 +563,29 @@
         "show_overlay_text": false,
         "bg_color": "",
         "color": "#ffffff"
+      }
+    },
+    "3724238a-bd73-47d6-a513-56d7af654198": {
+      "type": "section-collection",
+      "settings": {
+        "heading": "New Arrivals",
+        "description": "",
+        "layout": "inline",
+        "link_text": "Explore all",
+        "link_url": "shopify://collections/aw24",
+        "button_type": "btn--primary",
+        "button_size": "btn--small",
+        "button_style": "btn--text",
+        "show_arrow": false,
+        "featured_collection": "aw24",
+        "style": "slider",
+        "grid": 3,
+        "rows": 3,
+        "layout_mobile": "carousel",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 60,
+        "padding_bottom": 40
       }
     },
     "section_divider_LUCiLi": {
