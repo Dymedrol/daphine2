@@ -171,6 +171,7 @@
         },
         "template--16858200375542__b5de629f-24af-4cf1-a72a-0551b1f61ea0-question-1": {
           "type": "question",
+          "disabled": true,
           "settings": {
             "title": "Black Friday FAQs",
             "heading_size": 5,
