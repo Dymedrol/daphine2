@@ -741,7 +741,7 @@
         "height": "image-height",
         "width": "wrapper--full-padded",
         "image_1": "shopify://shop_images/Daphine_Oli_hoops_Oli_hoops_mini_696dd38e-a70e-4b93-974e-8ceb6f58dfde.jpg",
-        "mobile_height": "image-height--mobile",
+        "mobile_height": "screen-height-one-half--mobile",
         "flex_align": "align--bottom-left",
         "overlay_opacity": 0,
         "overlay_color": "#000000",
