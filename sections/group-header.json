@@ -164,12 +164,25 @@
             "target_device_enabled": false,
             "target_device": "mobile"
           }
+        },
+        "text_BahWiA": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Order before Dec. 18th for guaranteed Christmas delivery</p>",
+            "target_url_enabled": false,
+            "target_url": "",
+            "target_referrer_enabled": false,
+            "target_referrer": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
         }
       },
       "block_order": [
         "b89b8dee-c00f-47b0-a4ef-e4683116dfb3",
         "text_ykWbn7",
-        "text_jadxzM"
+        "text_jadxzM",
+        "text_BahWiA"
       ],
       "custom_css": [
         ".announcement__slide {font-family: \"ITC Galliard\" !important; font-style: italic;}"
@@ -180,7 +193,7 @@
         "show_arrows": false,
         "marquee_speed": 50,
         "text_size": 3,
-        "bg_color": "#212121",
+        "bg_color": "#5b5e3f",
         "color": "#ffffff"
       }
     },
