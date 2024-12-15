@@ -112,36 +112,36 @@
     "section_columns_nVzeTF": {
       "type": "section-columns",
       "blocks": {
-        "image_grCCkd": {
+        "image_kJ4Nby": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Chris_tennis_necklace.jpg",
+            "image": "shopify://shop_images/Daphine_Ella-earrings_c1c1a057-c66c-464a-8eae-e1862a9514ce.jpg",
             "title": "",
             "heading_size": 3,
             "mobile_heading_size": 2,
-            "text": "<h6>Chris Tennis Necklace</h6>",
+            "text": "<h6>Ella Earrings</h6>",
             "text_size": 3,
             "mobile_text_size": 3,
             "button_text": "SHOP",
-            "button_url": "shopify://products/chris-tennis-necklace",
+            "button_url": "shopify://products/ella-earrings",
             "button_type": "btn--primary",
             "button_size": "",
             "button_style": "btn--text",
             "show_arrow": false
           }
         },
-        "image_kJ4Nby": {
+        "image_grCCkd": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Daphine_Christy_Earrings_d15391a7-5cd3-4309-bc4f-1d0789f0c252.jpg",
+            "image": "shopify://shop_images/Daphine_SinghNecklace_Gold.jpg",
             "title": "",
             "heading_size": 3,
             "mobile_heading_size": 2,
-            "text": "<h6>Christy Hoops</h6>",
+            "text": "<h6>Singh Necklace</h6>",
             "text_size": 3,
             "mobile_text_size": 3,
             "button_text": "SHOP",
-            "button_url": "shopify://products/christy-hoops",
+            "button_url": "shopify://products/singh-gold-plated-pendant",
             "button_type": "btn--primary",
             "button_size": "",
             "button_style": "btn--text",
@@ -150,8 +150,8 @@
         }
       },
       "block_order": [
-        "image_grCCkd",
-        "image_kJ4Nby"
+        "image_kJ4Nby",
+        "image_grCCkd"
       ],
       "settings": {
         "title": "",
@@ -480,7 +480,7 @@
       "settings": {
         "height": "image-height",
         "width": "wrapper--full-padded",
-        "image_1": "shopify://shop_images/NECKLACES_ON_BROWN_2.jpg",
+        "image_1": "shopify://shop_images/Daphine_Agathe_neckalce_gold_silver_2.jpg",
         "mobile_height": "image-height--mobile",
         "flex_align": "align--bottom-left",
         "overlay_opacity": 0,
