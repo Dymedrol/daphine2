@@ -112,7 +112,7 @@
         "show_locale_selector": true,
         "show_currency_selector": true,
         "type": "currency",
-        "highlight_item": "Sale",
+        "highlight_item": "Archive sale",
         "highlight_item_color": "#d02e2e",
         "transparent_home": false,
         "transparent_collection": false,
