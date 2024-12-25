@@ -567,6 +567,7 @@
     },
     "section_divider_LUCiLi": {
       "type": "section-divider",
+      "disabled": true,
       "settings": {
         "show_line": true,
         "width": "wrapper",
