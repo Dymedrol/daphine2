@@ -554,9 +554,9 @@
       "settings": {
         "height": "sixty-fifty-height-hero",
         "width": "wrapper--full",
-        "image_1": "shopify://shop_images/34170C23-25B4-45B2-87CD-229E7F6F8B59.png",
+        "image_1": "shopify://shop_images/Moune_bangles_desktop.jpg",
         "mobile_height": "image-height--mobile",
-        "mobile_image": "shopify://shop_images/34170C23-25B4-45B2-87CD-229E7F6F8B59.png",
+        "mobile_image": "shopify://shop_images/Moune_Bangles_B_W.jpg",
         "flex_align": "align--middle-center",
         "overlay_opacity": 0,
         "overlay_color": "#000000",
@@ -574,6 +574,29 @@
         "bg_color": "",
         "padding_top": 64,
         "padding_bottom": 0
+      }
+    },
+    "3724238a-bd73-47d6-a513-56d7af654198": {
+      "type": "section-collection",
+      "settings": {
+        "heading": "New Arrivals",
+        "description": "",
+        "layout": "inline",
+        "link_text": "Explore all",
+        "link_url": "shopify://collections/aw24",
+        "button_type": "btn--primary",
+        "button_size": "btn--small",
+        "button_style": "btn--text",
+        "show_arrow": false,
+        "featured_collection": "aw24",
+        "style": "slider",
+        "grid": 3,
+        "rows": 3,
+        "layout_mobile": "carousel",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 60,
+        "padding_bottom": 40
       }
     },
     "section_hero_eVFVnh": {
@@ -626,29 +649,6 @@
         "show_overlay_text": false,
         "bg_color": "",
         "color": "#ffffff"
-      }
-    },
-    "3724238a-bd73-47d6-a513-56d7af654198": {
-      "type": "section-collection",
-      "settings": {
-        "heading": "New Arrivals",
-        "description": "",
-        "layout": "inline",
-        "link_text": "Explore all",
-        "link_url": "shopify://collections/aw24",
-        "button_type": "btn--primary",
-        "button_size": "btn--small",
-        "button_style": "btn--text",
-        "show_arrow": false,
-        "featured_collection": "aw24",
-        "style": "slider",
-        "grid": 3,
-        "rows": 3,
-        "layout_mobile": "carousel",
-        "bg_color": "",
-        "color": "",
-        "padding_top": 60,
-        "padding_bottom": 40
       }
     },
     "section_hero_iQGcmb": {
