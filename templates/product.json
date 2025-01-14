@@ -470,7 +470,7 @@
         "template--16822550462710__aa66146f-cfd1-42ec-a274-da71d05a28e1-16854463982141e191-0": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/IMG_4662.jpg",
+            "image": "shopify://shop_images/IMG_0052.heic",
             "overlay_opacity": 0,
             "overlay_color": "#000000",
             "show_overlay_text": false,
@@ -562,7 +562,7 @@
         "image_zC7dab": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Daphine_Packaging_pinkpouch_giftbox.jpg",
+            "image": "shopify://shop_images/Daphine_Packaging_pink_pouch_gift_box_2.jpg",
             "overlay_opacity": 0,
             "overlay_color": "#000000",
             "show_overlay_text": false,
