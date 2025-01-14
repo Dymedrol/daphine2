@@ -119,7 +119,7 @@
         "image_1": "shopify://shop_images/chris_tennis_bracelet_necklace.jpg",
         "mobile_height": "image-height--mobile",
         "mobile_image": "shopify://shop_images/Chris_tennis_necklace.jpg",
-        "flex_align": "align--bottom-center",
+        "flex_align": "align--middle-center",
         "overlay_opacity": 0,
         "overlay_color": "#000000",
         "show_overlay_text": false,
