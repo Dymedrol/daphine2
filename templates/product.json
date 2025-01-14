@@ -79,8 +79,7 @@
         },
         "drop_hint_2_0_app_dah_wpBGw4": {
           "type": "shopify://apps/drop-hint-2-0/blocks/app_dah/2087e30d-3884-4008-9b6b-545028750b80",
-          "settings": {
-          }
+          "settings": {}
         },
         "514a386f-5539-4dea-ac18-97ee59d12052": {
           "type": "divider",
@@ -271,9 +270,7 @@
         "381dd7c9-dd10-4b00-9339-06d76ebe1ea4",
         "features_NhPRXT"
       ],
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "product_sticky_enable": true,
         "image_layout": "stacked",
@@ -565,7 +562,7 @@
         "image_zC7dab": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/IMG_9172.jpg",
+            "image": "shopify://shop_images/Daphine_Oli_hoops_Oli_hoops_mini_696dd38e-a70e-4b93-974e-8ceb6f58dfde.jpg",
             "overlay_opacity": 0,
             "overlay_color": "#000000",
             "show_overlay_text": false,
