@@ -92,7 +92,7 @@
         "heading_B7kGXE": {
           "type": "heading",
           "settings": {
-            "title": "The Holiday Edit",
+            "title": "Timeless Elegance",
             "heading_size": 8,
             "mobile_heading_size": 7
           }
@@ -100,8 +100,8 @@
         "button_V3d8t6": {
           "type": "button",
           "settings": {
-            "link_text": "DISCOVER",
-            "link": "shopify://pages/gift-guide-1",
+            "link_text": "SHOP",
+            "link": "shopify://collections/all",
             "button_type": "btn--white",
             "button_size": "btn--small",
             "button_style": "btn--text",
@@ -116,52 +116,10 @@
       "settings": {
         "height": "image-height",
         "width": "wrapper--full",
-        "image_1": "shopify://shop_images/Screenshot_2024-12-03_at_09.46.09.png",
+        "image_1": "shopify://shop_images/chris_tennis_bracelet_necklace.jpg",
         "mobile_height": "image-height--mobile",
-        "mobile_image": "shopify://shop_images/chris_tennis_necklace_e8b15eaa-7b75-4baf-bae5-e4eb1ce3d5dd.jpg",
-        "flex_align": "align--middle-center",
-        "overlay_opacity": 0,
-        "overlay_color": "#000000",
-        "show_overlay_text": false,
-        "bg_color": "",
-        "color": "#ffffff"
-      }
-    },
-    "section_hero_phKhAa": {
-      "type": "section-hero",
-      "blocks": {
-        "heading_mfBqe4": {
-          "type": "heading",
-          "settings": {
-            "title": "Modern Elegance",
-            "heading_size": 7,
-            "mobile_heading_size": 7
-          }
-        },
-        "button_m7XcXn": {
-          "type": "button",
-          "settings": {
-            "link_text": "DISCOVER",
-            "link": "shopify://collections/all",
-            "button_type": "btn--white",
-            "button_size": "btn--small",
-            "button_style": "btn--text",
-            "show_arrow": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_mfBqe4",
-        "button_m7XcXn"
-      ],
-      "disabled": true,
-      "settings": {
-        "height": "image-height",
-        "width": "wrapper--full",
-        "image_1": "shopify://shop_images/Screenshot_2024-10-23_at_17.27.02_125e16f4-e314-4b65-81bd-5703de293cfb.jpg",
-        "mobile_height": "image-height--mobile",
-        "mobile_image": "shopify://shop_images/Daphine_Sabine-ear-cuff_1da17f07-1d76-4b72-a2e3-6ab1d75830cf.jpg",
-        "flex_align": "align--middle-center",
+        "mobile_image": "shopify://shop_images/Chris_tennis_necklace.jpg",
+        "flex_align": "align--bottom-center",
         "overlay_opacity": 0,
         "overlay_color": "#000000",
         "show_overlay_text": false,
@@ -234,6 +192,50 @@
         "color": "",
         "padding_top": 60,
         "padding_bottom": 50
+      }
+    },
+    "section_hero_phKhAa": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_mfBqe4": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "Agathe Necklace",
+            "heading_size": 3,
+            "mobile_heading_size": 3
+          }
+        },
+        "button_m7XcXn": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "link_text": "DISCOVER",
+            "link": "shopify://collections/all",
+            "button_type": "btn--white",
+            "button_size": "btn--small",
+            "button_style": "btn--text",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_mfBqe4",
+        "button_m7XcXn"
+      ],
+      "disabled": true,
+      "settings": {
+        "height": "image-height",
+        "width": "wrapper--full",
+        "image_1": "shopify://shop_images/Daphine_Agathe_neckalce_gold_silver_2.jpg",
+        "mobile_height": "image-height--mobile",
+        "mobile_image": "shopify://shop_images/Daphine_Agathe_neckalce_gold_silver.jpg",
+        "flex_align": "align--middle-right",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "bg_color": "",
+        "color": "#ffffff"
       }
     },
     "21a05252-aed6-490f-aa5f-589a9685314f": {
@@ -1198,9 +1200,9 @@
   "order": [
     "slideshow",
     "section_hero_73jmJi",
-    "section_hero_phKhAa",
     "080de123-cd67-4a8f-b095-390fa30c932d",
     "section_collection_BFWXfV",
+    "section_hero_phKhAa",
     "21a05252-aed6-490f-aa5f-589a9685314f",
     "section_divider_baciga",
     "section_columns_JNkRLG",
