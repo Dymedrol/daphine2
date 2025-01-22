@@ -2160,7 +2160,7 @@ function getRandomSubscribeAPIPath() {
                  "terms_and_conditions_text": "I Accept Terms And Condtions"
       },
         "form_display_type": "POPUP",
-        "madeby_link_visible": true,
+        "madeby_link_visible": false,
         "hide_for_product_tag": "notify-it-hidden",
         "hide_for_collections": "",
         "recaptcha_enabled": null,
