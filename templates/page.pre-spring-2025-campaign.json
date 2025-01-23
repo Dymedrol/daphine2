@@ -56,7 +56,7 @@
       ],
       "settings": {
         "height": "image-height",
-        "width": "wrapper--full-padded",
+        "width": "wrapper--full",
         "image_1": "shopify://shop_images/pre-spring_25_banner_draft_1.png",
         "mobile_height": "image-height--mobile",
         "flex_align": "align--bottom-center",
