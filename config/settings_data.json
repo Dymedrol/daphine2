@@ -9,6 +9,7 @@
  */
 {
   "current": {
+    "numberOfroductsToShowQuantity": 2,
     "text_color": "#212121",
     "bg_color": "#ffffff",
     "secondary_bg_color": "#ffffff",
