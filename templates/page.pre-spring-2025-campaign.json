@@ -514,15 +514,64 @@
         "padding_bottom": 50
       }
     },
-    "section_divider_PmrcHt": {
-      "type": "section-divider",
+    "section_columns_jYGfCn": {
+      "type": "section-columns",
+      "blocks": {
+        "image_MRm98H": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/D_S_322_2.jpg",
+            "title": "",
+            "heading_size": 3,
+            "mobile_heading_size": 2,
+            "text": "<h6>Eva Necklace</h6>",
+            "text_size": 3,
+            "mobile_text_size": 3,
+            "button_text": "SHOP",
+            "button_url": "shopify://products/mini-oli-hoops",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--text",
+            "show_arrow": false
+          }
+        },
+        "image_mUzGmm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/D_S_338.jpg",
+            "title": "",
+            "heading_size": 3,
+            "mobile_heading_size": 2,
+            "text": "<h6>Cleo Necklace</h6>",
+            "text_size": 3,
+            "mobile_text_size": 3,
+            "button_text": "SHOP",
+            "button_url": "shopify://products/moune-bangles",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--text",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_MRm98H",
+        "image_mUzGmm"
+      ],
       "settings": {
-        "show_line": false,
+        "title": "",
+        "heading_size": 5,
+        "mobile_heading_size": 5,
+        "align_text": "text-center",
+        "align_columns": "flex-align-center",
         "width": "wrapper",
-        "border_color": "",
+        "image_aspect_ratio": 1.2,
+        "mobile_image_aspect_ratio": 1.2,
         "bg_color": "",
+        "color": "",
         "padding_top": 50,
-        "padding_bottom": 0
+        "padding_bottom": 50,
+        "layout_mobile": "grid"
       }
     },
     "section_hero_9eXPpp": {
@@ -553,6 +602,7 @@
         "heading_TqiNDV",
         "button_A8kpaN"
       ],
+      "disabled": true,
       "settings": {
         "height": "screen-height-three-quarters",
         "width": "wrapper--full-padded",
@@ -564,6 +614,33 @@
         "show_overlay_text": false,
         "bg_color": "",
         "color": "#ffffff"
+      }
+    },
+    "section_rich_text_H68bRA": {
+      "type": "section-rich-text",
+      "blocks": {
+        "buttons_mfP4bD": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "Discover the collection",
+            "button_url": "shopify://collections/pre-spring-2025",
+            "button_type": "btn--primary",
+            "button_size": "btn--small",
+            "button_style": "btn--text",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "buttons_mfP4bD"
+      ],
+      "settings": {
+        "width": "wrapper--narrow",
+        "align_text": "text-center",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 60
       }
     },
     "section_divider_TykQUB": {
@@ -592,8 +669,9 @@
     "section_hero_DbKmeT",
     "section_columns_MJgHzf",
     "section_collection_iweipC",
-    "section_divider_PmrcHt",
+    "section_columns_jYGfCn",
     "section_hero_9eXPpp",
+    "section_rich_text_H68bRA",
     "section_divider_TykQUB"
   ]
 }
