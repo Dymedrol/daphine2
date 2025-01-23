@@ -146,7 +146,7 @@
         "image_grCCkd": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/ella_necklace_draft.jpg",
+            "image": "shopify://shop_images/cleo_necklace_draft.jpg",
             "title": "",
             "heading_size": 3,
             "mobile_heading_size": 2,
@@ -437,7 +437,7 @@
         "image_i8tKcC": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/cleo_nk_draft.jpg",
+            "image": "shopify://shop_images/ella_necklace_draft.jpg",
             "title": "",
             "heading_size": 3,
             "mobile_heading_size": 2,
