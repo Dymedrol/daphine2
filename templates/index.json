@@ -567,6 +567,29 @@
         "color": "#ffffff"
       }
     },
+    "3724238a-bd73-47d6-a513-56d7af654198": {
+      "type": "section-collection",
+      "settings": {
+        "heading": "Trending",
+        "description": "",
+        "layout": "inline",
+        "link_text": "Explore all",
+        "link_url": "shopify://collections/most-gifted-1",
+        "button_type": "btn--primary",
+        "button_size": "btn--small",
+        "button_style": "btn--text",
+        "show_arrow": false,
+        "featured_collection": "trending",
+        "style": "slider",
+        "grid": 3,
+        "rows": 3,
+        "layout_mobile": "carousel",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 60,
+        "padding_bottom": 40
+      }
+    },
     "section_hero_Q4qzHD": {
       "type": "section-hero",
       "blocks": {
@@ -629,29 +652,6 @@
         "bg_color": "",
         "padding_top": 64,
         "padding_bottom": 0
-      }
-    },
-    "3724238a-bd73-47d6-a513-56d7af654198": {
-      "type": "section-collection",
-      "settings": {
-        "heading": "Best Sellers",
-        "description": "",
-        "layout": "inline",
-        "link_text": "Explore all",
-        "link_url": "shopify://collections/bestsellers",
-        "button_type": "btn--primary",
-        "button_size": "btn--small",
-        "button_style": "btn--text",
-        "show_arrow": false,
-        "featured_collection": "bestsellers",
-        "style": "slider",
-        "grid": 3,
-        "rows": 3,
-        "layout_mobile": "carousel",
-        "bg_color": "",
-        "color": "",
-        "padding_top": 60,
-        "padding_bottom": 40
       }
     },
     "section_hero_iQGcmb": {
