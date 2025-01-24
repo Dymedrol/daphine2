@@ -34,14 +34,14 @@
           "type": "image",
           "settings": {
             "position": "1",
-            "image": "shopify://shop_images/aw24_header.png",
+            "image": "shopify://shop_images/Daphine_Anna_necklace_banner.jpg",
             "aspect_ratio": 0.5,
             "wide_image": true,
             "overlay_opacity": 0,
             "overlay_color": "#f5f3ef",
             "title": "",
             "link_text": "",
-            "link": "shopify://collections/aw24",
+            "link": "shopify://collections/pre-spring-2025",
             "text_color": ""
           }
         },
