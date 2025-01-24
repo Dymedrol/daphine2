@@ -539,7 +539,7 @@
         "button_69BiGV": {
           "type": "button",
           "settings": {
-            "link_text": "Explore",
+            "link_text": "discover",
             "link": "shopify://pages/gift-guide-1",
             "button_type": "btn--white",
             "button_size": "",
