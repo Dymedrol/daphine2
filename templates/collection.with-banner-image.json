@@ -191,6 +191,56 @@
         "padding_bottom": 50,
         "layout_mobile": "carousel"
       }
+    },
+    "section_hero_3mjPKc": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_L3Dg6y": {
+          "type": "heading",
+          "settings": {
+            "title": "",
+            "heading_size": 11,
+            "mobile_heading_size": 11
+          }
+        },
+        "text_GMfRgx": {
+          "type": "text",
+          "settings": {
+            "description": "",
+            "text_size": 5,
+            "mobile_text_size": 5,
+            "text_style": "font-body"
+          }
+        },
+        "button_yCRWBF": {
+          "type": "button",
+          "settings": {
+            "link_text": "View products",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_L3Dg6y",
+        "text_GMfRgx",
+        "button_yCRWBF"
+      ],
+      "settings": {
+        "height": "screen-height-three-quarters",
+        "width": "wrapper--full",
+        "image_1": "shopify://shop_images/Daphine_Oli_hoops_Oli_hoops_mini_696dd38e-a70e-4b93-974e-8ceb6f58dfde.jpg",
+        "mobile_height": "screen-height-three-quarters--mobile",
+        "flex_align": "align--middle-center",
+        "overlay_opacity": 0,
+        "overlay_color": "#000",
+        "show_overlay_text": false,
+        "bg_color": "",
+        "color": "#FFFFFF"
+      }
     }
   },
   "order": [
@@ -198,6 +248,7 @@
     "section_hero_FqQdLK",
     "subcollections",
     "main",
-    "section_multicolumn_NcjKGw"
+    "section_multicolumn_NcjKGw",
+    "section_hero_3mjPKc"
   ]
 }
