@@ -256,15 +256,15 @@
         "image_CVFxjm": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Copy_of_Daphine04_Mini_Oli_Hoops.png",
+            "image": "shopify://shop_images/Still2025-01-19001005_1.27.1copy.jpg",
             "title": "",
             "heading_size": 3,
             "mobile_heading_size": 2,
-            "text": "<h6>Oli Hoops Mini</h6>",
+            "text": "<h6>Antoinette Earrings</h6>",
             "text_size": 3,
             "mobile_text_size": 3,
             "button_text": "SHOP",
-            "button_url": "shopify://products/mini-oli-hoops",
+            "button_url": "",
             "button_type": "btn--primary",
             "button_size": "",
             "button_style": "btn--text",
