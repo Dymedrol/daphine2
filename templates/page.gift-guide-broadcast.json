@@ -238,15 +238,15 @@
         "image_HJf6ed": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Daphine017_MouneBangles.png",
+            "image": "shopify://shop_images/Daphine_Ella_bracelet.jpg",
             "title": "",
             "heading_size": 3,
             "mobile_heading_size": 2,
-            "text": "<h6>Moune Bangles</h6>",
+            "text": "<h6>Ella Bracelet</h6>",
             "text_size": 3,
             "mobile_text_size": 3,
             "button_text": "SHOP",
-            "button_url": "shopify://products/moune-bangles",
+            "button_url": "",
             "button_type": "btn--primary",
             "button_size": "",
             "button_style": "btn--text",
