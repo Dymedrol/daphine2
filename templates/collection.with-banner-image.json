@@ -217,7 +217,7 @@
           "type": "button",
           "settings": {
             "link_text": "Explore more gifts",
-            "link": "",
+            "link": "shopify://collections/all",
             "button_type": "btn--white",
             "button_size": "",
             "button_style": "btn--outline",
