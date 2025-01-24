@@ -349,15 +349,15 @@
         "image_MkQ9pg": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Daphine_Chris_tennis_bracelet_3.jpg",
+            "image": "shopify://shop_images/Still2025-01-19001406_1.36.1copy.jpg",
             "title": "",
             "heading_size": 3,
             "mobile_heading_size": 2,
-            "text": "<h6>Chris Tennis Bracelet</h6>",
+            "text": "<h6>Christy Necklace</h6>",
             "text_size": 3,
             "mobile_text_size": 3,
             "button_text": "SHOP",
-            "button_url": "shopify://products/chris-tennis-bracelet",
+            "button_url": "",
             "button_type": "btn--primary",
             "button_size": "",
             "button_style": "btn--text",
