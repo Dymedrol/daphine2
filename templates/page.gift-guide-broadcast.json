@@ -292,6 +292,29 @@
         "layout_mobile": "grid"
       }
     },
+    "section_collection_EeMcVK": {
+      "type": "section-collection",
+      "settings": {
+        "heading": "",
+        "description": "<h6>Trending Gifts</h6>",
+        "layout": "inline",
+        "link_text": "EXPLORE ALL",
+        "link_url": "shopify://collections/most-gifted-1",
+        "button_type": "btn--primary",
+        "button_size": "btn--small",
+        "button_style": "btn--text",
+        "show_arrow": false,
+        "featured_collection": "most-gifted-1",
+        "style": "slider",
+        "grid": 4,
+        "rows": 1,
+        "layout_mobile": "carousel",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 0
+      }
+    },
     "section_hero_Dnjiw4": {
       "type": "section-hero",
       "blocks": {
@@ -310,7 +333,7 @@
       "settings": {
         "height": "image-height",
         "width": "wrapper--full-padded",
-        "image_1": "shopify://shop_images/Daphine_Jewellery_0393_copy_2.jpg",
+        "image_1": "shopify://shop_images/Chris_tennis_necklace_1.jpg",
         "mobile_height": "image-height--mobile",
         "flex_align": "align--bottom-left",
         "overlay_opacity": 0,
@@ -318,29 +341,6 @@
         "show_overlay_text": false,
         "bg_color": "",
         "color": "#212121"
-      }
-    },
-    "section_collection_EeMcVK": {
-      "type": "section-collection",
-      "settings": {
-        "heading": "",
-        "description": "<h6>Statement Earrings</h6>",
-        "layout": "inline",
-        "link_text": "EXPLORE ALL",
-        "link_url": "shopify://collections/statement-earrings-1",
-        "button_type": "btn--primary",
-        "button_size": "btn--small",
-        "button_style": "btn--text",
-        "show_arrow": false,
-        "featured_collection": "statement-earrings-1",
-        "style": "slider",
-        "grid": 4,
-        "rows": 1,
-        "layout_mobile": "carousel",
-        "bg_color": "",
-        "color": "",
-        "padding_top": 50,
-        "padding_bottom": 0
       }
     },
     "section_columns_QWXp6G": {
@@ -494,15 +494,15 @@
       "type": "section-collection",
       "settings": {
         "heading": "",
-        "description": "<h6>Statement Necklaces</h6>",
+        "description": "<h6>Gifts under £150</h6>",
         "layout": "inline",
         "link_text": "EXPLORE ALL",
-        "link_url": "shopify://collections/statement-necklaces",
+        "link_url": "shopify://collections/gifts-under-150",
         "button_type": "btn--primary",
         "button_size": "btn--small",
         "button_style": "btn--text",
         "show_arrow": false,
-        "featured_collection": "statement-necklaces",
+        "featured_collection": "gifts-under-150",
         "style": "slider",
         "grid": 4,
         "rows": 1,
@@ -946,8 +946,8 @@
     "section_collection_7jnifn",
     "section_hero_XrddJi",
     "section_columns_4c6BmR",
-    "section_hero_Dnjiw4",
     "section_collection_EeMcVK",
+    "section_hero_Dnjiw4",
     "section_columns_QWXp6G",
     "section_collection_RBnfp9",
     "section_hero_b7yg8x",
