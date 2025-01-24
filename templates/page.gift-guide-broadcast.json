@@ -367,15 +367,15 @@
         "image_PAWGkT": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Daphine_Chris_tennis_necklace_Laurita_pinky_ring_Chris_tennis_bracelet_2.jpg",
+            "image": "shopify://shop_images/Still2025-01-19001005_1.17.1copy.jpg",
             "title": "",
             "heading_size": 3,
             "mobile_heading_size": 2,
-            "text": "<h6>Laurita Pinky Ring</h6>",
+            "text": "<h6>Ella Necklace</h6>",
             "text_size": 3,
             "mobile_text_size": 3,
             "button_text": "SHOP",
-            "button_url": "shopify://products/laurita-pinky-bling-ring",
+            "button_url": "",
             "button_type": "btn--primary",
             "button_size": "",
             "button_style": "btn--text",
