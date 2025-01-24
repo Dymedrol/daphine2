@@ -214,6 +214,7 @@
         },
         "button_yCRWBF": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "link_text": "View products",
             "link": "",
