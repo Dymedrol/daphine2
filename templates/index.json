@@ -92,7 +92,7 @@
         "heading_B7kGXE": {
           "type": "heading",
           "settings": {
-            "title": "Daphine Classics",
+            "title": "New In",
             "heading_size": 8,
             "mobile_heading_size": 7
           }
@@ -100,8 +100,8 @@
         "button_V3d8t6": {
           "type": "button",
           "settings": {
-            "link_text": "SHOP",
-            "link": "shopify://collections/all",
+            "link_text": "PRE-SPRING 2025",
+            "link": "shopify://collections/pre-spring-2025",
             "button_type": "btn--white",
             "button_size": "btn--small",
             "button_style": "btn--text",
@@ -116,7 +116,7 @@
       "settings": {
         "height": "image-height",
         "width": "wrapper--full",
-        "image_1": "shopify://shop_images/Chris_tennis_necklace_1.jpg",
+        "image_1": "shopify://shop_images/Daphine_Cora_cuff_Ella_necklace_banner.png",
         "mobile_height": "image-height--mobile",
         "mobile_image": "shopify://shop_images/chris_tennis_necklace_e8b15eaa-7b75-4baf-bae5-e4eb1ce3d5dd.jpg",
         "flex_align": "align--middle-center",

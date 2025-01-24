@@ -57,7 +57,7 @@
       "settings": {
         "height": "image-height",
         "width": "wrapper--full",
-        "image_1": "shopify://shop_images/pre-spring_25_banner_draft_1.png",
+        "image_1": "shopify://shop_images/Daphine_Cora_cuff_Ella_necklace_banner.png",
         "mobile_height": "image-height--mobile",
         "flex_align": "align--bottom-center",
         "overlay_opacity": 20,
@@ -128,7 +128,7 @@
         "image_kJ4Nby": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/elodie_earrings_draft.jpg",
+            "image": "shopify://shop_images/Still2025-01-19001005_1.15.1copy.jpg",
             "title": "",
             "heading_size": 3,
             "mobile_heading_size": 2,
@@ -136,7 +136,7 @@
             "text_size": 3,
             "mobile_text_size": 3,
             "button_text": "SHOP",
-            "button_url": "",
+            "button_url": "shopify://products/elodie-earrings",
             "button_type": "btn--primary",
             "button_size": "",
             "button_style": "btn--text",
@@ -146,15 +146,15 @@
         "image_grCCkd": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/cleo_necklace_draft.jpg",
+            "image": "shopify://shop_images/Still2025-01-19001005_1.34.1copy.jpg",
             "title": "",
             "heading_size": 3,
             "mobile_heading_size": 2,
-            "text": "<h6>Ella Necklace</h6>",
+            "text": "<h6>Cleo Necklace</h6>",
             "text_size": 3,
             "mobile_text_size": 3,
             "button_text": "SHOP",
-            "button_url": "",
+            "button_url": "shopify://products/cleo-necklace",
             "button_type": "btn--primary",
             "button_size": "",
             "button_style": "btn--text",
@@ -220,7 +220,7 @@
           "type": "button",
           "settings": {
             "link_text": "SHOP",
-            "link": "",
+            "link": "shopify://products/anna-necklace",
             "button_type": "btn--white",
             "button_size": "btn--small",
             "button_style": "btn--text",
@@ -235,7 +235,7 @@
       "settings": {
         "height": "image-height",
         "width": "wrapper--full-padded",
-        "image_1": "shopify://shop_images/anna_necklace_draft.jpg",
+        "image_1": "shopify://shop_images/Daphine_Anna_necklace.png",
         "mobile_height": "image-height--mobile",
         "flex_align": "align--bottom-left",
         "overlay_opacity": 0,
@@ -251,7 +251,7 @@
         "image_HJf6ed": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/adele_ea_draft.jpg",
+            "image": "shopify://shop_images/Still2025-01-19001005_1.24.1copy.jpg",
             "title": "",
             "heading_size": 3,
             "mobile_heading_size": 2,
@@ -259,7 +259,7 @@
             "text_size": 3,
             "mobile_text_size": 3,
             "button_text": "SHOP",
-            "button_url": "shopify://products/moune-bangles",
+            "button_url": "shopify://products/adele-earrings",
             "button_type": "btn--primary",
             "button_size": "",
             "button_style": "btn--text",
@@ -269,7 +269,7 @@
         "image_CVFxjm": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/anna_nk_draft.png",
+            "image": "shopify://shop_images/Daphine_Anna_necklace_1.jpg",
             "title": "",
             "heading_size": 3,
             "mobile_heading_size": 2,
@@ -277,7 +277,7 @@
             "text_size": 3,
             "mobile_text_size": 3,
             "button_text": "SHOP",
-            "button_url": "shopify://products/mini-oli-hoops",
+            "button_url": "shopify://products/anna-necklace",
             "button_type": "btn--primary",
             "button_size": "",
             "button_style": "btn--text",
@@ -343,7 +343,7 @@
           "type": "button",
           "settings": {
             "link_text": "Shop",
-            "link": "",
+            "link": "shopify://products/antoinette-earrings",
             "button_type": "btn--white",
             "button_size": "",
             "button_style": "btn--text",
@@ -358,7 +358,7 @@
       "settings": {
         "height": "image-height",
         "width": "wrapper--full-padded",
-        "image_1": "shopify://shop_images/anotinette_ea_draft.png",
+        "image_1": "shopify://shop_images/Daphine_Antoinette_earrings_1.jpg",
         "mobile_height": "image-height--mobile",
         "flex_align": "align--bottom-left",
         "overlay_opacity": 0,
@@ -406,7 +406,7 @@
           "type": "button",
           "settings": {
             "link_text": "Shop",
-            "link": "",
+            "link": "shopify://products/cora-cuff-silver",
             "button_type": "btn--white",
             "button_size": "",
             "button_style": "btn--text",
@@ -421,7 +421,7 @@
       "settings": {
         "height": "image-height",
         "width": "wrapper--full-padded",
-        "image_1": "shopify://shop_images/cora_cuff_draft.jpg",
+        "image_1": "shopify://shop_images/Still_2025-01-19_001005_1.30.1_copy_2.jpg",
         "mobile_height": "image-height--mobile",
         "flex_align": "align--bottom-left",
         "overlay_opacity": 0,
@@ -437,15 +437,15 @@
         "image_i8tKcC": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/ella_necklace_draft.jpg",
+            "image": "shopify://shop_images/Still2025-01-19001005_1.18.1copy.jpg",
             "title": "",
             "heading_size": 3,
             "mobile_heading_size": 2,
-            "text": "<h6>Cleo Necklace</h6>",
+            "text": "<h6>Ella Necklace</h6>",
             "text_size": 3,
             "mobile_text_size": 3,
             "button_text": "SHOP",
-            "button_url": "shopify://products/moune-bangles",
+            "button_url": "shopify://products/ella-necklace",
             "button_type": "btn--primary",
             "button_size": "",
             "button_style": "btn--text",
@@ -455,7 +455,7 @@
         "image_GWiqb9": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/eva_nk_draft.jpg",
+            "image": "shopify://shop_images/Still2025-01-19001005_1.31.1copy.jpg",
             "title": "",
             "heading_size": 3,
             "mobile_heading_size": 2,
@@ -463,7 +463,7 @@
             "text_size": 3,
             "mobile_text_size": 3,
             "button_text": "SHOP",
-            "button_url": "shopify://products/mini-oli-hoops",
+            "button_url": "shopify://products/eva-necklace",
             "button_type": "btn--primary",
             "button_size": "",
             "button_style": "btn--text",
@@ -520,15 +520,15 @@
         "image_MRm98H": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/D_S_322_2.jpg",
+            "image": "shopify://shop_images/Still_2025-01-22_171338_1.41.1_copy_2.jpg",
             "title": "",
             "heading_size": 3,
             "mobile_heading_size": 2,
-            "text": "<h6>Eva Necklace</h6>",
+            "text": "<h6>Cleo Necklace<br/>Christy Necklace</h6>",
             "text_size": 3,
             "mobile_text_size": 3,
             "button_text": "SHOP",
-            "button_url": "shopify://products/mini-oli-hoops",
+            "button_url": "shopify://products/christy-necklace",
             "button_type": "btn--primary",
             "button_size": "",
             "button_style": "btn--text",
@@ -538,15 +538,15 @@
         "image_mUzGmm": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/D_S_338.jpg",
+            "image": "shopify://shop_images/Daphine_Ada_necklace_1.jpg",
             "title": "",
             "heading_size": 3,
             "mobile_heading_size": 2,
-            "text": "<h6>Cleo Necklace</h6>",
+            "text": "<h6>Ada Necklace</h6>",
             "text_size": 3,
             "mobile_text_size": 3,
             "button_text": "SHOP",
-            "button_url": "shopify://products/moune-bangles",
+            "button_url": "shopify://products/cleo-necklace",
             "button_type": "btn--primary",
             "button_size": "",
             "button_style": "btn--text",
