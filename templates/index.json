@@ -574,7 +574,7 @@
         "description": "",
         "layout": "inline",
         "link_text": "Explore all",
-        "link_url": "shopify://collections/most-gifted-1",
+        "link_url": "shopify://collections/trending",
         "button_type": "btn--primary",
         "button_size": "btn--small",
         "button_style": "btn--text",
