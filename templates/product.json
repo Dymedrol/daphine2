@@ -41,7 +41,7 @@
           "settings": {
             "title": "",
             "text": "{{ product.metafields.custom.stone_size_ella_nk_ | metafield_tag }}",
-            "padding_bottom": 16
+            "padding_bottom": 0
           }
         },
         "variants": {
