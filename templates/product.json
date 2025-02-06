@@ -36,6 +36,14 @@
             "padding_bottom": 16
           }
         },
+        "text_rHnfJx": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "text": "{{ product.metafields.custom.stone_size_ella_nk_ | metafield_tag }}",
+            "padding_bottom": 16
+          }
+        },
         "variants": {
           "type": "variants",
           "settings": {
@@ -248,6 +256,7 @@
         "title",
         "text_U7Qyty",
         "price",
+        "text_rHnfJx",
         "variants",
         "text_Whz3dC",
         "siblings_VPthXh",
