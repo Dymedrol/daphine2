@@ -275,7 +275,7 @@
         "product_sticky_enable": true,
         "image_layout": "stacked",
         "image_size": "stretch",
-        "show_cart_bar": true,
+        "show_cart_bar": false,
         "enable_zoom": false,
         "enable_video_looping": true,
         "mobile_image_style": "thumbs",
