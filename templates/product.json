@@ -464,13 +464,13 @@
         "layout_mobile": "carousel"
       }
     },
-    "aa66146f-cfd1-42ec-a274-da71d05a28e1": {
+    "section_custom_content_BKTJGG": {
       "type": "section-custom-content",
       "blocks": {
-        "template--16822550462710__aa66146f-cfd1-42ec-a274-da71d05a28e1-16854463982141e191-0": {
+        "image_zC7dab": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/IMG_0052.heic",
+            "image": "shopify://shop_images/Daphine_Packaging_pink_pouch_gift_box_2.jpg",
             "overlay_opacity": 0,
             "overlay_color": "#000000",
             "show_overlay_text": false,
@@ -491,49 +491,6 @@
             "show_arrow": false
           }
         },
-        "template--16822550462710__aa66146f-cfd1-42ec-a274-da71d05a28e1-16854463982141e191-1": {
-          "type": "text",
-          "settings": {
-            "subheading": "MADE WITH CARE",
-            "subheading_size": 3,
-            "mobile_subheading_size": 3,
-            "title": "There's a special kind of magic to something crafted by hand",
-            "heading_size": 5,
-            "mobile_heading_size": 5,
-            "text": "<p>That’s why all of our pieces are handmade in our RJC atelier in Jaipur – an Indian city known for its long history of skilled craftsmanship and design. We are uncompromising in our commitment to working directly with local artisans, whose passion, dedication and care keeps quality as high as possible. </p>",
-            "text_size": 3,
-            "mobile_text_size": 3,
-            "button_text": "READ MORE",
-            "button_url": "shopify://pages/sustainability-ethics",
-            "button_type": "btn--black",
-            "button_size": "btn--small",
-            "button_style": "btn--text",
-            "show_arrow": false,
-            "show_social_links": false,
-            "text_columns": 1,
-            "align_text": "text-center",
-            "bg_color": "#f5f3ef",
-            "color": "#212121"
-          }
-        }
-      },
-      "block_order": [
-        "template--16822550462710__aa66146f-cfd1-42ec-a274-da71d05a28e1-16854463982141e191-0",
-        "template--16822550462710__aa66146f-cfd1-42ec-a274-da71d05a28e1-16854463982141e191-1"
-      ],
-      "settings": {
-        "height": "screen-height-one-half",
-        "mobile_height": "screen-height-one-half--mobile",
-        "width": "wrapper--full-padded",
-        "borders": false,
-        "reverse_blocks": false,
-        "padding_top": 0,
-        "padding_bottom": 50
-      }
-    },
-    "section_custom_content_BKTJGG": {
-      "type": "section-custom-content",
-      "blocks": {
         "text_fY8G6K": {
           "type": "text",
           "settings": {
@@ -558,11 +515,54 @@
             "bg_color": "#f5f3ef",
             "color": "#212121"
           }
+        }
+      },
+      "block_order": [
+        "image_zC7dab",
+        "text_fY8G6K"
+      ],
+      "settings": {
+        "height": "screen-height-one-half",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full-padded",
+        "borders": false,
+        "reverse_blocks": true,
+        "padding_top": 0,
+        "padding_bottom": 50
+      }
+    },
+    "aa66146f-cfd1-42ec-a274-da71d05a28e1": {
+      "type": "section-custom-content",
+      "blocks": {
+        "template--16822550462710__aa66146f-cfd1-42ec-a274-da71d05a28e1-16854463982141e191-1": {
+          "type": "text",
+          "settings": {
+            "subheading": "MADE WITH CARE",
+            "subheading_size": 3,
+            "mobile_subheading_size": 3,
+            "title": "There's a special kind of magic to something crafted by hand",
+            "heading_size": 5,
+            "mobile_heading_size": 5,
+            "text": "<p>That’s why all of our pieces are handmade in our RJC atelier in Jaipur – an Indian city known for its long history of skilled craftsmanship and design. We are uncompromising in our commitment to working directly with local artisans, whose passion, dedication and care keeps quality as high as possible. </p>",
+            "text_size": 3,
+            "mobile_text_size": 3,
+            "button_text": "READ MORE",
+            "button_url": "shopify://pages/sustainability-ethics",
+            "button_type": "btn--black",
+            "button_size": "btn--small",
+            "button_style": "btn--text",
+            "show_arrow": false,
+            "show_social_links": false,
+            "text_columns": 1,
+            "align_text": "text-center",
+            "bg_color": "#f5f3ef",
+            "color": "#212121"
+          }
         },
-        "image_zC7dab": {
+        "template--16822550462710__aa66146f-cfd1-42ec-a274-da71d05a28e1-16854463982141e191-0": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Daphine_Packaging_pink_pouch_gift_box_2.jpg",
+            "image": "shopify://shop_images/IMG_0052.heic",
             "overlay_opacity": 0,
             "overlay_color": "#000000",
             "show_overlay_text": false,
@@ -585,15 +585,15 @@
         }
       },
       "block_order": [
-        "text_fY8G6K",
-        "image_zC7dab"
+        "template--16822550462710__aa66146f-cfd1-42ec-a274-da71d05a28e1-16854463982141e191-1",
+        "template--16822550462710__aa66146f-cfd1-42ec-a274-da71d05a28e1-16854463982141e191-0"
       ],
       "settings": {
         "height": "screen-height-one-half",
         "mobile_height": "screen-height-one-half--mobile",
         "width": "wrapper--full-padded",
         "borders": false,
-        "reverse_blocks": true,
+        "reverse_blocks": false,
         "padding_top": 0,
         "padding_bottom": 50
       }
@@ -617,8 +617,8 @@
     "related",
     "reviews",
     "1119158d-7a19-4fdc-9140-c7ef58c51453",
-    "aa66146f-cfd1-42ec-a274-da71d05a28e1",
     "section_custom_content_BKTJGG",
+    "aa66146f-cfd1-42ec-a274-da71d05a28e1",
     "fe7190ea-6830-492a-9ec7-565ffaf5645e"
   ]
 }
