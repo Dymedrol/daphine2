@@ -12,5 +12,28 @@
   "context": {
     "market": "united-states"
   },
-  "sections": {}
+  "sections": {
+    "9229d21d-c71f-4261-b277-44d09305ad2f": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {}
+    },
+    "announcement": {
+      "settings": {},
+      "blocks": {
+        "b89b8dee-c00f-47b0-a4ef-e4683116dfb3": {
+          "disabled": true,
+          "settings": {}
+        },
+        "text_jadxzM": {
+          "disabled": true,
+          "settings": {}
+        },
+        "text_BahWiA": {
+          "disabled": true,
+          "settings": {}
+        }
+      }
+    }
+  }
 }
