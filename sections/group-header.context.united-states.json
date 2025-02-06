@@ -13,11 +13,6 @@
     "market": "united-states"
   },
   "sections": {
-    "9229d21d-c71f-4261-b277-44d09305ad2f": {
-      "disabled": true,
-      "settings": {},
-      "blocks": {}
-    },
     "announcement": {
       "settings": {},
       "blocks": {
@@ -32,8 +27,36 @@
         "text_BahWiA": {
           "disabled": true,
           "settings": {}
+        },
+        "text_KaAhB": {
+          "type": "text",
+          "disabled": false,
+          "settings": {
+            "text": "<p>Free shipping on all US orders</p>",
+            "header-c9e120403e93a5a4e7fcca11628923d0": null,
+            "target_url_enabled": false,
+            "target_url": "",
+            "header-74bc93feba7d8f8b783c309f921f1dd3": null,
+            "target_referrer_enabled": false,
+            "target_referrer": "",
+            "header-14c8a75feece84b5c9f24c63def97868": null,
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
         }
-      }
+      },
+      "block_order": [
+        "b89b8dee-c00f-47b0-a4ef-e4683116dfb3",
+        "text_ykWbn7",
+        "text_jadxzM",
+        "text_BahWiA",
+        "text_KaAhB"
+      ]
+    },
+    "9229d21d-c71f-4261-b277-44d09305ad2f": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {}
     }
   }
 }
