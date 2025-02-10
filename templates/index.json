@@ -93,8 +93,8 @@
           "type": "heading",
           "settings": {
             "title": "Pre-Spring",
-            "heading_size": 8,
-            "mobile_heading_size": 7
+            "heading_size": 9,
+            "mobile_heading_size": 8
           }
         },
         "button_V3d8t6": {
@@ -116,7 +116,7 @@
       "settings": {
         "height": "image-height",
         "width": "wrapper--full",
-        "image_1": "shopify://shop_images/Screenshot_2025-02-04_at_12.33.23.png",
+        "image_1": "shopify://shop_images/Daphine_Anna_Necklace_with_envelope.jpg",
         "mobile_height": "image-height--mobile",
         "mobile_image": "shopify://shop_images/Still_2025-01-22_171338_1.41.1_copy.jpg",
         "flex_align": "align--middle-center",
