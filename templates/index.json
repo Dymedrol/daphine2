@@ -114,9 +114,9 @@
         "button_V3d8t6"
       ],
       "settings": {
-        "height": "screen-height-full",
+        "height": "image-height",
         "width": "wrapper--full",
-        "image_1": "shopify://shop_images/Daphine_Anna_Necklace_with_envelope.jpg",
+        "image_1": "shopify://shop_images/Daphine_Anna_Necklace_with_envelope_d783e299-396b-4518-a7e9-1dbf7dbd7a93.jpg",
         "mobile_height": "image-height--mobile",
         "mobile_image": "shopify://shop_images/Still_2025-01-22_171338_1.41.1_copy.jpg",
         "flex_align": "align--middle-center",
