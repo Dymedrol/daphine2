@@ -322,7 +322,7 @@
         "heading_TeafD9": {
           "type": "heading",
           "settings": {
-            "title": "",
+            "title": "Chris Tennis Necklace",
             "heading_size": 4,
             "mobile_heading_size": 3
           }
@@ -342,7 +342,7 @@
         "overlay_color": "#000000",
         "show_overlay_text": false,
         "bg_color": "",
-        "color": "#212121"
+        "color": "#ffffff"
       }
     },
     "section_columns_QWXp6G": {
@@ -452,16 +452,6 @@
     "section_hero_b7yg8x": {
       "type": "section-hero",
       "blocks": {
-        "text_KGeWmt": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "description": "Vita Necklace\nSteffi Necklace",
-            "text_size": 5,
-            "mobile_text_size": 5,
-            "text_style": "font-body"
-          }
-        },
         "button_U448My": {
           "type": "button",
           "disabled": true,
@@ -473,11 +463,21 @@
             "button_style": "btn--text",
             "show_arrow": false
           }
+        },
+        "text_KGeWmt": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "description": "Vita Necklace\nSteffi Necklace",
+            "text_size": 5,
+            "mobile_text_size": 5,
+            "text_style": "font-body"
+          }
         }
       },
       "block_order": [
-        "text_KGeWmt",
-        "button_U448My"
+        "button_U448My",
+        "text_KGeWmt"
       ],
       "settings": {
         "height": "image-height",
