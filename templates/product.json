@@ -597,6 +597,7 @@
         "template--16822550462710__aa66146f-cfd1-42ec-a274-da71d05a28e1-16854463982141e191-1",
         "template--16822550462710__aa66146f-cfd1-42ec-a274-da71d05a28e1-16854463982141e191-0"
       ],
+      "disabled": true,
       "settings": {
         "height": "screen-height-one-half",
         "mobile_height": "screen-height-one-half--mobile",
