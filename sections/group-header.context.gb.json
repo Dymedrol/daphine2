@@ -1,1 +1,49 @@
-{"parent":"group-header.json","context":{"market":"gb"},"sections":{}}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "parent": "group-header.json",
+  "context": {
+    "market": "gb"
+  },
+  "sections": {
+    "announcement": {
+      "settings": {},
+      "blocks": {
+        "text_BahWiA": {
+          "disabled": true,
+          "settings": {}
+        },
+        "text_hB6w3": {
+          "type": "text",
+          "disabled": false,
+          "settings": {
+            "text": "<p>FREE NEXT-DAY DELIVERY | 24HS ONLY</p>",
+            "header-1c45ba0c00be3d2dcd1e2d2063c00098": null,
+            "target_url_enabled": false,
+            "target_url": "",
+            "header-3057fa9391976585673597d5b29eda64": null,
+            "target_referrer_enabled": false,
+            "target_referrer": "",
+            "header-721022043247252484f49178fdc7bbce": null,
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        }
+      },
+      "block_order": [
+        "b89b8dee-c00f-47b0-a4ef-e4683116dfb3",
+        "text_ykWbn7",
+        "text_jadxzM",
+        "text_BahWiA",
+        "text_hB6w3"
+      ]
+    }
+  }
+}
