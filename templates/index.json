@@ -194,6 +194,58 @@
         "padding_bottom": 50
       }
     },
+    "section_hero_aaHpBE": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_EG8HVi": {
+          "type": "heading",
+          "settings": {
+            "title": "New In",
+            "heading_size": 7,
+            "mobile_heading_size": 6
+          }
+        },
+        "text_jAaTkk": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "description": "",
+            "text_size": 4,
+            "mobile_text_size": 5,
+            "text_style": "font-heading"
+          }
+        },
+        "button_BQwiQ8": {
+          "type": "button",
+          "settings": {
+            "link_text": "discover",
+            "link": "shopify://collections/pre-spring-2025",
+            "button_type": "btn--white",
+            "button_size": "",
+            "button_style": "btn--text",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_EG8HVi",
+        "text_jAaTkk",
+        "button_BQwiQ8"
+      ],
+      "settings": {
+        "height": "image-height",
+        "width": "wrapper--full",
+        "image_1": "shopify://shop_images/Screenshot_2025-02-12_at_16.57.15.png",
+        "mobile_height": "image-height--mobile",
+        "mobile_image": "shopify://shop_images/Daphine_Christy-necklace.jpg",
+        "flex_align": "align--middle-center",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "bg_color": "",
+        "color": "#ffffff"
+      }
+    },
     "section_hero_phKhAa": {
       "type": "section-hero",
       "blocks": {
@@ -236,6 +288,17 @@
         "show_overlay_text": false,
         "bg_color": "",
         "color": "#ffffff"
+      }
+    },
+    "section_divider_AX3pBq": {
+      "type": "section-divider",
+      "settings": {
+        "show_line": true,
+        "width": "wrapper",
+        "border_color": "",
+        "bg_color": "",
+        "padding_top": 64,
+        "padding_bottom": 0
       }
     },
     "21a05252-aed6-490f-aa5f-589a9685314f": {
@@ -1202,7 +1265,9 @@
     "section_hero_73jmJi",
     "080de123-cd67-4a8f-b095-390fa30c932d",
     "section_collection_BFWXfV",
+    "section_hero_aaHpBE",
     "section_hero_phKhAa",
+    "section_divider_AX3pBq",
     "21a05252-aed6-490f-aa5f-589a9685314f",
     "section_divider_baciga",
     "section_columns_JNkRLG",
