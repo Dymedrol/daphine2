@@ -168,9 +168,9 @@
         "text_BahWiA": {
           "type": "text",
           "settings": {
-            "text": "<p>Sign up for 10% off your first order</p>",
+            "text": "<p><a href=\"/pages/newsletter-sign-up\" title=\"Newsletter sign up\">Sign up for 10% off your first order</a></p>",
             "target_url_enabled": false,
-            "target_url": "shopify://pages/newsletter-sign-up",
+            "target_url": "",
             "target_referrer_enabled": false,
             "target_referrer": "",
             "target_device_enabled": false,
