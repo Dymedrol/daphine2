@@ -36,6 +36,27 @@
             "padding_bottom": 16
           }
         },
+        "buttons": {
+          "type": "buttons",
+          "settings": {
+            "show_quantity": false,
+            "show_payment_button": true,
+            "show_gift_card_recipient": true,
+            "padding_bottom": 32
+          }
+        },
+        "drop_hint_2_0_app_dah_wpBGw4": {
+          "type": "shopify://apps/drop-hint-2-0/blocks/app_dah/2087e30d-3884-4008-9b6b-545028750b80",
+          "settings": {}
+        },
+        "divider_1": {
+          "type": "divider",
+          "settings": {
+            "show_line": true,
+            "padding_top": 20,
+            "padding_bottom": 10
+          }
+        },
         "text_rHnfJx": {
           "type": "text",
           "settings": {
@@ -67,27 +88,6 @@
             "sibling_color": "{{ product.metafields.theme.siblings_color.value }}",
             "padding_bottom": 16
           }
-        },
-        "divider_1": {
-          "type": "divider",
-          "settings": {
-            "show_line": true,
-            "padding_top": 20,
-            "padding_bottom": 10
-          }
-        },
-        "buttons": {
-          "type": "buttons",
-          "settings": {
-            "show_quantity": false,
-            "show_payment_button": true,
-            "show_gift_card_recipient": true,
-            "padding_bottom": 32
-          }
-        },
-        "drop_hint_2_0_app_dah_wpBGw4": {
-          "type": "shopify://apps/drop-hint-2-0/blocks/app_dah/2087e30d-3884-4008-9b6b-545028750b80",
-          "settings": {}
         },
         "514a386f-5539-4dea-ac18-97ee59d12052": {
           "type": "divider",
@@ -256,13 +256,13 @@
         "title",
         "text_U7Qyty",
         "price",
+        "buttons",
+        "drop_hint_2_0_app_dah_wpBGw4",
+        "divider_1",
         "text_rHnfJx",
         "variants",
         "text_Whz3dC",
         "siblings_VPthXh",
-        "divider_1",
-        "buttons",
-        "drop_hint_2_0_app_dah_wpBGw4",
         "514a386f-5539-4dea-ac18-97ee59d12052",
         "tabs",
         "upsell",
