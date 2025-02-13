@@ -25,21 +25,21 @@
           "settings": {}
         },
         "text_BahWiA": {
-          "disabled": true,
+          "disabled": false,
           "settings": {}
         },
         "text_KaAhB": {
           "type": "text",
-          "disabled": false,
+          "disabled": true,
           "settings": {
             "text": "<p>Free shipping on all US orders</p>",
-            "header-c9e120403e93a5a4e7fcca11628923d0": null,
+            "header-51deb27c90ae241393fe28256db2253c": null,
             "target_url_enabled": false,
             "target_url": "",
-            "header-74bc93feba7d8f8b783c309f921f1dd3": null,
+            "header-392b97558ad3834915fb43336cf08c57": null,
             "target_referrer_enabled": false,
             "target_referrer": "",
-            "header-14c8a75feece84b5c9f24c63def97868": null,
+            "header-1d2bf5295cc099a545868dc53443c599": null,
             "target_device_enabled": false,
             "target_device": "mobile"
           }

@@ -17,21 +17,21 @@
       "settings": {},
       "blocks": {
         "text_BahWiA": {
-          "disabled": true,
+          "disabled": false,
           "settings": {}
         },
         "text_hB6w3": {
           "type": "text",
-          "disabled": false,
+          "disabled": true,
           "settings": {
             "text": "<p>FREE NEXT-DAY DELIVERY | 24HS ONLY</p>",
-            "header-1c45ba0c00be3d2dcd1e2d2063c00098": null,
+            "header-a60fcbd7140066e424bab997c5b8cd08": null,
             "target_url_enabled": false,
             "target_url": "",
-            "header-3057fa9391976585673597d5b29eda64": null,
+            "header-46fc9a5ce7372ce0ffeb9b8e51de11ad": null,
             "target_referrer_enabled": false,
             "target_referrer": "",
-            "header-721022043247252484f49178fdc7bbce": null,
+            "header-107bb48fb3b7e5c53683018d9312fe93": null,
             "target_device_enabled": false,
             "target_device": "mobile"
           }
