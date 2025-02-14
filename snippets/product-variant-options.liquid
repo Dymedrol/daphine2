@@ -255,6 +255,10 @@
   {%- endif -%}
 {%- endcapture -%}
 
+{%- if settings.show_bubble -%}
+  <div class="product__block__count-text back-in-door count-text-container" id="count-text-container"></div>
+{%- endif -%}
+
 {%- unless product_variant_options == blank -%}
   <div class="product__block{% if settings.show_lines %} product__block--lines{% endif %}{% if settings.form_style == 'classic' %} product__block--classic{% endif %} product__form__holder"
     {{ block_style }}
@@ -274,6 +278,3 @@
   <div {{ block.shopify_attributes }}></div>
 {%- endif -%}
 
-{%- if settings.show_bubble -%}
-  <div class="product__block__count-text back-in-door count-text-container" id="count-text-container"></div>
-{%- endif -%}
