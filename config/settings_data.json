@@ -11,7 +11,7 @@
   "current": {
     "numberOfroductsToShowQuantity": 2,
     "text_color": "#212121",
-    "bg_color": "#ffffff",
+    "bg_color": "rgba(0,0,0,0)",
     "secondary_bg_color": "#ffffff",
     "accent_bright": "#f5f3ef",
     "link_color": "#212121",
@@ -66,6 +66,7 @@
     "show_labels": true,
     "color_swatches": true,
     "variant_on_sale": true,
+    "sale_badge": false,
     "swatch_style": "circle",
     "favicon": "shopify://shop_images/FAVICON_LOGO.png",
     "enable_order_notes": false,
@@ -432,6 +433,8 @@
     }
   },
   "platform_customizations": {
-    "custom_css": []
+    "custom_css": [
+      ".image-wrapper img {background-color: #f5f3ef !important;}"
+    ]
   }
 }
