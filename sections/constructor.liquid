@@ -29,7 +29,10 @@
         </div>
         <div class="constructor-choice-layout">
           {%  for product in section.settings.chains %}
-            <div class="constructor-choice-item js-chain-item">
+            <div
+                    class="constructor-choice-item js-chain-item {% if forloop.first %}constructor-choice-item_active{% endif %}"
+                    data-price="{{ product.price | money_without_currency }}"
+            >
               <div class="constructor-choice-item-pic-wrapper">
                 {% if  product.options.size %}
                   {% comment %}<div class="constructor-choice-item-size"></div>{% endcomment %}
@@ -44,8 +47,8 @@
       </div>
       <div class="constructor-choice-controls">
         <div class="constructor-choice-controls-text">Selected Chain:</div>
-        <div class="constructor-choice-controls-price">£ 425.00</div>
-        <button class="constructor-choice-controls-button" id="step-1-next-btn" disabled>next: Select your charms</button>
+        <div class="constructor-choice-controls-price">{{ cart.currency.symbol }} <span id="constructor-choice-controls-price"></span></div>
+        <button class="constructor-choice-controls-button" id="step-1-next-btn">next: Select your charms</button>
       </div>
     </div>
   </div>
@@ -68,7 +71,10 @@
         </div>
         <div class="constructor-choice-layout">
           {%  for product in section.settings.charms %}
-            <div class="constructor-choice-item js-charms-item">
+            <div
+                    class="constructor-choice-item js-charms-item"
+                    data-price="{{ product.price | money_without_currency }}"
+            >
               <div class="constructor-choice-item-pic-wrapper">
                 {% comment %}<div class="constructor-choice-item-size">60 CM</div>{% endcomment %}
                 <img src="{{ product.featured_image | img_url: 'medium' }}" alt="{{ product.title }}">
@@ -81,7 +87,7 @@
       </div>
       <div class="constructor-choice-controls">
         <div class="constructor-choice-controls-text">Total:</div>
-        <div class="constructor-choice-controls-price">£ 425.00</div>
+        <div class="constructor-choice-controls-price">{{ cart.currency.symbol }} <span id="constructor-choice-controls-total-price"></span></div>
         <button id="step-2-next-btn" class="constructor-choice-controls-button" disabled>add to cart</button>
       </div>
     </div>

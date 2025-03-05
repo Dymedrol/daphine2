@@ -12,9 +12,25 @@ $( document ).ready(function() {
     const chainItems = $('.js-chain-item');
     const charmsItems = $('.js-charms-item');
     const MAX_CHARMS = 3;
+    const chainPriceBlock = $('#constructor-choice-controls-price');
+    const totalPriceBlock = $('#constructor-choice-controls-total-price');
 
     let selectedCharmsCount = 0;
-    let chainPrice = 0;
+
+    let chainPrice = $('.js-chain-item.constructor-choice-item_active').attr('data-price');
+    console.log(chainPrice);
+    chainPriceBlock.text(chainPrice);
+
+    let charmsPrice = 0;
+    let totalPrice = chainPrice;
+    let totalPriceText = Number(totalPrice) + charmsPrice + '.00';
+    totalPriceBlock.text(totalPriceText);
+
+    function renderPrice () {
+        chainPriceBlock.text(chainPrice);
+        totalPriceText = Number(chainPrice) +  Number(charmsPrice) + '.00';
+        totalPriceBlock.text(totalPriceText);
+    }
 
     function showStep(step) {
         const steps = $('.js-constructor-step');
@@ -27,21 +43,26 @@ $( document ).ready(function() {
         const target = $(this);
         chainItems.removeClass('constructor-choice-item_active');
         target.addClass('constructor-choice-item_active');
-        step1NextBtn.removeAttr("disabled");
+        chainPrice = Number(target.attr('data-price'));
+        renderPrice();
     }
 
     function changeCurrentCharm() {
         const target = $(this);
-        console.log(selectedCharmsCount < MAX_CHARMS);
+
         if (target.hasClass('constructor-choice-item_active')) {
             target.removeClass('constructor-choice-item_active');
             selectedCharmsCount--;
+            charmsPrice = charmsPrice - Number(target.attr('data-price'));
         } else {
             if (selectedCharmsCount < MAX_CHARMS) {
                 target.addClass('constructor-choice-item_active');
+                charmsPrice = charmsPrice + Number(target.attr('data-price'));
                 selectedCharmsCount++;
             }
         }
+
+        renderPrice();
 
         if (selectedCharmsCount) {
             step2NextBtn.removeAttr("disabled");
