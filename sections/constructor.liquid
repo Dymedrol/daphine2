@@ -1,0 +1,121 @@
+<!-- /sections/constructor.liquid -->
+
+{{ 'constructor.css' | asset_url | stylesheet_tag }}
+
+<section class="constructor" id="constructor">
+
+  <div class="constructor-wrapper js-constructor-step" id="step-0">
+    <div class="constructor-col">
+      <div class="constructor-result"></div>
+    </div>
+    <div class="constructor-col constructor-start">
+      <div class="constructor-start-subtitle">Chain & charms</div>
+      <div class="constructor-start-title">Customize your jewel</div>
+      <button class="constructor-start-button" id="start-button">Start</button>
+    </div>
+  </div>
+
+  <div class="constructor-wrapper js-constructor-step constructor-step-1" id="step-1">
+    <div class="constructor-col">
+      <div class="constructor-result">
+        <div class="constructor-result-title">Your creation</div>
+      </div>
+    </div>
+    <div class="constructor-col constructor-choice">
+      <div class="constructor-choice-container">
+        <div class="constructor-choice-header">
+          <div class="constructor-choice-header-step">step 1 / 2</div>
+          <div class="constructor-choice-header-title">Choose your Chain</div>
+        </div>
+        <div class="constructor-choice-layout">
+          {%  for product in section.settings.chains %}
+            <div class="constructor-choice-item js-chain-item">
+              <div class="constructor-choice-item-pic-wrapper">
+                {% if  product.options.size %}
+                  {% comment %}<div class="constructor-choice-item-size"></div>{% endcomment %}
+                {% endif %}
+                <img src="{{ product.featured_image | img_url: 'medium' }}" alt="{{ product.title }}">
+              </div>
+              <div class="constructor-choice-item-title">{{ product.title }}</div>
+              <div class="constructor-choice-item-price">{{ product.price | money }}</div>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+      <div class="constructor-choice-controls">
+        <div class="constructor-choice-controls-text">Selected Chain:</div>
+        <div class="constructor-choice-controls-price">£ 425.00</div>
+        <button class="constructor-choice-controls-button" id="step-1-next-btn" disabled>next: Select your charms</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="constructor-wrapper js-constructor-step constructor-step-2" id="step-2">
+    <div class="constructor-col">
+      <div class="constructor-result">
+        <div class="constructor-result-title">Your creation</div>
+        <div class="constructor-result-header-mobile">
+          <div class="constructor-choice-header-step"><span  class="constructor-choice-header-step-back js-step-2-back-btn">back</span> &#8226; step 2 / 2</div>
+          <div class="constructor-choice-header-title">Select up to 3 charms</div>
+        </div>
+      </div>
+    </div>
+    <div class="constructor-col constructor-choice">
+      <div class="constructor-choice-container">
+        <div class="constructor-choice-header">
+          <div class="constructor-choice-header-step"><span class="constructor-choice-header-step-back js-step-2-back-btn">back</span>  &#8226; step 2 / 2</div>
+          <div class="constructor-choice-header-title">Select up to 3 charms</div>
+        </div>
+        <div class="constructor-choice-layout">
+          {%  for product in section.settings.charms %}
+            <div class="constructor-choice-item js-charms-item">
+              <div class="constructor-choice-item-pic-wrapper">
+                {% comment %}<div class="constructor-choice-item-size">60 CM</div>{% endcomment %}
+                <img src="{{ product.featured_image | img_url: 'medium' }}" alt="{{ product.title }}">
+              </div>
+              <div class="constructor-choice-item-title">{{ product.title }}</div>
+              <div class="constructor-choice-item-price" {{ product.price | money }}</div>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+      <div class="constructor-choice-controls">
+        <div class="constructor-choice-controls-text">Total:</div>
+        <div class="constructor-choice-controls-price">£ 425.00</div>
+        <button id="step-2-next-btn" class="constructor-choice-controls-button" disabled>add to cart</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="constructor-wrapper js-constructor-step constructor-final constructor-step-3" id="step-3">
+    <div class="constructor-final-header">
+      <div class="constructor-final-header-title">Your creation added to cart</div>
+      <a href="/" class="constructor-final-header-checkout">go to checkout</a>
+    </div>
+  </div>
+</section>
+
+
+{% schema %}
+{
+  "name": "Constructor",
+  "class": "constructor-section",
+  "settings": [
+    {
+      "type": "product_list",
+      "id": "chains",
+      "label": "Chains"
+    },
+    {
+      "type": "product_list",
+      "id": "charms",
+      "label": "Charms"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Constructor"
+    }
+  ]
+}
+{% endschema %}
