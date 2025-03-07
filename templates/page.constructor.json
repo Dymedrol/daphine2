@@ -26,9 +26,26 @@
         "padding_top": 50,
         "padding_bottom": 0
       }
+    },
+    "constructor_NCddkB": {
+      "type": "constructor",
+      "settings": {
+        "chains": [
+          "ada-necklace",
+          "agathe-necklace-gold",
+          "agathe-necklace-silver"
+        ],
+        "charms": [
+          "clara-hoops",
+          "clara-hoops-silver",
+          "cosmos-large-hoops",
+          "dale-necklace"
+        ]
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "constructor_NCddkB"
   ]
 }
