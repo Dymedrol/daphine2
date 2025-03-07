@@ -1,0 +1,591 @@
+
+@font-face {
+    font-family: "ITC Galliard Std";
+    src: url('./GalliardStd-Italic.ttf')  format('truetype');
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+
+#step-0 {
+    /*display: none;*/
+}
+
+#step-1 {
+    display: none;
+}
+
+#step-2 {
+    display: none;
+}
+
+#step-3 {
+    display: none;
+}
+
+.constructor-loading {
+    opacity: .4;
+    pointer-events: none;
+}
+
+
+#constructor .main-content {
+    display: flex;
+}
+
+#constructor .footer-sections {
+    display: none;
+}
+
+.constructor-section {
+    flex-grow: 1;
+}
+
+.constructor {
+    display: flex;
+    min-height: 100%;
+}
+
+@media (min-width: 1280px) {
+    .constructor {
+        min-height: 100%;
+    }
+}
+
+.constructor-wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    flex-grow: 1;
+}
+
+@media (min-width: 820px) {
+    .constructor-wrapper {
+    }
+}
+
+@media (min-width: 1024px) {
+    .constructor-wrapper {
+    }
+}
+
+@media (min-width: 1280px) {
+    .constructor-wrapper {
+        flex-direction: row;
+    }
+}
+
+.constructor-col {
+    min-height: 50%;
+}
+
+@media (min-width: 1280px) {
+    .constructor-col {
+        min-height: unset;
+        width: 50%;
+    }
+}
+
+.constructor-result {
+    position: relative;
+    background: #F5F3EF;
+    min-height: 100%;
+    overflow: hidden;
+}
+
+.constructor-result-chain {
+    position: absolute;
+    width: 1358px;
+    height: 1892px;
+    bottom: -748px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media (min-width: 820px) {
+    .constructor-result-chain {
+        bottom: -680px;
+    }
+}
+
+@media (min-width: 820px) {
+    .constructor-result-chain {
+        bottom: -680px;
+    } q q
+}
+
+@media (min-width: 1024px) {
+    .constructor-result-chain {
+        bottom: -680px;
+    }
+}
+
+.constructor-result-chain_hidden {
+    display: none;
+}
+
+.constructor-result-charms {
+    position: absolute;
+    width: 340px;
+    height: 340px;
+    bottom: -232px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media (min-width: 1024px) {
+    .constructor-result-charms {
+        bottom: -165px;
+    }
+}
+.constructor-result-charms-templates {
+    display: none;
+}
+
+.constructor-result-charm {
+    position: absolute;
+    width: 340px;
+    height: 340px;
+    top: 0;
+    left: 0;
+
+    transform-origin: 170px 50px;
+    z-index: 2;
+}
+
+.constructor-result-charm:not(.constructor-result-chain_hidden):nth-child(2) {
+    transform: rotate(30DEG);
+    z-index: 1;
+}
+
+.constructor-result-charm:not(.constructor-result-chain_hidden):nth-child(3) {
+    transform: rotate(-30DEG);
+    z-index: 3;
+}
+
+.constructor-result-charm_hidden {
+    display: none;
+}
+
+.constructor-result-title {
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    color: #000;
+    text-align: center;
+    font-family: "ITC Galliard Std";
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+@media (min-width: 820px) {
+    .constructor-result-title {
+        display: block;
+    }
+}
+
+.constructor-result-header-mobile {
+    background-color: #fff;
+    padding: 45px 0 24px;
+}
+
+@media (min-width: 820px) {
+    .constructor-result-header-mobile {
+        display: none;
+    }
+}
+
+.constructor-start {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.constructor-start-subtitle {
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 13px;
+    letter-spacing: 1.3px;
+    text-transform: uppercase;
+
+    margin-bottom: 24px;
+}
+
+.constructor-start-title {
+    color: #000;
+    text-align: center;
+    font-family: "ITC Galliard Std";
+    font-size: 32px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 32px;
+
+    margin-bottom: 32px;
+}
+
+.constructor-start-button {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 13px;
+    letter-spacing: 1.3px;
+    text-transform: uppercase;
+
+    display: flex;
+    width: 180px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+
+    border: 1px solid #D3D3D3;
+    background: #FFF;
+}
+
+.constructor-step-1 .constructor-col:first-child {
+    display: none;
+}
+
+@media (min-width: 820px) {
+    .constructor-step-1 .constructor-col:first-child {
+        display: block;
+    }
+}
+
+.constructor-step-1 .constructor-col:last-child {
+    min-height: 100%;
+}
+
+@media (min-width: 820px) {
+    .constructor-step-1 .constructor-col:last-child {
+        min-height: 50%;
+    }
+}
+
+.constructor-step-2 .constructor-col:first-child{
+    min-height: unset;
+}
+
+@media (min-width: 820px) {
+    .constructor-step-2 .constructor-col:first-child {
+        min-height: 50%;
+    }
+}
+
+.constructor-step-2 .constructor-choice-header {
+    display: none;
+}
+
+@media (min-width: 820px) {
+    .constructor-step-2 .constructor-choice-header {
+        display: block;
+    }
+}
+
+.constructor-choice {
+    position: relative;
+    padding-top: 45px;
+}
+
+@media (min-width: 820px) {
+    .constructor-choice {
+        padding-bottom: 50px;
+    }
+}
+
+.constructor-choice-container {
+
+}
+
+@media (min-width: 820px) {
+    .constructor-choice-container {
+        width: 572px;
+        margin: 0 auto;
+    }
+}
+
+.constructor-choice-header {
+    margin-bottom: 24px;
+}
+
+.constructor-choice-header-step {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 11px;
+    text-transform: uppercase;
+    text-align: center;
+
+    margin-bottom: 16px;
+}
+
+@media (min-width: 820px) {
+    .constructor-choice-header-step {
+        text-align: left;
+    }
+}
+
+.constructor-choice-header-step-back {
+    cursor: pointer;
+}
+
+.constructor-choice-header-title {
+    color: #000;
+    font-family: "ITC Galliard Std";
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+}
+
+@media (min-width: 820px) {
+    .constructor-choice-header-title {
+        text-align: left;
+    }
+}
+
+.constructor-choice-layout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+@media (min-width: 820px) {
+    .constructor-choice-layout {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 16px;
+    }
+}
+
+.constructor-choice-item {
+    width: 180px;
+    cursor: pointer;
+}
+
+.constructor-choice-item_active .constructor-choice-item-pic-wrapper {
+    border: 1px solid #AB8C52;
+}
+
+.constructor-choice-item-pic-wrapper {
+    position: relative;
+    width: 180px;
+    height: 180px;
+    background-color: #F5F3EF;
+    border-radius: 16px;
+    overflow: hidden;
+
+    margin-bottom: 14px;
+}
+
+.constructor-choice-item-pic-wrapper img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.constructor-choice-item-size {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    width: fit-content;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 9px;
+    letter-spacing: 0.9px;
+    text-transform: uppercase;
+    padding: 6px 10px;
+    border-radius: 100px;
+    background: #FFF;
+}
+
+.constructor-choice-item-title {
+    color: #000;
+    text-align: center;
+    font-family: "ITC Galliard Std";
+    font-size: 13px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 13px;
+    text-transform: uppercase;
+    text-align: center;
+
+    margin-bottom: 7px;
+}
+
+.constructor-choice-item-price {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 11px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.constructor-choice-controls {
+    position: sticky;
+    bottom: 0;
+
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 24px;
+    width: 100%;
+    border-top: 1px solid #D3D3D3;
+    background: #FFF;
+}
+
+@media (min-width: 1280px) {
+    .constructor-choice-controls {
+        position: absolute;
+    }
+}
+
+.constructor-choice-controls-text {
+    color: #000;
+    font-family: "ITC Galliard Std";
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    margin-right: auto;
+}
+
+.constructor-choice-controls-price {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 13px;
+    letter-spacing: 1.3px;
+    text-transform: uppercase;
+}
+
+.constructor-choice-controls-button {
+    width: 100%;
+    margin-top: 16px;
+    padding: 8px 28px;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 13px;
+    letter-spacing: 1.3px;
+    text-transform: uppercase;
+    border: 1px solid #D3D3D3;
+}
+
+@media (min-width: 820px) {
+    .constructor-choice-controls-button {
+        width: fit-content;
+        margin-top: 0;
+        margin-left: 16px;
+    }
+}
+
+.constructor-choice-controls-button:disabled {
+    opacity: .4;
+}
+
+.constructor-final {
+    position: relative;
+}
+
+.constructor-final-header {
+    position: absolute;
+    bottom: 74px;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.constructor-final-header-title {
+    color: #000;
+    font-family: "ITC Galliard Std";
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.constructor-final-header-checkout {
+    display: block;
+    width: fit-content;
+    padding: 8px 28px;
+    margin: 0 auto;
+
+    border: 1px solid #D3D3D3;
+    background: #FFF;
+
+    color: #000;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 13px;
+    letter-spacing: 1.3px;
+    text-transform: uppercase;
+}
+
+.constructor-result-final {
+    width: 100%;
+}
+
+.constructor-result-final .constructor-result-chain {
+    bottom: -560px;
+}
+
+@media (min-width: 820px) {
+    .constructor-result-final .constructor-result-chain {
+        bottom: -430px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .constructor-result-final .constructor-result-chain {
+        bottom: -450px;
+    }
+}
+
+.constructor-result-final .constructor-result-charms {
+    bottom: -42px;
+}
+
+@media (min-width: 820px) {
+    .constructor-result-final .constructor-result-charms {
+        bottom: 88px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .constructor-result-final .constructor-result-charms {
+        bottom: 66px;
+    }
+}
