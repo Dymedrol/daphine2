@@ -6,7 +6,12 @@
 
   <div class="constructor-wrapper js-constructor-step" id="step-0">
     <div class="constructor-col">
-      <div class="constructor-result"></div>
+      <div class="constructor-result">
+        <img src="{{ 'chain.png' | asset_url }}" alt="" class="constructor-result-chain">
+        <div class="constructor-result-charms">
+          <img src="{{ 'charm.png' | asset_url }}" alt="" class="constructor-result-charm">
+        </div>
+      </div>
     </div>
     <div class="constructor-col constructor-start">
       <div class="constructor-start-subtitle">Chain & charms</div>
@@ -19,6 +24,14 @@
     <div class="constructor-col">
       <div class="constructor-result">
         <div class="constructor-result-title">Your creation</div>
+        {%  for product in section.settings.chains %}
+          <img
+                  src="{{ product.metafields.custom.constructor_chain_picture | img_url: '2716x3784' }} }}"
+                  alt=""
+                  class="constructor-result-chain{% unless forloop.first %} constructor-result-chain_hidden{% endunless %}"
+                  data-count="{{ forloop.index }}"
+          >
+        {% endfor %}
       </div>
     </div>
     <div class="constructor-col constructor-choice">
@@ -32,6 +45,7 @@
             <div
                     class="constructor-choice-item js-chain-item {% if forloop.first %}constructor-choice-item_active{% endif %}"
                     data-price="{{ product.price | money_without_currency }}"
+                    data-count="{{ forloop.index }}"
             >
               <div class="constructor-choice-item-pic-wrapper">
                 {% if  product.options.size %}
@@ -61,6 +75,26 @@
           <div class="constructor-choice-header-step"><span  class="constructor-choice-header-step-back js-step-2-back-btn">back</span> &#8226; step 2 / 2</div>
           <div class="constructor-choice-header-title">Select up to 3 charms</div>
         </div>
+        {%  for product in section.settings.chains %}
+          <img
+                  src="{{ product.metafields.custom.constructor_chain_picture | img_url: '2716x3784' }} }}"
+                  alt=""
+                  class="constructor-result-chain{% unless forloop.first %} constructor-result-chain_hidden{% endunless %}"
+                  data-count="{{ forloop.index }}"
+          >
+        {% endfor %}
+        <div class="constructor-result-charms">
+        </div>
+        <div class="constructor-result-charms-templates" id="charms-templates">
+          {%  for product in section.settings.charms %}
+            <img
+                    src="{{ product.metafields.custom.constructor_charm_picture | img_url: '680x680' }}"
+                    alt=""
+                    class="constructor-result-charm"
+                    data-count="{{ forloop.index }}"
+            >
+          {% endfor %}
+        </div>
       </div>
     </div>
     <div class="constructor-col constructor-choice">
@@ -74,6 +108,7 @@
             <div
                     class="constructor-choice-item js-charms-item"
                     data-price="{{ product.price | money_without_currency }}"
+                    data-count="{{ forloop.index }}"
             >
               <div class="constructor-choice-item-pic-wrapper">
                 {% comment %}<div class="constructor-choice-item-size">60 CM</div>{% endcomment %}

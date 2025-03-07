@@ -14,11 +14,11 @@ $( document ).ready(function() {
     const MAX_CHARMS = 3;
     const chainPriceBlock = $('#constructor-choice-controls-price');
     const totalPriceBlock = $('#constructor-choice-controls-total-price');
+    const charmsTemplates = $('#charms-templates');
 
     let selectedCharmsCount = 0;
 
     let chainPrice = $('.js-chain-item.constructor-choice-item_active').attr('data-price');
-    console.log(chainPrice);
     chainPriceBlock.text(chainPrice);
 
     let charmsPrice = 0;
@@ -41,6 +41,9 @@ $( document ).ready(function() {
     
     function changeCurrentChain() {
         const target = $(this);
+        const targetCount = target.attr('data-count');
+        $('.constructor-result-chain').addClass('constructor-result-chain_hidden');
+        $(`.constructor-result-chain[data-count='${targetCount}']`).removeClass('constructor-result-chain_hidden');
         chainItems.removeClass('constructor-choice-item_active');
         target.addClass('constructor-choice-item_active');
         chainPrice = Number(target.attr('data-price'));
@@ -49,16 +52,22 @@ $( document ).ready(function() {
 
     function changeCurrentCharm() {
         const target = $(this);
+        const targetCount = target.attr('data-count');
 
         if (target.hasClass('constructor-choice-item_active')) {
-            target.removeClass('constructor-choice-item_active');
             selectedCharmsCount--;
+            console.log('selectedCharmsCount', selectedCharmsCount);
+            target.removeClass('constructor-choice-item_active');
+            $('.constructor-result-charms').find(`.constructor-result-charm[data-count='${targetCount}']`).remove();
+            // $(`.constructor-result-charm[data-count='${targetCount}']`).addClass('constructor-result-charm_hidden');
             charmsPrice = charmsPrice - Number(target.attr('data-price'));
         } else {
             if (selectedCharmsCount < MAX_CHARMS) {
-                target.addClass('constructor-choice-item_active');
-                charmsPrice = charmsPrice + Number(target.attr('data-price'));
                 selectedCharmsCount++;
+                console.log('selectedCharmsCount', selectedCharmsCount);
+                target.addClass('constructor-choice-item_active');
+                charmsTemplates.find(`.constructor-result-charm[data-count='${targetCount}']`).clone().appendTo('.constructor-result-charms');
+                charmsPrice = charmsPrice + Number(target.attr('data-price'));
             }
         }
 
