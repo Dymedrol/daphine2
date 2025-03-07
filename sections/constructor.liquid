@@ -92,6 +92,7 @@
                     alt=""
                     class="constructor-result-charm"
                     data-count="{{ forloop.index }}"
+                    data-variant-id="{{ product.first_available_variant.id }}"
             >
           {% endfor %}
         </div>
@@ -129,9 +130,22 @@
   </div>
 
   <div class="constructor-wrapper js-constructor-step constructor-final constructor-step-3" id="step-3">
+    <div class="constructor-result constructor-result-final">
+      {%  for product in section.settings.chains %}
+        <img
+                src="{{ product.metafields.custom.constructor_chain_picture | img_url: '2716x3784' }} }}"
+                alt=""
+                class="constructor-result-chain{% unless forloop.first %} constructor-result-chain_hidden{% endunless %}"
+                data-count="{{ forloop.index }}"
+                data-variant-id="{{ product.first_available_variant.id }}"
+        >
+      {% endfor %}
+      <div class="constructor-result-charms">
+      </div>
+    </div>
     <div class="constructor-final-header">
       <div class="constructor-final-header-title">Your creation added to cart</div>
-      <a href="/" class="constructor-final-header-checkout">go to checkout</a>
+      <a href="/cart" class="constructor-final-header-checkout">go to checkout</a>
     </div>
   </div>
 </section>

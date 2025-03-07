@@ -56,7 +56,6 @@ $( document ).ready(function() {
 
         if (target.hasClass('constructor-choice-item_active')) {
             selectedCharmsCount--;
-            console.log('selectedCharmsCount', selectedCharmsCount);
             target.removeClass('constructor-choice-item_active');
             $('.constructor-result-charms').find(`.constructor-result-charm[data-count='${targetCount}']`).remove();
             // $(`.constructor-result-charm[data-count='${targetCount}']`).addClass('constructor-result-charm_hidden');
@@ -64,7 +63,6 @@ $( document ).ready(function() {
         } else {
             if (selectedCharmsCount < MAX_CHARMS) {
                 selectedCharmsCount++;
-                console.log('selectedCharmsCount', selectedCharmsCount);
                 target.addClass('constructor-choice-item_active');
                 charmsTemplates.find(`.constructor-result-charm[data-count='${targetCount}']`).clone().appendTo('.constructor-result-charms');
                 charmsPrice = charmsPrice + Number(target.attr('data-price'));
@@ -78,6 +76,58 @@ $( document ).ready(function() {
         } else {
             step2NextBtn.attr("disabled");
         }
+    }
+
+    function addTocart() {
+        let items = [];
+        const finalContainer = $('.constructor-result-final');
+
+        $('#constructor').addClass('constructor-loading');
+        const selectedChain = finalContainer.find('.constructor-result-chain:not(.constructor-result-chain_hidden)');
+        const chain = {
+            id: selectedChain.attr('data-variant-id'),
+            quantity: 1
+        }
+        items.push(chain);
+
+        const charms = finalContainer.find('.constructor-result-charm');
+        charms.each(function( index ) {
+            const charm = {
+                id: $(this).attr('data-variant-id'),
+                quantity: 1
+            }
+            items.push(charm);
+        });
+
+        const data = {
+            items
+        };
+
+        fetch('/cart/add.js', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'Accept': 'application/json'
+            },
+            body: JSON.stringify(data)
+        })
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Error adding product to cart');
+                }
+                return response.json();
+            })
+            .then(cart => {
+                showStep(3)
+                $('#constructor').removeClass('constructor-loading');
+            })
+            .catch(error => {
+                console.error('Ошибка:', error);
+            });
+
+
+
+
 
 
     }
@@ -87,7 +137,7 @@ $( document ).ready(function() {
     startButton.click(function () {showStep(1)});
     step1NextBtn.click(function () {showStep(2)});
     step2BackBtns.click(function () {showStep(1)});
-    step2NextBtn.click(function () {showStep(3)});
+    step2NextBtn.click(function () {addTocart()});
     chainItems.click(changeCurrentChain);
     charmsItems.click(changeCurrentCharm);
 });
