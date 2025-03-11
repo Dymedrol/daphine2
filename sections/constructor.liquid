@@ -116,7 +116,7 @@
                 <img src="{{ product.featured_image | img_url: 'medium' }}" alt="{{ product.title }}">
               </div>
               <div class="constructor-choice-item-title">{{ product.title }}</div>
-              <div class="constructor-choice-item-price" {{ product.price | money }}</div>
+              <div class="constructor-choice-item-price">{{ product.price | money }}</div>
             </div>
           {% endfor %}
         </div>

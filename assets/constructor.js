@@ -37,6 +37,7 @@ $( document ).ready(function() {
         const currentStep = $('#step-' + step);
         steps.hide();
         currentStep.css('display', 'flex');
+        window.scrollTo(0, 0);
     }
     
     function changeCurrentChain() {
