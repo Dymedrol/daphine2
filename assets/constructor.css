@@ -273,8 +273,8 @@
     }
 }
 
-.constructor-step-2 .constructor-col:first-child{
-    min-height: unset;
+.constructor-step-2 .constructor-col:first-child {
+    min-height: 50%;
 }
 
 @media (min-width: 820px) {
