@@ -103,6 +103,7 @@
     bottom: -748px;
     left: 50%;
     transform: translate(-50%, -50%);
+    pointer-events: none;
 }
 
 @media (min-width: 820px) {
