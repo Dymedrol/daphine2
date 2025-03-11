@@ -504,7 +504,7 @@
     align-items: center;
     flex-wrap: wrap;
     padding: 24px;
-    width: 100%;
+    width: 100vw;
     border-top: 1px solid #D3D3D3;
     background: #FFF;
 }
@@ -512,6 +512,7 @@
 @media (min-width: 1280px) {
     .constructor-choice-controls {
         position: absolute;
+        width: 100%;
     }
 }
 
