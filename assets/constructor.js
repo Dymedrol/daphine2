@@ -58,14 +58,22 @@ $( document ).ready(function() {
             selectedCharmsCount--;
             target.removeClass('constructor-choice-item_active');
             $('.constructor-result-charms').find(`.constructor-result-charm[data-count='${targetCount}']`).remove();
-            // $(`.constructor-result-charm[data-count='${targetCount}']`).addClass('constructor-result-charm_hidden');
             charmsPrice = charmsPrice - Number(target.attr('data-price'));
+            $('.constructor-result-charms').removeClass('constructor-result-charms-1');
+            $('.constructor-result-charms').removeClass('constructor-result-charms-2');
+            $('.constructor-result-charms').removeClass('constructor-result-charms-3');
+            $('.constructor-result-charms').addClass(`constructor-result-charms-${$('.constructor-step-2  .constructor-result-charms').find('.constructor-result-charm').length}`);
         } else {
             if (selectedCharmsCount < MAX_CHARMS) {
                 selectedCharmsCount++;
                 target.addClass('constructor-choice-item_active');
                 charmsTemplates.find(`.constructor-result-charm[data-count='${targetCount}']`).clone().appendTo('.constructor-result-charms');
                 charmsPrice = charmsPrice + Number(target.attr('data-price'));
+
+                $('.constructor-result-charms').removeClass('constructor-result-charms-1');
+                $('.constructor-result-charms').removeClass('constructor-result-charms-2');
+                $('.constructor-result-charms').removeClass('constructor-result-charms-3');
+                $('.constructor-result-charms').addClass(`constructor-result-charms-${$('.constructor-step-2  .constructor-result-charms').find('.constructor-result-charm').length}`);
             }
         }
 
