@@ -92,16 +92,16 @@
         "heading_B7kGXE": {
           "type": "heading",
           "settings": {
-            "title": "Pre-Spring",
-            "heading_size": 9,
+            "title": "Back in Stock",
+            "heading_size": 8,
             "mobile_heading_size": 8
           }
         },
         "button_V3d8t6": {
           "type": "button",
           "settings": {
-            "link_text": "Discover our new arrivals",
-            "link": "shopify://pages/pre-spring-2025",
+            "link_text": "shop now",
+            "link": "shopify://collections/back-in-stock",
             "button_type": "btn--white",
             "button_size": "btn--small",
             "button_style": "btn--text",
@@ -116,9 +116,9 @@
       "settings": {
         "height": "image-height",
         "width": "wrapper--full",
-        "image_1": "shopify://shop_images/Ada_necklace_banner.png",
+        "image_1": "shopify://shop_images/Screenshot_2025-03-12_at_17.32.44.png",
         "mobile_height": "image-height--mobile",
-        "mobile_image": "shopify://shop_images/Daphine_Adanecklace3.jpg",
+        "mobile_image": "shopify://shop_images/Daphine_Cleo_necklace.jpg",
         "flex_align": "align--middle-center",
         "overlay_opacity": 0,
         "overlay_color": "#000000",
