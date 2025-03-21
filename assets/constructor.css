@@ -395,6 +395,7 @@
 
 .constructor-choice-header-step-back {
     cursor: pointer;
+    text-decoration: underline;
 }
 
 .constructor-choice-header-title {
