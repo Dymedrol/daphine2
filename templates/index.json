@@ -92,7 +92,7 @@
         "heading_B7kGXE": {
           "type": "heading",
           "settings": {
-            "title": "Back in Stock",
+            "title": "Spring Essentials",
             "heading_size": 8,
             "mobile_heading_size": 7
           }
@@ -101,7 +101,7 @@
           "type": "button",
           "settings": {
             "link_text": "shop now",
-            "link": "shopify://collections/back-in-stock",
+            "link": "shopify://collections/our-spring-edit",
             "button_type": "btn--white",
             "button_size": "btn--small",
             "button_style": "btn--text",
@@ -116,7 +116,7 @@
       "settings": {
         "height": "image-height",
         "width": "wrapper--full",
-        "image_1": "shopify://shop_images/Screenshot_2025-03-12_at_17.32.44.png",
+        "image_1": "shopify://shop_images/Screenshot_2025-03-24_at_18.38.58.png",
         "mobile_height": "image-height--mobile",
         "mobile_image": "shopify://shop_images/Daphine_Cleo_necklace.jpg",
         "flex_align": "align--middle-center",
@@ -174,16 +174,16 @@
     "section_collection_BFWXfV": {
       "type": "section-collection",
       "settings": {
-        "heading": "Back In Stock",
+        "heading": "Trending",
         "description": "",
         "layout": "inline",
         "link_text": "explore all",
-        "link_url": "shopify://collections/back-in-stock",
+        "link_url": "shopify://collections/our-spring-edit",
         "button_type": "btn--primary",
         "button_size": "btn--small",
         "button_style": "btn--text",
         "show_arrow": false,
-        "featured_collection": "back-in-stock",
+        "featured_collection": "our-spring-edit",
         "style": "slider",
         "grid": 4,
         "rows": 1,
@@ -536,7 +536,7 @@
     "3724238a-bd73-47d6-a513-56d7af654198": {
       "type": "section-collection",
       "settings": {
-        "heading": "Trending",
+        "heading": "Gifts",
         "description": "",
         "layout": "inline",
         "link_text": "Explore all",
