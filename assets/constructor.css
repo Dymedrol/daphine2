@@ -419,6 +419,7 @@
     flex-direction: column;
     align-items: center;
     gap: 24px;
+    padding-bottom: 50px;
 }
 
 @media (min-width: 820px) {
@@ -426,6 +427,7 @@
         flex-direction: row;
         flex-wrap: wrap;
         gap: 16px;
+        padding-bottom: 0;
     }
 }
 
@@ -543,6 +545,7 @@
 
 .constructor-choice-controls-button {
     width: 100%;
+    height: 40px;
     margin-top: 16px;
     padding: 8px 28px;
     color: #000;
