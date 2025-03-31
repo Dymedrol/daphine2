@@ -168,6 +168,10 @@ $( document ).ready(function() {
     chainItems.click(changeCurrentChain);
     charmsItems.click(changeCurrentCharm);
 
+    $('#go-to-checkout').click(function () {
+        window.location = '/cart';
+    });
+
     $('.constructor-choice-item-alt-pic').on( 'swiperight', changePic);
     $('.constructor-choice-item-alt-pic').on( 'swipeleft', changePic);
 });
