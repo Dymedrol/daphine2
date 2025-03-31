@@ -531,6 +531,41 @@
     object-fit: cover;
 }
 
+.constructor-choice-item-pic2 {
+    display: none;
+}
+
+.constructor-choice-item-dots {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+@media (min-width: 820px) {
+    .constructor-choice-item-dots {
+        display: none;
+    }
+}
+
+.constructor-choice-item-dots-dot {
+    border-radius: 50%;
+    width: 4px;
+    margin: 0px;
+    height: 4px;
+    box-shadow: 0 0 3px 1px #bbbbbb99;
+    background-color: #fff;
+}
+
+.constructor-choice-item-dots-dot_active {
+    background-color: rgba(124, 124, 124, 100);
+}
+
 .constructor-choice-item-size {
     position: absolute;
     top: 12px;

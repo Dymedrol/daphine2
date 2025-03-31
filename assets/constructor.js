@@ -141,7 +141,25 @@ $( document ).ready(function() {
 
     }
 
+    function changePic() {
+        const item = $(this);
 
+        item.find("img").each(function() {
+            if ($(this).css("display") === "none") {
+                $(this).css("display", "block");
+            } else {
+                $(this).css("display", "none");
+            }
+        });
+
+        item.find(".constructor-choice-item-dots-dot").each(function() {
+            if ($(this).hasClass('constructor-choice-item-dots-dot_active')) {
+                $(this).removeClass('constructor-choice-item-dots-dot_active');
+            } else {
+                $(this).addClass('constructor-choice-item-dots-dot_active');
+            }
+        });
+    }
 
     startButton.click(function () {showStep(1)});
     step1NextBtn.click(function () {showStep(2)});
@@ -149,4 +167,7 @@ $( document ).ready(function() {
     step2NextBtn.click(function () {addTocart()});
     chainItems.click(changeCurrentChain);
     charmsItems.click(changeCurrentCharm);
+
+    $('.constructor-choice-item-alt-pic').on( 'swiperight', changePic);
+    $('.constructor-choice-item-alt-pic').on( 'swipeleft', changePic);
 });

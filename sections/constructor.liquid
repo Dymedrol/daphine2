@@ -2,6 +2,9 @@
 
 {{ 'constructor.css' | asset_url | stylesheet_tag }}
 
+<script src="http://code.jquery.com/mobile/1.5.0-rc1/jquery.mobile-1.5.0-rc1.min.js"></script>
+<link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+
 <section class="constructor" id="constructor">
 
   <div class="constructor-wrapper js-constructor-step" id="step-0">
@@ -47,11 +50,18 @@
                     data-price="{{ product.price | money_without_currency }}"
                     data-count="{{ forloop.index }}"
             >
-              <div class="constructor-choice-item-pic-wrapper">
+              <div class="constructor-choice-item-pic-wrapper {% if product.metafields.custom.constructor_chain_alt_picture %}constructor-choice-item-alt-pic{% endif %}">
                 {% if  product.options.size %}
                   {% comment %}<div class="constructor-choice-item-size"></div>{% endcomment %}
                 {% endif %}
-                <img src="{{ product.featured_image | img_url: 'medium' }}" alt="{{ product.title }}">
+                <img src="{{ product.featured_image | img_url: 'medium' }}" alt="{{ product.title }}" class="constructor-choice-item-pic1">
+                {% if product.metafields.custom.constructor_chain_alt_picture %}
+                  <img src="{{ product.metafields.custom.constructor_chain_alt_picture | img_url: 'medium' }}" alt="{{ product.title }}" class="constructor-choice-item-pic2">
+                  <div class="constructor-choice-item-dots">
+                    <div class="constructor-choice-item-dots-dot constructor-choice-item-dots-dot_active"></div>
+                    <div class="constructor-choice-item-dots-dot"></div>
+                  </div>
+                {% endif %}
               </div>
               <div class="constructor-choice-item-title">{{ product.title }}</div>
               <div class="constructor-choice-item-price">{{ product.price | money }}</div>
