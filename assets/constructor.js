@@ -15,6 +15,7 @@ $( document ).ready(function() {
     const chainPriceBlock = $('#constructor-choice-controls-price');
     const totalPriceBlock = $('#constructor-choice-controls-total-price');
     const charmsTemplates = $('#charms-templates');
+    let currentPic;
 
     let selectedCharmsCount = 0;
 
@@ -142,7 +143,8 @@ $( document ).ready(function() {
     }
 
     function changePic() {
-        const item = $(this);
+        console.log('2', currentPic)
+        const item = currentPic.closest('.constructor-choice-item-alt-pic');
 
         item.find("img").each(function() {
             if ($(this).css("display") === "none") {
@@ -168,10 +170,14 @@ $( document ).ready(function() {
     chainItems.click(changeCurrentChain);
     charmsItems.click(changeCurrentCharm);
 
-    $('#go-to-checkout').click(function () {
-        window.location = '/cart';
+
+    $('.constructor-choice-item-alt-pic').on('touchstart', function (e) {
+        currentPic = $(e.target);
+        console.log('1', currentPic);
     });
 
-    $('.constructor-choice-item-alt-pic').on( 'swiperight', changePic);
-    $('.constructor-choice-item-alt-pic').on( 'swipeleft', changePic);
+    $('.constructor-choice-item-alt-pic').swipe(changePic);
+
+
+
 });
