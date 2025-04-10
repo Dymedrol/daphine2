@@ -1,0 +1,677 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "subheading_size": 3,
+        "show_title": true,
+        "heading_size": 6,
+        "show_content": true,
+        "text_size": 4,
+        "align_text": "text-center",
+        "width": "wrapper--narrow",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 0
+      }
+    },
+    "section_hero_HPkDYN": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_L7eGUn": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "The Gift Shop",
+            "heading_size": 9,
+            "mobile_heading_size": 6
+          }
+        },
+        "text_idtgYn": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "description": "",
+            "text_size": 5,
+            "mobile_text_size": 5,
+            "text_style": "font-heading"
+          }
+        }
+      },
+      "block_order": [
+        "heading_L7eGUn",
+        "text_idtgYn"
+      ],
+      "settings": {
+        "height": "image-height",
+        "width": "wrapper--full",
+        "image_1": "shopify://shop_images/Daphine_Cora_cuff_Ella_necklace_banner.png",
+        "mobile_height": "image-height--mobile",
+        "flex_align": "align--bottom-center",
+        "overlay_opacity": 20,
+        "overlay_color": "#000000",
+        "show_overlay_text": true,
+        "bg_color": "",
+        "color": "#ffffff"
+      }
+    },
+    "section_rich_text_ephmEJ": {
+      "type": "section-rich-text",
+      "blocks": {
+        "subheading_aGcWh6": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Introducing",
+            "text_size": 3,
+            "mobile_text_size": 3
+          }
+        },
+        "heading_BHbWAt": {
+          "type": "heading",
+          "settings": {
+            "title": "PRE-SPRING 2025",
+            "text_size": 5,
+            "mobile_text_size": 3
+          }
+        },
+        "text_8JmqEC": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The Pre-Spring 2025 collection celebrates everyday elegance through delicate design. Dainty zirconia accents and burgundy cord necklaces bring a fresh perspective to daily wear, while sculptural pieces are designed to seamlessly complement every moment. Crafted for effortless layering and timeless appeal - everyday treasures.</p>",
+            "text_size": 3,
+            "mobile_text_size": 3,
+            "text_style": "font-body"
+          }
+        },
+        "buttons_iiWp6r": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "Discover the collection",
+            "button_url": "shopify://collections/pre-spring-2025",
+            "button_type": "btn--primary",
+            "button_size": "btn--small",
+            "button_style": "btn--text",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "subheading_aGcWh6",
+        "heading_BHbWAt",
+        "text_8JmqEC",
+        "buttons_iiWp6r"
+      ],
+      "settings": {
+        "width": "wrapper--narrow",
+        "align_text": "text-center",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 60
+      }
+    },
+    "section_columns_nVzeTF": {
+      "type": "section-columns",
+      "blocks": {
+        "image_kJ4Nby": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Still2025-01-19001005_1.15.1copy.jpg",
+            "title": "",
+            "heading_size": 3,
+            "mobile_heading_size": 2,
+            "text": "<h6>Elodie Earrings</h6>",
+            "text_size": 3,
+            "mobile_text_size": 3,
+            "button_text": "SHOP",
+            "button_url": "shopify://products/elodie-earrings",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--text",
+            "show_arrow": false
+          }
+        },
+        "image_grCCkd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Still2025-01-19001005_1.34.1copy.jpg",
+            "title": "",
+            "heading_size": 3,
+            "mobile_heading_size": 2,
+            "text": "<h6>Cleo Necklace</h6>",
+            "text_size": 3,
+            "mobile_text_size": 3,
+            "button_text": "SHOP",
+            "button_url": "shopify://products/cleo-necklace",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--text",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_kJ4Nby",
+        "image_grCCkd"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": 5,
+        "mobile_heading_size": 5,
+        "align_text": "text-center",
+        "align_columns": "flex-align-center",
+        "width": "wrapper",
+        "image_aspect_ratio": 1.2,
+        "mobile_image_aspect_ratio": 1.2,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 50,
+        "layout_mobile": "grid"
+      }
+    },
+    "section_collection_7jnifn": {
+      "type": "section-collection",
+      "settings": {
+        "heading": "",
+        "description": "",
+        "layout": "inline",
+        "link_text": "",
+        "link_url": "",
+        "button_type": "btn--primary",
+        "button_size": "btn--small",
+        "button_style": "btn--text",
+        "show_arrow": false,
+        "featured_collection": "pre-spring-red-cords",
+        "style": "slider",
+        "grid": 4,
+        "rows": 3,
+        "layout_mobile": "carousel",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 50
+      }
+    },
+    "section_hero_Dnjiw4": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_TeafD9": {
+          "type": "heading",
+          "settings": {
+            "title": "Anna Necklace",
+            "heading_size": 4,
+            "mobile_heading_size": 3
+          }
+        },
+        "button_T6dGHK": {
+          "type": "button",
+          "settings": {
+            "link_text": "SHOP",
+            "link": "shopify://products/anna-necklace",
+            "button_type": "btn--white",
+            "button_size": "btn--small",
+            "button_style": "btn--text",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_TeafD9",
+        "button_T6dGHK"
+      ],
+      "settings": {
+        "height": "image-height",
+        "width": "wrapper--full-padded",
+        "image_1": "shopify://shop_images/Daphine_Anna_necklace.png",
+        "mobile_height": "image-height--mobile",
+        "flex_align": "align--bottom-left",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "bg_color": "",
+        "color": "#ffffff"
+      }
+    },
+    "section_columns_4c6BmR": {
+      "type": "section-columns",
+      "blocks": {
+        "image_HJf6ed": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Still2025-01-19001005_1.24.1copy.jpg",
+            "title": "",
+            "heading_size": 3,
+            "mobile_heading_size": 2,
+            "text": "<h6>Adele Earrings</h6>",
+            "text_size": 3,
+            "mobile_text_size": 3,
+            "button_text": "SHOP",
+            "button_url": "shopify://products/adele-earrings",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--text",
+            "show_arrow": false
+          }
+        },
+        "image_CVFxjm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Daphine_Anna_necklace_1.jpg",
+            "title": "",
+            "heading_size": 3,
+            "mobile_heading_size": 2,
+            "text": "<h6>Anna Necklace</h6>",
+            "text_size": 3,
+            "mobile_text_size": 3,
+            "button_text": "SHOP",
+            "button_url": "shopify://products/anna-necklace",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--text",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_HJf6ed",
+        "image_CVFxjm"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": 5,
+        "mobile_heading_size": 5,
+        "align_text": "text-center",
+        "align_columns": "flex-align-center",
+        "width": "wrapper",
+        "image_aspect_ratio": 1.2,
+        "mobile_image_aspect_ratio": 1.2,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "layout_mobile": "grid"
+      }
+    },
+    "section_collection_EeMcVK": {
+      "type": "section-collection",
+      "settings": {
+        "heading": "",
+        "description": "",
+        "layout": "inline",
+        "link_text": "",
+        "link_url": "",
+        "button_type": "btn--primary",
+        "button_size": "btn--small",
+        "button_style": "btn--text",
+        "show_arrow": false,
+        "featured_collection": "pre-spring-edit-2",
+        "style": "slider",
+        "grid": 2,
+        "rows": 1,
+        "layout_mobile": "carousel",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 50
+      }
+    },
+    "section_hero_b7yg8x": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_HyfbmY": {
+          "type": "heading",
+          "settings": {
+            "title": "Antoinette Earrings",
+            "heading_size": 4,
+            "mobile_heading_size": 3
+          }
+        },
+        "button_U448My": {
+          "type": "button",
+          "settings": {
+            "link_text": "Shop",
+            "link": "shopify://products/antoinette-earrings",
+            "button_type": "btn--white",
+            "button_size": "",
+            "button_style": "btn--text",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_HyfbmY",
+        "button_U448My"
+      ],
+      "settings": {
+        "height": "image-height",
+        "width": "wrapper--full-padded",
+        "image_1": "shopify://shop_images/Daphine_Antoinette_earrings_1.jpg",
+        "mobile_height": "image-height--mobile",
+        "flex_align": "align--bottom-left",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "bg_color": "",
+        "color": "#ffffff"
+      }
+    },
+    "section_collection_rEMGi6": {
+      "type": "section-collection",
+      "settings": {
+        "heading": "",
+        "description": "",
+        "layout": "inline",
+        "link_text": "",
+        "link_url": "",
+        "button_type": "btn--primary",
+        "button_size": "btn--small",
+        "button_style": "btn--text",
+        "show_arrow": false,
+        "featured_collection": "pre-spring-edit-3",
+        "style": "slider",
+        "grid": 2,
+        "rows": 1,
+        "layout_mobile": "carousel",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 70,
+        "padding_bottom": 50
+      }
+    },
+    "section_hero_DbKmeT": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_jNVQKy": {
+          "type": "heading",
+          "settings": {
+            "title": "Cora Cuff",
+            "heading_size": 4,
+            "mobile_heading_size": 3
+          }
+        },
+        "button_6GX38e": {
+          "type": "button",
+          "settings": {
+            "link_text": "Shop",
+            "link": "shopify://products/cora-cuff-silver",
+            "button_type": "btn--white",
+            "button_size": "",
+            "button_style": "btn--text",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_jNVQKy",
+        "button_6GX38e"
+      ],
+      "settings": {
+        "height": "image-height",
+        "width": "wrapper--full-padded",
+        "image_1": "shopify://shop_images/Still_2025-01-19_001005_1.30.1_copy_2.jpg",
+        "mobile_height": "image-height--mobile",
+        "flex_align": "align--bottom-left",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "bg_color": "",
+        "color": "#ffffff"
+      }
+    },
+    "section_columns_MJgHzf": {
+      "type": "section-columns",
+      "blocks": {
+        "image_i8tKcC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Still2025-01-19001005_1.18.1copy.jpg",
+            "title": "",
+            "heading_size": 3,
+            "mobile_heading_size": 2,
+            "text": "<h6>Ella Necklace</h6>",
+            "text_size": 3,
+            "mobile_text_size": 3,
+            "button_text": "SHOP",
+            "button_url": "shopify://products/ella-necklace",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--text",
+            "show_arrow": false
+          }
+        },
+        "image_GWiqb9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Still2025-01-19001005_1.31.1copy.jpg",
+            "title": "",
+            "heading_size": 3,
+            "mobile_heading_size": 2,
+            "text": "<h6>Eva Necklace</h6>",
+            "text_size": 3,
+            "mobile_text_size": 3,
+            "button_text": "SHOP",
+            "button_url": "shopify://products/eva-necklace",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--text",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_i8tKcC",
+        "image_GWiqb9"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": 5,
+        "mobile_heading_size": 5,
+        "align_text": "text-center",
+        "align_columns": "flex-align-center",
+        "width": "wrapper",
+        "image_aspect_ratio": 1.2,
+        "mobile_image_aspect_ratio": 1.2,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "layout_mobile": "grid"
+      }
+    },
+    "section_collection_iweipC": {
+      "type": "section-collection",
+      "settings": {
+        "heading": "",
+        "description": "",
+        "layout": "inline",
+        "link_text": "",
+        "link_url": "",
+        "button_type": "btn--primary",
+        "button_size": "btn--small",
+        "button_style": "btn--text",
+        "show_arrow": false,
+        "featured_collection": "pre-spring-edit-4",
+        "style": "slider",
+        "grid": 2,
+        "rows": 1,
+        "layout_mobile": "carousel",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "section_columns_jYGfCn": {
+      "type": "section-columns",
+      "blocks": {
+        "image_MRm98H": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Still_2025-01-22_171338_1.41.1_copy_2.jpg",
+            "title": "",
+            "heading_size": 3,
+            "mobile_heading_size": 2,
+            "text": "<h6>Cleo Necklace<br/>Christy Necklace</h6>",
+            "text_size": 3,
+            "mobile_text_size": 3,
+            "button_text": "SHOP",
+            "button_url": "shopify://products/christy-necklace",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--text",
+            "show_arrow": false
+          }
+        },
+        "image_mUzGmm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Daphine_Ada_necklace_1.jpg",
+            "title": "",
+            "heading_size": 3,
+            "mobile_heading_size": 2,
+            "text": "<h6>Ada Necklace</h6>",
+            "text_size": 3,
+            "mobile_text_size": 3,
+            "button_text": "SHOP",
+            "button_url": "shopify://products/cleo-necklace",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--text",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_MRm98H",
+        "image_mUzGmm"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": 5,
+        "mobile_heading_size": 5,
+        "align_text": "text-center",
+        "align_columns": "flex-align-center",
+        "width": "wrapper",
+        "image_aspect_ratio": 1.2,
+        "mobile_image_aspect_ratio": 1.2,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "layout_mobile": "grid"
+      }
+    },
+    "section_hero_9eXPpp": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_TqiNDV": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "Chris Tennis Necklace",
+            "heading_size": 4,
+            "mobile_heading_size": 3
+          }
+        },
+        "button_A8kpaN": {
+          "type": "button",
+          "settings": {
+            "link_text": "discover the collection",
+            "link": "shopify://collections/pre-spring-2025",
+            "button_type": "btn--white",
+            "button_size": "btn--small",
+            "button_style": "btn--outline",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_TqiNDV",
+        "button_A8kpaN"
+      ],
+      "disabled": true,
+      "settings": {
+        "height": "screen-height-three-quarters",
+        "width": "wrapper--full-padded",
+        "image_1": "shopify://shop_images/christy_eva_necklaces_draft.jpg",
+        "mobile_height": "screen-height-one-half--mobile",
+        "flex_align": "align--middle-center",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "bg_color": "",
+        "color": "#ffffff"
+      }
+    },
+    "section_rich_text_H68bRA": {
+      "type": "section-rich-text",
+      "blocks": {
+        "buttons_mfP4bD": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "Discover the collection",
+            "button_url": "shopify://collections/pre-spring-2025",
+            "button_type": "btn--primary",
+            "button_size": "btn--small",
+            "button_style": "btn--text",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "buttons_mfP4bD"
+      ],
+      "settings": {
+        "width": "wrapper--narrow",
+        "align_text": "text-center",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 60
+      }
+    },
+    "section_divider_TykQUB": {
+      "type": "section-divider",
+      "settings": {
+        "show_line": false,
+        "width": "wrapper",
+        "border_color": "",
+        "bg_color": "",
+        "padding_top": 50,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_hero_HPkDYN",
+    "section_rich_text_ephmEJ",
+    "section_columns_nVzeTF",
+    "section_collection_7jnifn",
+    "section_hero_Dnjiw4",
+    "section_columns_4c6BmR",
+    "section_collection_EeMcVK",
+    "section_hero_b7yg8x",
+    "section_collection_rEMGi6",
+    "section_hero_DbKmeT",
+    "section_columns_MJgHzf",
+    "section_collection_iweipC",
+    "section_columns_jYGfCn",
+    "section_hero_9eXPpp",
+    "section_rich_text_H68bRA",
+    "section_divider_TykQUB"
+  ]
+}
