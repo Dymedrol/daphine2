@@ -57,7 +57,7 @@
       "settings": {
         "height": "image-height",
         "width": "wrapper--full",
-        "image_1": "shopify://shop_images/Daphine_Cora_cuff_Ella_necklace_banner.png",
+        "image_1": "shopify://shop_images/Daphine_horoscope_coins_1.jpg",
         "mobile_height": "image-height--mobile",
         "flex_align": "align--bottom-center",
         "overlay_opacity": 20,
@@ -81,7 +81,7 @@
         "heading_BHbWAt": {
           "type": "heading",
           "settings": {
-            "title": "PRE-SPRING 2025",
+            "title": "THE CHARM BAR",
             "text_size": 5,
             "mobile_text_size": 3
           }
@@ -89,7 +89,7 @@
         "text_8JmqEC": {
           "type": "text",
           "settings": {
-            "text": "<p>The Pre-Spring 2025 collection celebrates everyday elegance through delicate design. Dainty zirconia accents and burgundy cord necklaces bring a fresh perspective to daily wear, while sculptural pieces are designed to seamlessly complement every moment. Crafted for effortless layering and timeless appeal - everyday treasures.</p>",
+            "text": "<p>A collection designed to evolve with you. </p><p>The Charm Bar embodies a simple philosophy: meaningful jewelry should reflect your individual story. Whether purchased for yourself or shared with friends, this is a collection that acknowledges personal style as something that grows and adapts over time—just like you do.</p>",
             "text_size": 3,
             "mobile_text_size": 3,
             "text_style": "font-body"
@@ -98,8 +98,8 @@
         "buttons_iiWp6r": {
           "type": "buttons",
           "settings": {
-            "button_text": "Discover the collection",
-            "button_url": "shopify://collections/pre-spring-2025",
+            "button_text": "create your necklace",
+            "button_url": "shopify://pages/constructor",
             "button_type": "btn--primary",
             "button_size": "btn--small",
             "button_style": "btn--text",
@@ -128,15 +128,15 @@
         "image_kJ4Nby": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Still2025-01-19001005_1.15.1copy.jpg",
+            "image": "shopify://shop_images/DAPHINE_CHAIN_AND_COIN.jpg",
             "title": "",
             "heading_size": 3,
             "mobile_heading_size": 2,
-            "text": "<h6>Elodie Earrings</h6>",
+            "text": "",
             "text_size": 3,
             "mobile_text_size": 3,
-            "button_text": "SHOP",
-            "button_url": "shopify://products/elodie-earrings",
+            "button_text": "",
+            "button_url": "",
             "button_type": "btn--primary",
             "button_size": "",
             "button_style": "btn--text",
@@ -146,15 +146,15 @@
         "image_grCCkd": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Still2025-01-19001005_1.34.1copy.jpg",
+            "image": "shopify://shop_images/Daphine_aries_on_forcat_chain.jpg",
             "title": "",
             "heading_size": 3,
             "mobile_heading_size": 2,
-            "text": "<h6>Cleo Necklace</h6>",
+            "text": "",
             "text_size": 3,
             "mobile_text_size": 3,
-            "button_text": "SHOP",
-            "button_url": "shopify://products/cleo-necklace",
+            "button_text": "",
+            "button_url": "",
             "button_type": "btn--primary",
             "button_size": "",
             "button_style": "btn--text",
@@ -194,7 +194,7 @@
         "button_size": "btn--small",
         "button_style": "btn--text",
         "show_arrow": false,
-        "featured_collection": "pre-spring-red-cords",
+        "featured_collection": "charm-bar-zodiac-coins",
         "style": "slider",
         "grid": 4,
         "rows": 3,
@@ -202,6 +202,43 @@
         "bg_color": "",
         "color": "",
         "padding_top": 0,
+        "padding_bottom": 50
+      }
+    },
+    "section_rich_text_U7GnyV": {
+      "type": "section-rich-text",
+      "blocks": {
+        "text_HXCBct": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Begin with your choice of chains, then start building your narrative with zodiac symbols that mark life's quiet revelations and celebrated milestones. Your collection can continue to evolve as we introduce new ways to tell your story. As your life changes, your necklace can transform too, becoming a visual timeline of your experiences.</p>",
+            "text_size": 3,
+            "mobile_text_size": 3,
+            "text_style": "font-body"
+          }
+        },
+        "buttons_NaFmfA": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "create your necklace",
+            "button_url": "shopify://pages/constructor",
+            "button_type": "btn--primary",
+            "button_size": "btn--small",
+            "button_style": "btn--text",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "text_HXCBct",
+        "buttons_NaFmfA"
+      ],
+      "settings": {
+        "width": "wrapper--narrow",
+        "align_text": "text-center",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
         "padding_bottom": 50
       }
     },
@@ -661,6 +698,7 @@
     "section_rich_text_ephmEJ",
     "section_columns_nVzeTF",
     "section_collection_7jnifn",
+    "section_rich_text_U7GnyV",
     "section_hero_Dnjiw4",
     "section_columns_4c6BmR",
     "section_collection_EeMcVK",
