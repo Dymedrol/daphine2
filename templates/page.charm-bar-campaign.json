@@ -247,6 +247,7 @@
       "blocks": {
         "heading_TeafD9": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "title": "Anna Necklace",
             "heading_size": 4,
@@ -255,6 +256,7 @@
         },
         "button_T6dGHK": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "link_text": "SHOP",
             "link": "shopify://products/anna-necklace",
@@ -272,7 +274,7 @@
       "settings": {
         "height": "image-height",
         "width": "wrapper--full-padded",
-        "image_1": "shopify://shop_images/Daphine_Anna_necklace.png",
+        "image_1": "shopify://shop_images/forcat-chain-with-zodiac-coin.jpg",
         "mobile_height": "image-height--mobile",
         "flex_align": "align--bottom-left",
         "overlay_opacity": 0,
