@@ -266,17 +266,6 @@
         "padding_bottom": 50
       }
     },
-    "section_divider_9VbTRD": {
-      "type": "section-divider",
-      "settings": {
-        "show_line": true,
-        "width": "wrapper",
-        "border_color": "",
-        "bg_color": "",
-        "padding_top": 50,
-        "padding_bottom": 50
-      }
-    },
     "section_hero_DbKmeT": {
       "type": "section-hero",
       "blocks": {
@@ -317,6 +306,17 @@
         "show_overlay_text": false,
         "bg_color": "",
         "color": "#ffffff"
+      }
+    },
+    "section_divider_9VbTRD": {
+      "type": "section-divider",
+      "settings": {
+        "show_line": true,
+        "width": "wrapper",
+        "border_color": "",
+        "bg_color": "",
+        "padding_top": 50,
+        "padding_bottom": 0
       }
     },
     "section_hero_Dnjiw4": {
