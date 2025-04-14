@@ -243,6 +243,29 @@
         "padding_bottom": 50
       }
     },
+    "section_collection_EeMcVK": {
+      "type": "section-collection",
+      "settings": {
+        "heading": "",
+        "description": "",
+        "layout": "inline",
+        "link_text": "",
+        "link_url": "",
+        "button_type": "btn--primary",
+        "button_size": "btn--small",
+        "button_style": "btn--text",
+        "show_arrow": false,
+        "featured_collection": "chains-charm-bar",
+        "style": "slider",
+        "grid": 2,
+        "rows": 1,
+        "layout_mobile": "carousel",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 50
+      }
+    },
     "section_hero_Dnjiw4": {
       "type": "section-hero",
       "blocks": {
@@ -347,7 +370,7 @@
         "layout_mobile": "grid"
       }
     },
-    "section_collection_EeMcVK": {
+    "section_collection_rEMGi6": {
       "type": "section-collection",
       "settings": {
         "heading": "",
@@ -359,14 +382,14 @@
         "button_size": "btn--small",
         "button_style": "btn--text",
         "show_arrow": false,
-        "featured_collection": "chains-charm-bar",
+        "featured_collection": "zodiac-coins",
         "style": "slider",
         "grid": 2,
         "rows": 1,
         "layout_mobile": "carousel",
         "bg_color": "",
         "color": "",
-        "padding_top": 0,
+        "padding_top": 70,
         "padding_bottom": 50
       }
     },
@@ -409,29 +432,6 @@
         "show_overlay_text": false,
         "bg_color": "",
         "color": "#ffffff"
-      }
-    },
-    "section_collection_rEMGi6": {
-      "type": "section-collection",
-      "settings": {
-        "heading": "",
-        "description": "",
-        "layout": "inline",
-        "link_text": "",
-        "link_url": "",
-        "button_type": "btn--primary",
-        "button_size": "btn--small",
-        "button_style": "btn--text",
-        "show_arrow": false,
-        "featured_collection": "zodiac-coins",
-        "style": "slider",
-        "grid": 2,
-        "rows": 1,
-        "layout_mobile": "carousel",
-        "bg_color": "",
-        "color": "",
-        "padding_top": 70,
-        "padding_bottom": 50
       }
     },
     "section_hero_DbKmeT": {
@@ -669,8 +669,8 @@
         "buttons_mfP4bD": {
           "type": "buttons",
           "settings": {
-            "button_text": "Discover the collection",
-            "button_url": "shopify://collections/pre-spring-2025",
+            "button_text": "PERSONALISE YOUR NECKLACE",
+            "button_url": "shopify://pages/constructor",
             "button_type": "btn--primary",
             "button_size": "btn--small",
             "button_style": "btn--text",
