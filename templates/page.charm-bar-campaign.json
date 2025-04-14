@@ -315,15 +315,15 @@
         "image_HJf6ed": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Still2025-01-19001005_1.24.1copy.jpg",
+            "image": "shopify://shop_images/double-vnitage-chain-and-zodiac-coin.jpg",
             "title": "",
             "heading_size": 3,
             "mobile_heading_size": 2,
-            "text": "<h6>Adele Earrings</h6>",
+            "text": "",
             "text_size": 3,
             "mobile_text_size": 3,
-            "button_text": "SHOP",
-            "button_url": "shopify://products/adele-earrings",
+            "button_text": "",
+            "button_url": "",
             "button_type": "btn--primary",
             "button_size": "",
             "button_style": "btn--text",
@@ -333,15 +333,15 @@
         "image_CVFxjm": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Daphine_Anna_necklace_1.jpg",
+            "image": "shopify://shop_images/Double-vintage-chain-and-zodiac-coin-bw.jpg",
             "title": "",
             "heading_size": 3,
             "mobile_heading_size": 2,
-            "text": "<h6>Anna Necklace</h6>",
+            "text": "",
             "text_size": 3,
             "mobile_text_size": 3,
-            "button_text": "SHOP",
-            "button_url": "shopify://products/anna-necklace",
+            "button_text": "",
+            "button_url": "",
             "button_type": "btn--primary",
             "button_size": "",
             "button_style": "btn--text",
@@ -353,7 +353,6 @@
         "image_HJf6ed",
         "image_CVFxjm"
       ],
-      "disabled": true,
       "settings": {
         "title": "",
         "heading_size": 5,
@@ -407,7 +406,7 @@
         "button_U448My": {
           "type": "button",
           "settings": {
-            "link_text": "sign up",
+            "link_text": "sign up for early access",
             "link": "shopify://pages/newsletter-sign-up",
             "button_type": "btn--white",
             "button_size": "",
