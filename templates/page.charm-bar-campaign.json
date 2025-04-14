@@ -312,24 +312,6 @@
     "section_columns_4c6BmR": {
       "type": "section-columns",
       "blocks": {
-        "image_HJf6ed": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/double-vnitage-chain-and-zodiac-coin.jpg",
-            "title": "",
-            "heading_size": 3,
-            "mobile_heading_size": 2,
-            "text": "",
-            "text_size": 3,
-            "mobile_text_size": 3,
-            "button_text": "",
-            "button_url": "",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--text",
-            "show_arrow": false
-          }
-        },
         "image_CVFxjm": {
           "type": "image",
           "settings": {
@@ -347,11 +329,29 @@
             "button_style": "btn--text",
             "show_arrow": false
           }
+        },
+        "image_HJf6ed": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/double-vnitage-chain-and-zodiac-coin.jpg",
+            "title": "",
+            "heading_size": 3,
+            "mobile_heading_size": 2,
+            "text": "",
+            "text_size": 3,
+            "mobile_text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--text",
+            "show_arrow": false
+          }
         }
       },
       "block_order": [
-        "image_HJf6ed",
-        "image_CVFxjm"
+        "image_CVFxjm",
+        "image_HJf6ed"
       ],
       "settings": {
         "title": "",
