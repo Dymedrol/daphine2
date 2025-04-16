@@ -87,6 +87,22 @@
             "mobile_text_size": 3
           }
         },
+        "heading_474RU9": {
+          "type": "heading",
+          "settings": {
+            "title": "Chapter One",
+            "text_size": 3,
+            "mobile_text_size": 3
+          }
+        },
+        "subheading_3P3GBn": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Chapter One",
+            "text_size": 3,
+            "mobile_text_size": 3
+          }
+        },
         "text_8JmqEC": {
           "type": "text",
           "settings": {
@@ -111,6 +127,8 @@
       "block_order": [
         "subheading_aGcWh6",
         "heading_BHbWAt",
+        "heading_474RU9",
+        "subheading_3P3GBn",
         "text_8JmqEC",
         "buttons_iiWp6r"
       ],
