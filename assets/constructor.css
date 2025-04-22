@@ -37,6 +37,14 @@
     display: none;
 }
 
+#daphine-jewellery-charm-bar .main-content {
+    display: flex;
+}
+
+#daphine-jewellery-charm-bar .footer-sections {
+    display: none;
+}
+
 .constructor-section {
     flex-grow: 1;
 }
