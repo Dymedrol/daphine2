@@ -90,13 +90,22 @@
         "heading_474RU9": {
           "type": "heading",
           "settings": {
-            "title": "Chapter One",
+            "title": "Chapter One | Zodiac",
             "text_size": 3,
             "mobile_text_size": 3
           }
         },
+        "divider_CiqyDt": {
+          "type": "divider",
+          "settings": {
+            "show_line": true,
+            "padding_top": 20,
+            "padding_bottom": 0
+          }
+        },
         "subheading_3P3GBn": {
           "type": "subheading",
+          "disabled": true,
           "settings": {
             "subheading": "Chapter One",
             "text_size": 3,
@@ -128,6 +137,7 @@
         "subheading_aGcWh6",
         "heading_BHbWAt",
         "heading_474RU9",
+        "divider_CiqyDt",
         "subheading_3P3GBn",
         "text_8JmqEC",
         "buttons_iiWp6r"
