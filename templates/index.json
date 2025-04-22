@@ -142,7 +142,7 @@
           "type": "button",
           "settings": {
             "link_text": "DISCOVER NEW IN",
-            "link": "shopify://pages/charm-bar",
+            "link": "shopify://pages/about-charm-bar",
             "button_type": "btn--white",
             "button_size": "btn--small",
             "button_style": "btn--text",
