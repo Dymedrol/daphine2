@@ -261,29 +261,6 @@
         "padding_bottom": 50
       }
     },
-    "section_collection_EeMcVK": {
-      "type": "section-collection",
-      "settings": {
-        "heading": "",
-        "description": "",
-        "layout": "inline",
-        "link_text": "",
-        "link_url": "",
-        "button_type": "btn--primary",
-        "button_size": "btn--small",
-        "button_style": "btn--text",
-        "show_arrow": false,
-        "featured_collection": "chains-charm-bar",
-        "style": "slider",
-        "grid": 2,
-        "rows": 1,
-        "layout_mobile": "carousel",
-        "bg_color": "",
-        "color": "",
-        "padding_top": 0,
-        "padding_bottom": 50
-      }
-    },
     "section_hero_DbKmeT": {
       "type": "section-hero",
       "blocks": {
@@ -326,8 +303,32 @@
         "color": "#ffffff"
       }
     },
+    "section_collection_EeMcVK": {
+      "type": "section-collection",
+      "settings": {
+        "heading": "",
+        "description": "",
+        "layout": "inline",
+        "link_text": "",
+        "link_url": "",
+        "button_type": "btn--primary",
+        "button_size": "btn--small",
+        "button_style": "btn--text",
+        "show_arrow": false,
+        "featured_collection": "chains-charm-bar",
+        "style": "slider",
+        "grid": 2,
+        "rows": 1,
+        "layout_mobile": "carousel",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
     "section_divider_9VbTRD": {
       "type": "section-divider",
+      "disabled": true,
       "settings": {
         "show_line": true,
         "width": "wrapper",
@@ -459,7 +460,7 @@
         "layout_mobile": "carousel",
         "bg_color": "",
         "color": "",
-        "padding_top": 70,
+        "padding_top": 0,
         "padding_bottom": 50
       }
     },
@@ -738,8 +739,8 @@
     "section_columns_nVzeTF",
     "section_collection_7jnifn",
     "section_rich_text_U7GnyV",
-    "section_collection_EeMcVK",
     "section_hero_DbKmeT",
+    "section_collection_EeMcVK",
     "section_divider_9VbTRD",
     "section_hero_Dnjiw4",
     "section_columns_4c6BmR",
