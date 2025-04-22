@@ -116,7 +116,7 @@
           "type": "buttons",
           "settings": {
             "button_text": "create your necklace",
-            "button_url": "shopify://pages/constructor",
+            "button_url": "shopify://pages/daphine-charm-bar",
             "button_type": "btn--primary",
             "button_size": "btn--small",
             "button_style": "btn--text",
@@ -240,7 +240,7 @@
           "type": "buttons",
           "settings": {
             "button_text": "create your necklace",
-            "button_url": "shopify://pages/constructor",
+            "button_url": "shopify://pages/daphine-charm-bar",
             "button_type": "btn--primary",
             "button_size": "btn--small",
             "button_style": "btn--text",
@@ -699,7 +699,7 @@
           "type": "buttons",
           "settings": {
             "button_text": "PERSONALISE YOUR NECKLACE",
-            "button_url": "shopify://pages/constructor",
+            "button_url": "shopify://pages/daphine-charm-bar",
             "button_type": "btn--primary",
             "button_size": "btn--small",
             "button_style": "btn--text",
