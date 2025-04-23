@@ -31,10 +31,24 @@
       "type": "constructor",
       "settings": {
         "chains": [
-          "double-link-chain"
+          "rope-cord",
+          "double-link-chain",
+          "forcat-chain",
+          "paperclip-chain"
         ],
         "charms": [
-          "aries-zodiac-coin"
+          "aries-zodiac-coin",
+          "taurus-zodiac-coin",
+          "gemini-zodiac-coin",
+          "cancer-zodiac-coin",
+          "leo-zodiac-coin",
+          "virgo-zodiac-coin",
+          "libra-zodiac-coin",
+          "scorpio-zodiac-coin",
+          "sagittarius-zodiac-coin",
+          "capricorn-zodiac-coin",
+          "aquarius-zodiac-coin",
+          "pisces-zodiac-coin"
         ]
       }
     }
