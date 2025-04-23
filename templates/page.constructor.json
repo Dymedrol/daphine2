@@ -31,9 +31,7 @@
       "type": "constructor",
       "settings": {
         "chains": [
-          "ada-necklace",
-          "agathe-necklace-gold",
-          "agathe-necklace-silver"
+          "double-link-chain"
         ],
         "charms": [
           "clara-hoops",
