@@ -30,11 +30,12 @@
     "constructor_NCddkB": {
       "type": "constructor",
       "settings": {
+        "constructor_title": "Customize your jewel",
         "chains": [
-          "rope-cord",
-          "double-link-chain",
           "forcat-chain",
-          "paperclip-chain"
+          "double-link-chain",
+          "paperclip-chain",
+          "rope-cord"
         ],
         "charms": [
           "aries-zodiac-coin",
