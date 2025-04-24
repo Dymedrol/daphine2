@@ -81,6 +81,7 @@
         },
         "heading_BHbWAt": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "title": "THE CHARM BAR",
             "text_size": 5,
@@ -90,7 +91,15 @@
         "heading_474RU9": {
           "type": "heading",
           "settings": {
-            "title": "Chapter One | Zodiac",
+            "title": "ZODIAC COINS",
+            "text_size": 5,
+            "mobile_text_size": 3
+          }
+        },
+        "heading_fGinXp": {
+          "type": "heading",
+          "settings": {
+            "title": "Chapter One",
             "text_size": 3,
             "mobile_text_size": 3
           }
@@ -115,6 +124,16 @@
         "text_8JmqEC": {
           "type": "text",
           "settings": {
+            "text": "<p>A collection designed to evolve with you. </p><p>Meaningful jewellery should reflect your individual story. Whether purchased for yourself or shared with friends, this is a collection that acknowledges personal style as something that grows and adapts over time—just like you do.</p>",
+            "text_size": 3,
+            "mobile_text_size": 3,
+            "text_style": "font-body"
+          }
+        },
+        "text_cV7mtT": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
             "text": "<p>A collection designed to evolve with you. </p><p>The Charm Bar embodies a simple philosophy: meaningful jewellery should reflect your individual story. Whether purchased for yourself or shared with friends, this is a collection that acknowledges personal style as something that grows and adapts over time—just like you do.</p>",
             "text_size": 3,
             "mobile_text_size": 3,
@@ -125,7 +144,7 @@
           "type": "buttons",
           "settings": {
             "button_text": "create your necklace",
-            "button_url": "shopify://pages/daphine-charm-bar",
+            "button_url": "shopify://products/aries-zodiac-coin",
             "button_type": "btn--primary",
             "button_size": "btn--small",
             "button_style": "btn--text",
@@ -137,9 +156,11 @@
         "subheading_aGcWh6",
         "heading_BHbWAt",
         "heading_474RU9",
+        "heading_fGinXp",
         "divider_CiqyDt",
         "subheading_3P3GBn",
         "text_8JmqEC",
+        "text_cV7mtT",
         "buttons_iiWp6r"
       ],
       "settings": {
@@ -213,6 +234,7 @@
     },
     "section_collection_7jnifn": {
       "type": "section-collection",
+      "disabled": true,
       "settings": {
         "heading": "",
         "description": "",
@@ -240,7 +262,7 @@
         "text_HXCBct": {
           "type": "text",
           "settings": {
-            "text": "<p>Begin with your choice of chains, then start building your narrative with zodiac symbols that mark life's quiet revelations and celebrated milestones. Your collection can continue to evolve as we introduce new ways to tell your story. As your life changes, your necklace can transform too, becoming a visual timeline of your experiences.</p>",
+            "text": "<p>Begin with your choice of chains, then start building your narrative with zodiac symbols–inspired by vintage coins–that mark life's quiet revelations and celebrated milestones. Your collection can continue to evolve as we introduce new ways to tell your story. As your life changes, your necklace can transform too, becoming a visual timeline of your experiences.</p>",
             "text_size": 3,
             "mobile_text_size": 3,
             "text_style": "font-body"
@@ -250,7 +272,7 @@
           "type": "buttons",
           "settings": {
             "button_text": "create your necklace",
-            "button_url": "shopify://pages/daphine-charm-bar",
+            "button_url": "shopify://products/aries-zodiac-coin",
             "button_type": "btn--primary",
             "button_size": "btn--small",
             "button_style": "btn--text",
@@ -267,7 +289,7 @@
         "align_text": "text-center",
         "bg_color": "",
         "color": "",
-        "padding_top": 50,
+        "padding_top": 0,
         "padding_bottom": 50
       }
     },
@@ -332,7 +354,7 @@
         "layout_mobile": "carousel",
         "bg_color": "",
         "color": "",
-        "padding_top": 50,
+        "padding_top": 70,
         "padding_bottom": 50
       }
     },
@@ -453,6 +475,7 @@
     },
     "section_collection_rEMGi6": {
       "type": "section-collection",
+      "disabled": true,
       "settings": {
         "heading": "",
         "description": "",
