@@ -322,6 +322,7 @@
         "heading_jNVQKy",
         "button_6GX38e"
       ],
+      "disabled": true,
       "settings": {
         "height": "image-height",
         "width": "wrapper--full-padded",
@@ -354,7 +355,7 @@
         "layout_mobile": "carousel",
         "bg_color": "",
         "color": "",
-        "padding_top": 70,
+        "padding_top": 20,
         "padding_bottom": 50
       }
     },
@@ -468,7 +469,7 @@
         "mobile_image_aspect_ratio": 1.2,
         "bg_color": "",
         "color": "",
-        "padding_top": 50,
+        "padding_top": 70,
         "padding_bottom": 50,
         "layout_mobile": "grid"
       }
@@ -744,6 +745,7 @@
       "block_order": [
         "buttons_mfP4bD"
       ],
+      "disabled": true,
       "settings": {
         "width": "wrapper--narrow",
         "align_text": "text-center",
