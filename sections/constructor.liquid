@@ -15,7 +15,7 @@
     </div>
     <div class="constructor-col constructor-start">
       <div class="constructor-start-subtitle">Chain & charms</div>
-      <div class="constructor-start-title">Customize your jewel</div>
+      <div class="constructor-start-title">{{ section.settings.constructor_title }}</div>
       <button class="constructor-start-button" id="start-button">Start</button>
     </div>
   </div>
@@ -163,6 +163,12 @@
   "name": "Constructor",
   "class": "constructor-section",
   "settings": [
+    {
+      "type": "text",
+      "id": "constructor_title",
+      "label": "Title",
+      "default": "Customize your jewel"
+    }
     {
       "type": "product_list",
       "id": "chains",
