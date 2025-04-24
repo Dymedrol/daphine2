@@ -90,13 +90,22 @@
         "heading_474RU9": {
           "type": "heading",
           "settings": {
-            "title": "Chapter One",
+            "title": "Chapter One | Zodiac",
             "text_size": 3,
             "mobile_text_size": 3
           }
         },
+        "divider_CiqyDt": {
+          "type": "divider",
+          "settings": {
+            "show_line": true,
+            "padding_top": 20,
+            "padding_bottom": 0
+          }
+        },
         "subheading_3P3GBn": {
           "type": "subheading",
+          "disabled": true,
           "settings": {
             "subheading": "Chapter One",
             "text_size": 3,
@@ -128,6 +137,7 @@
         "subheading_aGcWh6",
         "heading_BHbWAt",
         "heading_474RU9",
+        "divider_CiqyDt",
         "subheading_3P3GBn",
         "text_8JmqEC",
         "buttons_iiWp6r"
@@ -147,7 +157,7 @@
         "image_kJ4Nby": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/DAPHINE_CHAIN_AND_COIN.jpg",
+            "image": "shopify://shop_images/DAPHINE_CHAIN_AND_AQUARIUS_ZODIAC_COIN.jpg",
             "title": "",
             "heading_size": 3,
             "mobile_heading_size": 2,
@@ -261,29 +271,6 @@
         "padding_bottom": 50
       }
     },
-    "section_collection_EeMcVK": {
-      "type": "section-collection",
-      "settings": {
-        "heading": "",
-        "description": "",
-        "layout": "inline",
-        "link_text": "",
-        "link_url": "",
-        "button_type": "btn--primary",
-        "button_size": "btn--small",
-        "button_style": "btn--text",
-        "show_arrow": false,
-        "featured_collection": "chains-charm-bar",
-        "style": "slider",
-        "grid": 2,
-        "rows": 1,
-        "layout_mobile": "carousel",
-        "bg_color": "",
-        "color": "",
-        "padding_top": 0,
-        "padding_bottom": 50
-      }
-    },
     "section_hero_DbKmeT": {
       "type": "section-hero",
       "blocks": {
@@ -326,8 +313,32 @@
         "color": "#ffffff"
       }
     },
+    "section_collection_EeMcVK": {
+      "type": "section-collection",
+      "settings": {
+        "heading": "",
+        "description": "",
+        "layout": "inline",
+        "link_text": "",
+        "link_url": "",
+        "button_type": "btn--primary",
+        "button_size": "btn--small",
+        "button_style": "btn--text",
+        "show_arrow": false,
+        "featured_collection": "chains-charm-bar",
+        "style": "slider",
+        "grid": 4,
+        "rows": 1,
+        "layout_mobile": "carousel",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
     "section_divider_9VbTRD": {
       "type": "section-divider",
+      "disabled": true,
       "settings": {
         "show_line": true,
         "width": "wrapper",
@@ -404,7 +415,7 @@
         "image_HJf6ed": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/double-vnitage-chain-and-zodiac-coin.jpg",
+            "image": "shopify://shop_images/double-vnitage-chain-and-gemini-zodiac-coin.jpg",
             "title": "",
             "heading_size": 3,
             "mobile_heading_size": 2,
@@ -453,13 +464,13 @@
         "button_style": "btn--text",
         "show_arrow": false,
         "featured_collection": "zodiac-coins",
-        "style": "slider",
-        "grid": 2,
-        "rows": 1,
+        "style": "grid",
+        "grid": 4,
+        "rows": 3,
         "layout_mobile": "carousel",
         "bg_color": "",
         "color": "",
-        "padding_top": 70,
+        "padding_top": 0,
         "padding_bottom": 50
       }
     },
@@ -738,8 +749,8 @@
     "section_columns_nVzeTF",
     "section_collection_7jnifn",
     "section_rich_text_U7GnyV",
-    "section_collection_EeMcVK",
     "section_hero_DbKmeT",
+    "section_collection_EeMcVK",
     "section_divider_9VbTRD",
     "section_hero_Dnjiw4",
     "section_columns_4c6BmR",

@@ -31,15 +31,24 @@
       "type": "constructor",
       "settings": {
         "chains": [
-          "ada-necklace",
-          "agathe-necklace-gold",
-          "agathe-necklace-silver"
+          "rope-cord",
+          "double-link-chain",
+          "forcat-chain",
+          "paperclip-chain"
         ],
         "charms": [
-          "clara-hoops",
-          "clara-hoops-silver",
-          "cosmos-large-hoops",
-          "dale-necklace"
+          "aries-zodiac-coin",
+          "taurus-zodiac-coin",
+          "gemini-zodiac-coin",
+          "cancer-zodiac-coin",
+          "leo-zodiac-coin",
+          "virgo-zodiac-coin",
+          "libra-zodiac-coin",
+          "scorpio-zodiac-coin",
+          "sagittarius-zodiac-coin",
+          "capricorn-zodiac-coin",
+          "aquarius-zodiac-coin",
+          "pisces-zodiac-coin"
         ]
       }
     }
