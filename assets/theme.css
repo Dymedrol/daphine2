@@ -22606,3 +22606,13 @@ padding-left: 15px;
 .new-product-slider__slide__photo img {
   object-fit: contain !important;
 }
+
+
+/*for PDP side bar*/
+.product-upsell__content {
+    max-width:    180px !important;
+    padding: 15px 0 0 0 !important;
+}
+.product-upsell {
+  display: block !important;
+}
