@@ -22620,7 +22620,7 @@ quick-add-product, .product__complementary quick-add-product + quick-add-product
 .complementary-products {
   display: grid !important;
   grid-template-columns: 1fr 1fr !important;
-  gap: 40px !important;
+  gap: 30px !important;
   max-width: 400px;
 }
 
