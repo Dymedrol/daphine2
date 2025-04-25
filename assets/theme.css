@@ -22621,35 +22621,36 @@ padding-left: 15px;
 margin-top: 16px !important;
 }
 
-/* Two-column layout for both desktop and mobile */
+/* Two-column layout for both desktop and mobile with bigger spacing on mobile */
 @media screen and (min-width: 320px) {
   /* Create a container for the products */
   complementary-products.complementary-products {
     display: flex !important;
     flex-wrap: wrap !important;
     align-items: flex-start;
-    margin: 0 -5px !important; /* Negative margin to offset padding */
+    margin: 0 -8px !important; /* Larger negative margin for mobile */
+    justify-content: space-between !important; /* Add space between columns */
   }
   
   /* Make the title take full width */
   complementary-products.complementary-products > p.complementary-products__title {
     width: 100% !important;
-    padding: 0 5px !important;
+    padding: 0 8px !important;
   }
   
-  /* Make each product card take 50% width */
+  /* Make each product card take less than 50% width to create bigger gap */
   complementary-products.complementary-products > quick-add-product {
-    width: 50% !important;
+    width: 48% !important; /* Slightly less than 50% to create spacing */
     box-sizing: border-box !important;
-    padding: 0 5px !important; /* Use same padding for all cards */
-    margin-bottom: 15px !important;
+    padding: 0 8px !important; /* Larger padding for mobile */
+    margin-bottom: 20px !important;
   }
 }
 
 /* Desktop specific adjustments */
 @media screen and (min-width: 768px) {
   complementary-products.complementary-products {
-    margin: 0 -10px !important; /* Larger negative margin for desktop */
+    margin: 0 -10px !important;
   }
   
   complementary-products.complementary-products > p.complementary-products__title {
@@ -22657,22 +22658,19 @@ margin-top: 16px !important;
   }
   
   complementary-products.complementary-products > quick-add-product {
-    padding: 0 10px !important; /* Larger padding for desktop */
-    margin-bottom: 20px !important; /* Larger margin for desktop */
+    width: 50% !important; /* Back to 50% for desktop */
+    padding: 0 10px !important;
+    margin-bottom: 20px !important;
   }
 }
 
-/* Small phone adjustments if needed */
+/* Small phone adjustments for even more spacing if needed */
 @media screen and (max-width: 375px) {
-  /* If you need any specific adjustments for very small screens */
   complementary-products.complementary-products > quick-add-product {
-    padding: 0 3px !important; /* Smaller padding for tiny screens */
-  }
-  
-  complementary-products.complementary-products {
-    margin: 0 -3px !important;
+    width: 46% !important; /* Even smaller width for more spacing on tiny screens */
   }
 }
+
 
 
 
