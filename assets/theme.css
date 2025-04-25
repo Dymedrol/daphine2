@@ -22627,7 +22627,7 @@ quick-add-product, .product__complementary quick-add-product + quick-add-product
   grid-column: 1 / -1 !important;
 }
 
-.product-upsell {
+.product-upsell, .product-upsell__image {
   max-width: 180px !important;
   min-width: 120px !important;
   width:      100% !important;
