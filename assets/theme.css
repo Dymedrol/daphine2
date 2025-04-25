@@ -22614,69 +22614,39 @@ padding-left: 15px;
 /*new add on pdp*/
 
 
-/* For PDP sidebar */
-.form__width .product-upsell {
-  display: block !important;
-}
-
-.product__complementary .quick-add-product {
-  margin-top: 16px !important;
-}
-
-/* Two-column layout for complementary products with consistent spacing */
+/* Two-column layout for complementary products */
 .complementary-products {
-  display: flex !important;
-  flex-wrap: wrap !important;
-  align-items: flex-start !important;
-  margin: 0 -10px !important; /* Negative margin to offset padding */
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -10px; /* Adjust for horizontal padding */
 }
 
 .complementary-products > p.complementary-products__title {
-  width: 100% !important;
-  padding: 0 10px !important;
-  margin-bottom: 20px !important;
-  box-sizing: border-box !important;
+  width: 100%;
+  padding: 0 10px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
 }
 
-.complementary-products > .quick-add-product {
-  width: calc(50% - 20px) !important; /* Adjusted for padding */
-  box-sizing: border-box !important;
-  padding: 0 10px !important;
-  margin-bottom: 20px !important;
-}
-
-/* Adjust padding for even and odd cards on desktop */
-@media screen and (min-width: 768px) {
-  .complementary-products > .quick-add-product:nth-child(even) {
-    padding-left: 10px !important;
-    padding-right: 0 !important;
-  }
-  .complementary-products > .quick-add-product:nth-child(odd) {
-    padding-left: 0 !important;
-    padding-right: 10px !important;
-  }
-  .form__width .product-upsell__content {
-    max-width: 180px !important;
-    padding: 15px 0 0 0 !important;
-  }
+.complementary-products > quick-add-product {
+  width: calc(50% - 20px); /* Two columns with space for padding */
+  padding: 0 10px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
 }
 
 /* Mobile-specific adjustments */
 @media screen and (max-width: 767px) {
-  .form__width .product-upsell__content {
-    max-width: 160px !important;
-    padding: 15px 0 0 0 !important;
-  }
   .complementary-products {
-    display: flex !important;
-    flex-wrap: wrap !important;
-    justify-content: center !important;
-    margin: 0 -7.5px !important; /* Negative margin to offset child margins */
+    justify-content: center; /* Center items if narrower than container */
+    margin: 0; /* Remove side margins on mobile */
   }
-  .complementary-products > .quick-add-product {
-    width: calc(50% - 15px) !important; /* Adjusted for 15px total spacing */
-    max-width: 150px !important; /* Ensure cards are not wider than 150px */
-    margin: 0 7.5px 20px !important; /* Horizontal margins of 7.5px */
-    box-sizing: border-box !important;
+
+  .complementary-products > quick-add-product {
+    width: calc(50% - 15px); /* Two columns with 15px total spacing */
+    max-width: 150px; /* Ensure cards are not wider than 150px */
+    padding: 0;
+    margin: 0 7.5px 20px; /* 7.5px margin on each side for 15px gap */
+    box-sizing: border-box;
   }
 }
