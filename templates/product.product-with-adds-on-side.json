@@ -97,6 +97,13 @@
             "padding_bottom": 20
           }
         },
+        "complementary_products_bherm6": {
+          "type": "complementary-products",
+          "settings": {
+            "bg_color": "",
+            "padding_bottom": 16
+          }
+        },
         "tabs": {
           "type": "tab_richtext",
           "settings": {
@@ -264,6 +271,7 @@
         "text_Whz3dC",
         "siblings_VPthXh",
         "514a386f-5539-4dea-ac18-97ee59d12052",
+        "complementary_products_bherm6",
         "tabs",
         "upsell",
         "text_9PFz7U",
