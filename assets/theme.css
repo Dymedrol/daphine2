@@ -22621,39 +22621,58 @@ padding-left: 15px;
 margin-top: 16px !important;
 }
 
-/* Two-column layout for complementary products on desktop */
-
+/* Two-column layout for both desktop and mobile */
+@media screen and (min-width: 320px) {
   /* Create a container for the products */
   complementary-products.complementary-products {
     display: flex !important;
     flex-wrap: wrap !important;
     align-items: flex-start;
+    margin: 0 -5px !important; /* Negative margin to offset padding */
   }
   
   /* Make the title take full width */
   complementary-products.complementary-products > p.complementary-products__title {
     width: 100% !important;
+    padding: 0 5px !important;
   }
   
   /* Make each product card take 50% width */
   complementary-products.complementary-products > quick-add-product {
-    width: 40% !important;
+    width: 50% !important;
     box-sizing: border-box !important;
-    padding-right: 10px !important;
+    padding: 0 5px !important; /* Use same padding for all cards */
+    margin-bottom: 15px !important;
+  }
+}
+
+/* Desktop specific adjustments */
+@media screen and (min-width: 768px) {
+  complementary-products.complementary-products {
+    margin: 0 -10px !important; /* Larger negative margin for desktop */
   }
   
-  /* Remove right padding from every even card */
-  complementary-products.complementary-products > quick-add-product:nth-child(even) {
-    padding-right: 0 !important;
-    padding-left: 10px !important;
+  complementary-products.complementary-products > p.complementary-products__title {
+    padding: 0 10px !important;
   }
   
-  /* Optional: Add bottom margin to create space between rows */
   complementary-products.complementary-products > quick-add-product {
-    margin-bottom: 20px !important;
+    padding: 0 10px !important; /* Larger padding for desktop */
+    margin-bottom: 20px !important; /* Larger margin for desktop */
   }
+}
 
-
+/* Small phone adjustments if needed */
+@media screen and (max-width: 375px) {
+  /* If you need any specific adjustments for very small screens */
+  complementary-products.complementary-products > quick-add-product {
+    padding: 0 3px !important; /* Smaller padding for tiny screens */
+  }
+  
+  complementary-products.complementary-products {
+    margin: 0 -3px !important;
+  }
+}
 
 
 
