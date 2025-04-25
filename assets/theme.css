@@ -22616,3 +22616,38 @@ padding-left: 15px;
 .product-upsell {
   display: block !important;
 }
+/* Two-column layout for complementary products on desktop */
+@media screen and (min-width: 768px) {
+  .complementary-products {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .complementary-products__title {
+    width: 100%; /* Make title take full width */
+  }
+  
+  .complementary-products quick-add-product {
+    width: 50%; /* Make each product card take 50% width */
+    padding: 0 10px; /* Add some spacing between columns */
+    box-sizing: border-box;
+  }
+  
+  /* Optional: To ensure proper alignment of product content */
+  .product-upsell {
+    height: 100%; /* Makes all cards the same height */
+  }
+  
+  /* Optional: Add some margin-bottom to each row */
+  .complementary-products quick-add-product:nth-child(2n+1),
+  .complementary-products quick-add-product:nth-child(2n) {
+    margin-bottom: 20px;
+  }
+}
+
+/* Keep single column layout for mobile */
+@media screen and (max-width: 767px) {
+  .complementary-products quick-add-product {
+    width: 100%;
+  }
+}
