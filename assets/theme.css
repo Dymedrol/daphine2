@@ -22628,7 +22628,7 @@ complementary-products {
   display: flex !important;
   flex-wrap: wrap !important;
   align-items: flex-start !important;
-  margin: 0 -10px !important;
+  margin: 0 -10px !important; /* Negative margin to offset padding */
 }
 
 complementary-products > p.complementary-products__title {
@@ -22639,7 +22639,7 @@ complementary-products > p.complementary-products__title {
 }
 
 complementary-products > quick-add-product {
-  width: calc(50% - 20px) !important;
+  width: calc(50% - 20px) !important; /* Adjusted for padding */
   box-sizing: border-box !important;
   padding: 0 10px !important;
   margin-bottom: 20px !important;
@@ -22668,20 +22668,13 @@ complementary-products > quick-add-product {
     padding: 15px 0 0 0 !important;
   }
   complementary-products {
-    margin: 0 -7.5px !important;
+    display: flex !important;
+    flex-wrap: wrap !important;
+    margin: 0 -7.5px !important; /* Negative margin to offset child margins */
   }
   complementary-products > quick-add-product {
-    width: 50% !important;
-    padding: 0 7.5px !important;
-    margin-bottom: 20px !important;
+    width: calc(50% - 15px) !important; /* Adjusted for 15px total spacing */
+    margin: 0 7.5px 20px !important; /* Horizontal margins of 7.5px */
     box-sizing: border-box !important;
-  }
-  complementary-products > quick-add-product:nth-child(even) {
-    padding-left: 7.5px !important;
-    padding-right: 0 !important;
-  }
-  complementary-products > quick-add-product:nth-child(odd) {
-    padding-left: 0 !important;
-    padding-right: 7.5px !important;
   }
 }
