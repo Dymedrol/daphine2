@@ -22636,6 +22636,8 @@ padding-left: 15px;
     width: 50% !important;
     box-sizing: border-box !important;
     padding-right: 10px !important;
+    align-self: flex-start; /* Ensure each card aligns to the top */
+    vertical-align: top; /* Additional alignment property */
   }
   
   /* Remove right padding from every even card */
