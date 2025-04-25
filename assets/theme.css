@@ -22657,3 +22657,8 @@ padding-left: 15px;
     padding-right: 0;
   }
 }
+
+
+.product__complementary .complementary-products.is-loaded {
+ display: unset !important;
+}
