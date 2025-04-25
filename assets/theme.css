@@ -22612,6 +22612,11 @@ padding-left: 15px;
 
 
 /*add for side products*/
+
+quick-add-product {
+  padding: 15px 0 0 15px !important;
+}
+
 .complementary-products {
   display: grid !important;
   grid-template-columns: 1fr 1fr !important;
