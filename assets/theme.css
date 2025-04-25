@@ -22613,7 +22613,7 @@ padding-left: 15px;
 
 /*add for side products*/
 
-quick-add-product {
+quick-add-product, .product__complementary quick-add-product + quick-add-product {
   margin: 0 0 0 0 !important;
 }
 
