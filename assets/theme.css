@@ -22619,34 +22619,41 @@ padding-left: 15px;
 
 /* Two-column layout for complementary products on desktop */
 @media screen and (min-width: 768px) {
+  /* Create a container for the products */
   complementary-products.complementary-products {
-    display: block !important;
+    display: flex;
+    flex-wrap: wrap;
   }
   
-  complementary-products.complementary-products > quick-add-product {
-    display: inline-block !important;
-    width: 48% !important;
-    vertical-align: top !important;
-    margin-right: 2% !important;
-  }
-  
-  /* Every even product to clear the right margin */
-  complementary-products.complementary-products > quick-add-product:nth-child(even) {
-    margin-right: 0 !important;
-  }
-  
-  /* Ensure the title stays full width */
+  /* Make the title take full width */
   complementary-products.complementary-products > p.complementary-products__title {
-    display: block !important;
-    width: 100% !important;
+    width: 100%;
+  }
+  
+  /* Make each product card take 50% width */
+  complementary-products.complementary-products > quick-add-product {
+    width: 50%;
+    box-sizing: border-box;
+    padding-right: 10px;
+  }
+  
+  /* Remove right padding from every even card */
+  complementary-products.complementary-products > quick-add-product:nth-child(even) {
+    padding-right: 0;
+    padding-left: 10px;
+  }
+  
+  /* Optional: Add bottom margin to create space between rows */
+  complementary-products.complementary-products > quick-add-product {
+    margin-bottom: 20px;
   }
 }
 
-/* Keep mobile layout as is */
+/* Keep single column layout for mobile */
 @media screen and (max-width: 767px) {
   complementary-products.complementary-products > quick-add-product {
-    display: block !important;
-    width: 100% !important;
-    margin-right: 0 !important;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
   }
 }
