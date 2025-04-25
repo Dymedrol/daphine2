@@ -20880,7 +20880,7 @@ predictive-search[open=true] .predictive-search {
 
 .product-upsell__content {
   --inner: 16px;
-  width: calc(100% - 120px);
+/*  width: calc(100% - 120px);*/
   padding: var(--inner) 60px var(--inner) var(--inner);
 }
 @media only screen and (min-width: 990px) {
