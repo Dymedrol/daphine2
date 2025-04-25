@@ -22617,51 +22617,46 @@ padding-left: 15px;
   display: block !important;
 }
 
-/* Two-column layout for complementary products on desktop with consistent spacing */
+/* Two-column layout for complementary products on desktop */
 @media screen and (min-width: 768px) {
+  /* Create a container for the products */
   complementary-products.complementary-products {
     display: flex !important;
     flex-wrap: wrap !important;
-    margin: 0 -10px !important; /* Negative margin to offset the padding */
+    align-items: flex-start;
   }
   
-  /* Title styling */
+  /* Make the title take full width */
   complementary-products.complementary-products > p.complementary-products__title {
     width: 100% !important;
-    padding: 0 10px !important;
-    margin-bottom: 20px !important;
   }
   
-  /* Product card container */
+  /* Make each product card take 50% width */
   complementary-products.complementary-products > quick-add-product {
     width: 50% !important;
-    padding: 0 10px !important; /* Equal padding on all items */
     box-sizing: border-box !important;
-    margin-bottom: 20px !important; /* Equal bottom margin for spacing between rows */
+    padding-right: 10px !important;
   }
   
-  /* Ensure consistent height and alignment */
-  complementary-products.complementary-products .product-upsell {
-    height: 100% !important;
-    display: flex !important;
-    flex-direction: column !important;
+  /* Remove right padding from every even card */
+  complementary-products.complementary-products > quick-add-product:nth-child(even) {
+    padding-right: 0 !important;
+    padding-left: 10px !important;
   }
   
-  /* Align all product images consistently */
-  complementary-products.complementary-products .product-upsell__image {
-    width: 100% !important;
-    margin-bottom: 10px !important;
+  /* Optional: Add bottom margin to create space between rows */
+  complementary-products.complementary-products > quick-add-product {
+    margin-bottom: 20px !important;
   }
 }
 
-/* Keep single column layout for mobile with consistent spacing */
+/* Keep single column layout for mobile */
 @media screen and (max-width: 767px) {
   complementary-products.complementary-products > quick-add-product {
     width: 100% !important;
-    padding: 0 10px !important;
-    margin-bottom: 20px !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
   }
 }
-
 
 
