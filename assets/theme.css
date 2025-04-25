@@ -22623,6 +22623,7 @@ padding-left: 15px;
   complementary-products.complementary-products {
     display: flex !important;
     flex-wrap: wrap !important;
+    align-items: flex-start;
   }
   
   /* Make the title take full width */
