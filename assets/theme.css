@@ -22621,34 +22621,34 @@ padding-left: 15px;
 /* Two-column layout for complementary products on desktop */
 @media screen and (min-width: 768px) {
   complementary-products.complementary-products {
-    display: block; /* Maintain original display property */
+    display: block !important;
   }
   
   complementary-products.complementary-products > quick-add-product {
-    display: inline-block;
-    width: 48%; /* Slightly less than 50% to account for any margins */
-    vertical-align: top;
-    margin-right: 2%;
+    display: inline-block !important;
+    width: 48% !important;
+    vertical-align: top !important;
+    margin-right: 2% !important;
   }
   
   /* Every even product to clear the right margin */
   complementary-products.complementary-products > quick-add-product:nth-child(even) {
-    margin-right: 0;
+    margin-right: 0 !important;
   }
   
   /* Ensure the title stays full width */
   complementary-products.complementary-products > p.complementary-products__title {
-    display: block;
-    width: 100%;
+    display: block !important;
+    width: 100% !important;
   }
 }
 
 /* Keep mobile layout as is */
 @media screen and (max-width: 767px) {
   complementary-products.complementary-products > quick-add-product {
-    display: block;
-    width: 100%;
-    margin-right: 0;
+    display: block !important;
+    width: 100% !important;
+    margin-right: 0 !important;
   }
 }
 
