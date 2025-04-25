@@ -20855,9 +20855,9 @@ predictive-search[open=true] .predictive-search {
   background-color: var(--bg-accent);
 }
 
-.product-upsell__image {
+/*.product-upsell__image {
   width: 120px;
-}
+}*/
 
 .product-upsell__image__link {
   display: block;
@@ -22443,9 +22443,9 @@ recipient-form .recipient-form-field-label {
 /*.product-upsell__content {
   width: calc(100% - 180px) !important;
 }*/
-/*.product-upsell__image {
+.drawer__empty__product .product-upsell__image {
   width: 180px !important;
-}*/
+}
 @media screen and (max-width: 480px) {
   .quick-add__holder {
     display: none;
