@@ -22617,48 +22617,44 @@ padding-left: 15px;
   display: block !important;
 }
 
-.product__complementary .complementary-products.is-loaded {
- display: unset !important;
-}
-
 /* Two-column layout for complementary products on desktop */
 @media screen and (min-width: 768px) {
   /* Create a container for the products */
   complementary-products.complementary-products {
-    display: flex;
-    flex-wrap: wrap;
+    display: flex !important;
+    flex-wrap: wrap !important;
   }
   
   /* Make the title take full width */
   complementary-products.complementary-products > p.complementary-products__title {
-    width: 100%;
+    width: 100% !important;
   }
   
   /* Make each product card take 50% width */
   complementary-products.complementary-products > quick-add-product {
-    width: 50%;
-    box-sizing: border-box;
-    padding-right: 10px;
+    width: 50% !important;
+    box-sizing: border-box !important;
+    padding-right: 10px !important;
   }
   
   /* Remove right padding from every even card */
   complementary-products.complementary-products > quick-add-product:nth-child(even) {
-    padding-right: 0;
-    padding-left: 10px;
+    padding-right: 0 !important;
+    padding-left: 10px !important;
   }
   
   /* Optional: Add bottom margin to create space between rows */
   complementary-products.complementary-products > quick-add-product {
-    margin-bottom: 20px;
+    margin-bottom: 20px !important;
   }
 }
 
 /* Keep single column layout for mobile */
 @media screen and (max-width: 767px) {
   complementary-products.complementary-products > quick-add-product {
-    width: 100%;
-    padding-left: 0;
-    padding-right: 0;
+    width: 100% !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
   }
 }
 
