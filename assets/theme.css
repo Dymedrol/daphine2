@@ -22637,7 +22637,7 @@ margin-top: 16px !important;
   
   /* Make each product card take 50% width */
   complementary-products.complementary-products > quick-add-product {
-    width: 50% !important;
+    width: 200px !important;
     box-sizing: border-box !important;
     padding-right: 10px !important;
   }
