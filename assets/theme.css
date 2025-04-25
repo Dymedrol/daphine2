@@ -22621,56 +22621,53 @@ padding-left: 15px;
 margin-top: 16px !important;
 }
 
-/* Two-column layout for both desktop and mobile with bigger spacing on mobile */
+/* Two-column layout for both desktop and mobile with consistent edge spacing */
 @media screen and (min-width: 320px) {
-  /* Create a container for the products */
+  /* Container for products */
   complementary-products.complementary-products {
     display: flex !important;
     flex-wrap: wrap !important;
     align-items: flex-start;
-    margin: 0 -8px !important; /* Larger negative margin for mobile */
-    justify-content: space-between !important; /* Add space between columns */
+    padding: 0 10px !important; /* Consistent padding at screen edges */
+    justify-content: space-between !important;
   }
   
-  /* Make the title take full width */
+  /* Title full width */
   complementary-products.complementary-products > p.complementary-products__title {
     width: 100% !important;
-    padding: 0 8px !important;
+    padding: 0 !important; /* No extra padding needed */
   }
   
-  /* Make each product card take less than 50% width to create bigger gap */
+  /* Product cards with spacing between */
   complementary-products.complementary-products > quick-add-product {
-    width: 48% !important; /* Slightly less than 50% to create spacing */
+    width: 48% !important; /* Slightly less than 50% for spacing */
     box-sizing: border-box !important;
-    padding: 0 8px !important; /* Larger padding for mobile */
+    padding: 0 !important; /* Remove individual padding */
     margin-bottom: 20px !important;
+  }
+  
+  /* Remove any extra padding that might be applied */
+  complementary-products.complementary-products > quick-add-product:nth-child(even) {
+    padding: 0 !important;
   }
 }
 
-/* Desktop specific adjustments */
+/* Desktop specific adjustments keeping your 40% width */
 @media screen and (min-width: 768px) {
   complementary-products.complementary-products {
-    margin: 0 -10px !important;
-  }
-  
-  complementary-products.complementary-products > p.complementary-products__title {
-    padding: 0 10px !important;
+    padding: 0 10px !important; /* Same padding as mobile for consistency */
+    justify-content: space-between !important;
   }
   
   complementary-products.complementary-products > quick-add-product {
-    width: 50% !important; /* Back to 50% for desktop */
-    padding: 0 10px !important;
-    margin-bottom: 20px !important;
+    width: 40% !important; /* Using your specified 40% width for desktop */
+    padding: 0 !important;
   }
 }
 
-/* Small phone adjustments for even more spacing if needed */
+/* Extra small screen adjustments if needed */
 @media screen and (max-width: 375px) {
   complementary-products.complementary-products > quick-add-product {
-    width: 46% !important; /* Even smaller width for more spacing on tiny screens */
+    width: 46% !important; /* Even more spacing on tiny screens */
   }
 }
-
-
-
-
