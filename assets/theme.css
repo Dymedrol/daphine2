@@ -22627,6 +22627,11 @@ padding-left: 15px;
   width: 100% !important;
 }
 
+.product-upsell__content,
+.product-upsell__content * {
+  width: 100% !important;
+}
+
 @media (max-width: 768px) {
   .complementary-products {
     gap: 15px !important;
