@@ -22610,10 +22610,7 @@ padding-left: 15px;
 
 /*for PDP side bar*/
 
-.form__width .product-upsell__content {
-    max-width:    180px !important;
-    padding: 15px 0 0 0 !important;
-}
+
 
 .form__width .product-upsell {
   display: block !important;
@@ -22658,10 +22655,18 @@ complementary-products.complementary-products > quick-add-product {
   complementary-products.complementary-products > quick-add-product:nth-child(odd) {
     padding-left: 0;
   }
+  .form__width .product-upsell__content {
+    max-width:    180px !important;
+    padding: 15px 0 0 0 !important;
+}
 }
 
 /* Mobile-specific adjustments */
 @media screen and (max-width: 767px) {
+  .form__width .product-upsell__content {
+    max-width:    160px !important;
+    padding: 15px 0 0 0 !important;
+}
   /* Increase spacing between columns on mobile */
   complementary-products.complementary-products {
     margin: 0 -7.5px; /* Adjusted negative margin for mobile */
