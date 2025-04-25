@@ -124,6 +124,7 @@
         },
         "upsell": {
           "type": "upsell",
+          "disabled": true,
           "settings": {
             "upsell_product": "{{ product.metafields.related_products.product1.value }}",
             "bg_color": "rgba(0,0,0,0)",
