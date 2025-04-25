@@ -22666,7 +22666,7 @@ complementary-products.complementary-products > quick-add-product {
   .form__width .product-upsell__content {
     max-width:    160px !important;
     padding: 15px 0 0 0 !important;
-}
+} 
   /* Increase spacing between columns on mobile */
   complementary-products.complementary-products {
     margin: 0 -7.5px; /* Adjusted negative margin for mobile */
