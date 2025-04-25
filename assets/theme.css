@@ -22617,6 +22617,10 @@ padding-left: 15px;
   display: block !important;
 }
 
+.product__complementary quick-add-product {
+margin-top: 16px !important;
+}
+
 /* Two-column layout for complementary products on desktop */
 @media screen and (min-width: 768px) {
   /* Create a container for the products */
