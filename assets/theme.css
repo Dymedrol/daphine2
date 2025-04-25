@@ -22617,7 +22617,6 @@ padding-left: 15px;
   display: block !important;
 }
 
-
 /* Two-column layout for complementary products on desktop */
 @media screen and (min-width: 768px) {
   complementary-products.complementary-products {
@@ -22651,4 +22650,3 @@ padding-left: 15px;
     margin-right: 0 !important;
   }
 }
-
