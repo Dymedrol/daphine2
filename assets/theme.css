@@ -22611,3 +22611,24 @@ padding-left: 15px;
 
 
 
+/*add for side products*/
+.complementary-products {
+  display: grid !important;
+  grid-template-columns: 1fr 1fr !important;
+  gap: 40px !important;
+}
+
+.complementary-products__title {
+  grid-column: 1 / -1 !important;
+}
+
+.product-upsell {
+  max-width: 180px !important;
+  width: 100% !important;
+}
+
+@media (max-width: 768px) {
+  .complementary-products {
+    gap: 15px !important;
+  }
+}
