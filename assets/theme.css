@@ -22632,9 +22632,7 @@ padding-left: 15px;
   padding: 0 !important;
 }
 
-.product-upsell__content * {
-  width: 100% !important;
-}
+
 
 @media (max-width: 768px) {
   .complementary-products {
