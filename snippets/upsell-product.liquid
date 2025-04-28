@@ -46,7 +46,7 @@
           </div>
         </div>
       {%- else -%}
-        <!-- Wrap entire card in a button to open the modal -->
+        <!-- Wrap entire card including Add to Cart button in a button to open the modal -->
         <button type="button" 
                 class="product-upsell-card-button"
                 data-quick-add-btn
@@ -102,39 +102,42 @@
                   </span>
                 {% endif -%}
               </p>
+              
+              <!-- Keep "Remove" button outside of the modal trigger button -->
+              {%- if is_cart -%}
+                <div class="product-upsell__skip-placeholder" style="visibility: hidden;">
+                  <span>{{ 'cart.general.remove' | t }}</span>
+                </div>
+              {%- endif -%}
+              
+              <!-- Include the "Add to Cart" button inside the wrapper -->
+              <div class="btn__outer">
+                <div class="product-upsell__btn">
+                  <span style="position: relative; margin: -2px 15px 0px 6px;"><svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-plus" viewBox="0 0 24 24"><path d="M6 12h6m6 0h-6m0 0V6m0 6v6" stroke="#000" stroke-linecap="round" stroke-linejoin="round"></path></svg></span>
+                  <span class="btn__text">{{ 'products.general.upsell_add_to_cart' | t }}</span>
+                  <span class="btn__loader">
+                    <svg height="18" width="18" class="svg-loader">
+                      <circle r="7" cx="9" cy="9" />
+                      <circle stroke-dasharray="87.96459430051421 87.96459430051421" r="7" cx="9" cy="9" />
+                    </svg>
+                  </span>
+                  <span class="btn__added">&nbsp;</span>
+                </div>
+              </div>
+
+              {%- if upsell_product.variants.size == 1 -%}
+                <span class="product-upsell__out-of-stock">{{ 'products.general.upsell_out_of_stock' | t }}</span>
+              {%- endif -%}
             </div>
           </div>
         </button>
         
-        <!-- Keep "Remove" button outside of the modal trigger button -->
+        <!-- Keep actual "Remove" button outside but position it over the card -->
         {%- if is_cart -%}
-          <button type="button" class="product-upsell__skip" title="{{ 'cart.general.remove' | t }}" data-skip-upsell-product>
+          <button type="button" class="product-upsell__skip" title="{{ 'cart.general.remove' | t }}" data-skip-upsell-product style="position: absolute; top: 0; right: 0;">
             {%- render 'icon-cancel' -%}
             {{- 'cart.general.remove' | t -}}
           </button>
-        {%- endif -%}
-
-        <!-- Keep the "Add to cart" button outside of the modal trigger button -->
-        <div class="btn__outer">
-          <button class="product-upsell__btn"
-            type="button"
-            data-quick-add-btn
-            data-quick-add-modal-handle="{{ upsell_product.handle }}"
-          >
-            <span style="position: relative; margin: -2px 15px 0px 6px;"><svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-plus" viewBox="0 0 24 24"><path d="M6 12h6m6 0h-6m0 0V6m0 6v6" stroke="#000" stroke-linecap="round" stroke-linejoin="round"></path></svg></span>
-            <span class="btn__text">{{ 'products.general.upsell_add_to_cart' | t }}</span>
-            <span class="btn__loader">
-              <svg height="18" width="18" class="svg-loader">
-                <circle r="7" cx="9" cy="9" />
-                <circle stroke-dasharray="87.96459430051421 87.96459430051421" r="7" cx="9" cy="9" />
-              </svg>
-            </span>
-            <span class="btn__added">&nbsp;</span>
-          </button>
-        </div>
-
-        {%- if upsell_product.variants.size == 1 -%}
-          <span class="product-upsell__out-of-stock">{{ 'products.general.upsell_out_of_stock' | t }}</span>
         {%- endif -%}
       {%- endif -%}
 
