@@ -22639,12 +22639,15 @@ quick-add-product, .product__complementary quick-add-product + quick-add-product
   padding: 15px 0 0 0 !important;
 }
 
-.product-upsell__image .product-upsell__image__link {
-  width: 127px;
-}
 
 @media (max-width: 768px) {
   .product__complementary .complementary-products {
     gap: 15px !important;
   }
+}
+
+
+/* fix for recommend side bar */
+.product-upsell__image .product-upsell__image__link {
+  width: 127px !important;
 }
