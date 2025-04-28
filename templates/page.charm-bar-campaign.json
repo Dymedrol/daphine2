@@ -336,41 +336,6 @@
         "color": "#ffffff"
       }
     },
-    "section_collection_EeMcVK": {
-      "type": "section-collection",
-      "settings": {
-        "heading": "",
-        "description": "",
-        "layout": "inline",
-        "link_text": "",
-        "link_url": "",
-        "button_type": "btn--primary",
-        "button_size": "btn--small",
-        "button_style": "btn--text",
-        "show_arrow": false,
-        "featured_collection": "chains-charm-bar",
-        "style": "slider",
-        "grid": 4,
-        "rows": 1,
-        "layout_mobile": "carousel",
-        "bg_color": "",
-        "color": "",
-        "padding_top": 20,
-        "padding_bottom": 50
-      }
-    },
-    "section_divider_9VbTRD": {
-      "type": "section-divider",
-      "disabled": true,
-      "settings": {
-        "show_line": true,
-        "width": "wrapper",
-        "border_color": "",
-        "bg_color": "",
-        "padding_top": 50,
-        "padding_bottom": 0
-      }
-    },
     "section_hero_Dnjiw4": {
       "type": "section-hero",
       "blocks": {
@@ -399,6 +364,83 @@
       "block_order": [
         "heading_TeafD9",
         "button_T6dGHK"
+      ],
+      "settings": {
+        "height": "image-height",
+        "width": "wrapper--full-padded",
+        "image_1": "shopify://shop_images/daphine_charm-bar-zodiac-signs-names-banner.png",
+        "mobile_height": "image-height--mobile",
+        "mobile_image": "shopify://shop_images/daphine_charm-bar-zodiac-signs-names-4x5.png",
+        "flex_align": "align--bottom-left",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "bg_color": "",
+        "color": "#ffffff"
+      }
+    },
+    "section_divider_9VbTRD": {
+      "type": "section-divider",
+      "settings": {
+        "show_line": true,
+        "width": "wrapper",
+        "border_color": "",
+        "bg_color": "",
+        "padding_top": 50,
+        "padding_bottom": 0
+      }
+    },
+    "section_collection_EeMcVK": {
+      "type": "section-collection",
+      "settings": {
+        "heading": "",
+        "description": "",
+        "layout": "inline",
+        "link_text": "",
+        "link_url": "",
+        "button_type": "btn--primary",
+        "button_size": "btn--small",
+        "button_style": "btn--text",
+        "show_arrow": false,
+        "featured_collection": "chains-charm-bar",
+        "style": "slider",
+        "grid": 4,
+        "rows": 1,
+        "layout_mobile": "carousel",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 20,
+        "padding_bottom": 50
+      }
+    },
+    "section_hero_VPhR9b": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_9fre7i": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "Anna Necklace",
+            "heading_size": 4,
+            "mobile_heading_size": 3
+          }
+        },
+        "button_K8DxYa": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "link_text": "SHOP",
+            "link": "shopify://products/anna-necklace",
+            "button_type": "btn--white",
+            "button_size": "btn--small",
+            "button_style": "btn--text",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_9fre7i",
+        "button_K8DxYa"
       ],
       "settings": {
         "height": "image-height",
@@ -775,9 +817,10 @@
     "section_collection_7jnifn",
     "section_rich_text_U7GnyV",
     "section_hero_DbKmeT",
-    "section_collection_EeMcVK",
-    "section_divider_9VbTRD",
     "section_hero_Dnjiw4",
+    "section_divider_9VbTRD",
+    "section_collection_EeMcVK",
+    "section_hero_VPhR9b",
     "section_columns_4c6BmR",
     "section_collection_rEMGi6",
     "section_hero_b7yg8x",
