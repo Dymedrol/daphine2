@@ -22649,5 +22649,5 @@ quick-add-product, .product__complementary quick-add-product + quick-add-product
 
 /* fix for recommend side bar */
 .product-upsell__image .product-upsell__image__link {
-  width: 127px !important;
+  width: 120px !important;
 }
