@@ -144,7 +144,7 @@
           "type": "buttons",
           "settings": {
             "button_text": "create your necklace",
-            "button_url": "shopify://products/zodiac-coin-charms",
+            "button_url": "shopify://products/aries-zodiac-coin",
             "button_type": "btn--primary",
             "button_size": "btn--small",
             "button_style": "btn--text",
@@ -272,7 +272,7 @@
           "type": "buttons",
           "settings": {
             "button_text": "create your necklace",
-            "button_url": "shopify://products/zodiac-coin-charms",
+            "button_url": "shopify://products/aries-zodiac-coin",
             "button_type": "btn--primary",
             "button_size": "btn--small",
             "button_style": "btn--text",
