@@ -56,8 +56,16 @@
             <div class="product-upsell__image">
               <div class="product-upsell__image__link">
                 <div class="product-upsell__image__thumb">
-                  {%- render 'image' image: upsell_variant_image, widths: '120, 180, 240, 300, 360', width: '240', sizes: '120px', cover: true -%}
-                </div>
+  {%- render 'image' image: upsell_variant_image, 
+    widths: '120, 180, 240, 360, 480, 720', 
+    width: '240', 
+    sizes: '(min-width: 768px) 120px, 120px', 
+    cover: true, 
+    loading: 'lazy', 
+    fetchpriority: 'low' 
+  -%}
+</div>
+
               </div>
             </div>
 
