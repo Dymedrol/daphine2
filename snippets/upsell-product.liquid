@@ -33,54 +33,41 @@
 
       <div data-cart-errors-container class="product-upsell__errors"></div>
 
-      <div class="product-upsell">
-        <div class="product-upsell__image">
-          {%- if upsell_error -%}
+      {%- if upsell_error -%}
+        <div class="product-upsell">
+          <div class="product-upsell__image">
             <div class="product-upsell__image__thumb svg-placeholder" role="img">
               {{ 'product-1' | placeholder_svg_tag: 'placeholder-svg' }}
             </div>
-          {%- else -%}
-            <!-- Image button -->
-            <button type="button" 
-                    class="product-upsell__image__link" 
-                    aria-label="{{ upsell_product.title | strip_html | escape }}"
-                    data-quick-add-btn
-                    data-quick-add-modal-handle="{{ upsell_product.handle }}"
-                    style="background: none; border: none; padding: 0; width: 100%; cursor: pointer; text-align: left;">
-              <div class="product-upsell__image__thumb">
-                {%- render 'image' image: upsell_variant_image, widths: '120, 180, 240, 300, 360', width: '240', sizes: '120px', cover: true -%}
-              </div>
-            </button>
-          {%- endif -%}
-        </div>
-
-        <div class="product-upsell__content">
-          {%- if upsell_error -%}
+          </div>
+          <div class="product-upsell__content">
             <p class="product-upsell__title h3">Choose an upsell product</p>
             <p class="product-upsell__variant-title h4">Use metafields to show a product here. Empty upsells will not show on live site.</p>
-          {%- else -%}
-            <!-- Replace the entire content area structure to ensure no nesting issues -->
-            <!-- Title button - completely separate from other elements -->
-            <button type="button"
-                   class="product-upsell__title-button"
-                   data-quick-add-btn
-                   data-quick-add-modal-handle="{{ upsell_product.handle }}"
-                   style="background: none; border: none; padding: 0; width: 100%; cursor: pointer; text-align: left; margin-bottom: 5px;">
-              <p class="product-upsell__title h3" style="margin: 0;">{{ upsell_product.title | strip_html }}</p>
-            </button>
-            
-            <!-- Variant title if needed -->
-            {%- if upsell_product.variants.size == 1 and upsell_variant.title != 'Default Title' -%}
-              <p class="product-upsell__variant-title h4">{{ upsell_variant.title | replace: '/', '<span>&nbsp;</span>' }}</p>
-            {%- endif -%}
+          </div>
+        </div>
+      {%- else -%}
+        <!-- Wrap entire card in a button to open the modal -->
+        <button type="button" 
+                class="product-upsell-card-button"
+                data-quick-add-btn
+                data-quick-add-modal-handle="{{ upsell_product.handle }}"
+                style="background: none; border: none; padding: 0; width: 100%; cursor: pointer; text-align: left; display: block;">
+          <div class="product-upsell">
+            <div class="product-upsell__image">
+              <div class="product-upsell__image__link">
+                <div class="product-upsell__image__thumb">
+                  {%- render 'image' image: upsell_variant_image, widths: '120, 180, 240, 300, 360', width: '240', sizes: '120px', cover: true -%}
+                </div>
+              </div>
+            </div>
 
-            <!-- Price button - separate clickable element -->
-            <button type="button"
-                   class="product-upsell__price-button"
-                   data-quick-add-btn
-                   data-quick-add-modal-handle="{{ upsell_product.handle }}"
-                   style="background: none; border: none; padding: 0; width: 100%; cursor: pointer; text-align: left; margin-bottom: 10px;">
-              <p class="product-upsell__price{% if upsell_variant.compare_at_price > upsell_variant.price %} sale{% endif %}" style="margin: 0;">
+            <div class="product-upsell__content">
+              <p class="product-upsell__title h3">{{ upsell_product.title | strip_html }}</p>
+              {%- if upsell_product.variants.size == 1 and upsell_variant.title != 'Default Title' -%}
+                <p class="product-upsell__variant-title h4">{{ upsell_variant.title | replace: '/', '<span>&nbsp;</span>' }}</p>
+              {%- endif -%}
+
+              <p class="product-upsell__price{% if upsell_variant.compare_at_price > upsell_variant.price %} sale{% endif %}">
                 <span class="new-price">
                   {%- if upsell_variant.price == 0 -%}
                     {{ 'general.money.free' | t }}
@@ -115,40 +102,41 @@
                   </span>
                 {% endif -%}
               </p>
-            </button>
-
-            {%- if is_cart -%}
-              <button type="button" class="product-upsell__skip" title="{{ 'cart.general.remove' | t }}" data-skip-upsell-product>
-                {%- render 'icon-cancel' -%}
-                {{- 'cart.general.remove' | t -}}
-              </button>
-            {%- endif -%}
-
-            <!-- Make sure the button type is correctly set as button -->
-            <div class="btn__outer">
-              <button class="product-upsell__btn"
-                type="button"
-                data-quick-add-btn
-                data-quick-add-modal-handle="{{ upsell_product.handle }}"
-              >
-                <span style="position: relative; margin: -2px 15px 0px 6px;"><svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-plus" viewBox="0 0 24 24"><path d="M6 12h6m6 0h-6m0 0V6m0 6v6" stroke="#000" stroke-linecap="round" stroke-linejoin="round"></path></svg></span>
-                <span class="btn__text">{{ 'products.general.upsell_add_to_cart' | t }}</span>
-                <span class="btn__loader">
-                  <svg height="18" width="18" class="svg-loader">
-                    <circle r="7" cx="9" cy="9" />
-                    <circle stroke-dasharray="87.96459430051421 87.96459430051421" r="7" cx="9" cy="9" />
-                  </svg>
-                </span>
-                <span class="btn__added">&nbsp;</span>
-              </button>
             </div>
+          </div>
+        </button>
+        
+        <!-- Keep "Remove" button outside of the modal trigger button -->
+        {%- if is_cart -%}
+          <button type="button" class="product-upsell__skip" title="{{ 'cart.general.remove' | t }}" data-skip-upsell-product>
+            {%- render 'icon-cancel' -%}
+            {{- 'cart.general.remove' | t -}}
+          </button>
+        {%- endif -%}
 
-            {%- if upsell_product.variants.size == 1 -%}
-              <span class="product-upsell__out-of-stock">{{ 'products.general.upsell_out_of_stock' | t }}</span>
-            {%- endif -%}
-          {%- endif -%}
+        <!-- Keep the "Add to cart" button outside of the modal trigger button -->
+        <div class="btn__outer">
+          <button class="product-upsell__btn"
+            type="button"
+            data-quick-add-btn
+            data-quick-add-modal-handle="{{ upsell_product.handle }}"
+          >
+            <span style="position: relative; margin: -2px 15px 0px 6px;"><svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-plus" viewBox="0 0 24 24"><path d="M6 12h6m6 0h-6m0 0V6m0 6v6" stroke="#000" stroke-linecap="round" stroke-linejoin="round"></path></svg></span>
+            <span class="btn__text">{{ 'products.general.upsell_add_to_cart' | t }}</span>
+            <span class="btn__loader">
+              <svg height="18" width="18" class="svg-loader">
+                <circle r="7" cx="9" cy="9" />
+                <circle stroke-dasharray="87.96459430051421 87.96459430051421" r="7" cx="9" cy="9" />
+              </svg>
+            </span>
+            <span class="btn__added">&nbsp;</span>
+          </button>
         </div>
-      </div>
+
+        {%- if upsell_product.variants.size == 1 -%}
+          <span class="product-upsell__out-of-stock">{{ 'products.general.upsell_out_of_stock' | t }}</span>
+        {%- endif -%}
+      {%- endif -%}
 
       <!-- Always render the quick-add-modal-template regardless of variant count -->
       {%- render 'product-quick-add-modal-template', product_id: upsell_product.id, unique: unique -%}
