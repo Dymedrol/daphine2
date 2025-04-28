@@ -55,7 +55,6 @@
           {%- else -%}
             <a href="{{ upsell_product.url }}">
               <p class="product-upsell__title h3">{{ upsell_product.title | strip_html }}</p>
-
               {%- if upsell_product.variants.size == 1 and upsell_variant.title != 'Default Title' -%}
                 <p class="product-upsell__variant-title h4">{{ upsell_variant.title | replace: '/', '<span>&nbsp;</span>' }}</p>
               {%- endif -%}
@@ -87,9 +86,7 @@
                   {%- endcapture -%}
 
                   <br>
-
                   <span class="visually-hidden visually-hidden--inline">{{ 'products.product.unit_price_label' | t }}</span>
-
                   <span class="unit">
                     {{ upsell_variant.unit_price | money }}
                     {{ unit_price_separator }}
@@ -98,60 +95,32 @@
                 {% endif -%}
               </p>
             </a>
+
             {%- if is_cart -%}
               <button type="button" class="product-upsell__skip" title="{{ 'cart.general.remove' | t }}" data-skip-upsell-product>
                 {%- render 'icon-cancel' -%}
-
                 {{- 'cart.general.remove' | t -}}
               </button>
             {%- endif -%}
 
-            {%- if upsell_product.variants.size == 1 -%}
-              {%- form 'product', upsell_product, id: product_form_id -%}
-                <input type="hidden" name="id" value="{{ upsell_variant.id }}">
-                <div class="btn__outer">
-                  <button class="product-upsell__btn"
-                    type="submit"
-                    name="add"
-                    data-quick-add-btn
-                    data-add-to-cart
-                  >
-                    
+            <!-- This is the only part that changes - always use the modal button approach, even for single variant products -->
+            <div class="btn__outer">
+              <button class="product-upsell__btn"
+                type="button"
+                data-quick-add-btn
+                data-quick-add-modal-handle="{{ upsell_product.handle }}"
+              >
                 <span style="position: relative; margin: -2px 15px 0px 6px;"><svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-plus" viewBox="0 0 24 24"><path d="M6 12h6m6 0h-6m0 0V6m0 6v6" stroke="#000" stroke-linecap="round" stroke-linejoin="round"></path></svg></span>
-                    <span class="btn__text">{{ 'products.general.upsell_add_to_cart' | t }}</span>
-
-                    <span class="btn__loader">
-                      <svg height="18" width="18" class="svg-loader">
-                        <circle r="7" cx="9" cy="9" />
-                        <circle stroke-dasharray="87.96459430051421 87.96459430051421" r="7" cx="9" cy="9" />
-                      </svg>
-                    </span>
-
-                    <span class="btn__added">&nbsp;</span>
-                  </button>
-                </div>
-              {%- endform -%}
-            {%- else -%}
-              <div class="btn__outer">
-                <button class="product-upsell__btn"
-                  type="button"
-                  data-quick-add-btn
-                  data-quick-add-modal-handle="{{ upsell_product.handle }}"
-                >
-                <span style="position: relative; margin: -2px 15px 0px 6px;"><svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-plus" viewBox="0 0 24 24"><path d="M6 12h6m6 0h-6m0 0V6m0 6v6" stroke="#000" stroke-linecap="round" stroke-linejoin="round"></path></svg></span>
-                  <span class="btn__text">{{ 'products.general.upsell_add_to_cart' | t }}</span>
-
-                  <span class="btn__loader">
-                    <svg height="18" width="18" class="svg-loader">
-                      <circle r="7" cx="9" cy="9" />
-                      <circle stroke-dasharray="87.96459430051421 87.96459430051421" r="7" cx="9" cy="9" />
-                    </svg>
-                  </span>
-
-                  <span class="btn__added">&nbsp;</span>
-                </button>
-              </div>
-            {%- endif -%}
+                <span class="btn__text">{{ 'products.general.upsell_add_to_cart' | t }}</span>
+                <span class="btn__loader">
+                  <svg height="18" width="18" class="svg-loader">
+                    <circle r="7" cx="9" cy="9" />
+                    <circle stroke-dasharray="87.96459430051421 87.96459430051421" r="7" cx="9" cy="9" />
+                  </svg>
+                </span>
+                <span class="btn__added">&nbsp;</span>
+              </button>
+            </div>
 
             {%- if upsell_product.variants.size == 1 -%}
               <span class="product-upsell__out-of-stock">{{ 'products.general.upsell_out_of_stock' | t }}</span>
@@ -160,9 +129,8 @@
         </div>
       </div>
 
-      {%- unless upsell_product.has_only_default_variant -%}
-        {%- render 'product-quick-add-modal-template', product_id: upsell_product.id, unique: unique -%}
-      {%- endunless -%}
+      <!-- Always render the quick-add modal template regardless of variant count -->
+      {%- render 'product-quick-add-modal-template', product_id: upsell_product.id, unique: unique -%}
     </div>
   </quick-add-product>
 {%- endif -%}
