@@ -22634,7 +22634,7 @@ quick-add-product, .product__complementary quick-add-product + quick-add-product
   width:      100% !important;
 }
 
-.product-upsell__holder .product-upsell__content {
+.product__complementary .product-upsell__content {
   width: 100% !important;
   padding: 15px 0 0 0 !important;
 }
@@ -22648,6 +22648,6 @@ quick-add-product, .product__complementary quick-add-product + quick-add-product
 
 
 /* fix for recommend side bar */
-.product-upsell__image .product-upsell__image__link {
+.product-upsell__holder .product-upsell__image__link {
   width: 120px !important;
 }
