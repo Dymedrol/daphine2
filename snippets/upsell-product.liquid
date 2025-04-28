@@ -40,17 +40,11 @@
               {{ 'product-1' | placeholder_svg_tag: 'placeholder-svg' }}
             </div>
           {%- else -%}
-            <!-- Changed from a link to a button to trigger the quick-add modal -->
-            <button type="button" 
-                    class="product-upsell__image__link" 
-                    aria-label="{{ upsell_product.title | strip_html | escape }}"
-                    data-quick-add-btn
-                    data-quick-add-modal-handle="{{ upsell_product.handle }}"
-                    style="background: none; border: none; padding: 0; width: 100%; cursor: pointer; text-align: left;">
+            <a href="{{ upsell_product.url }}" class="product-upsell__image__link" aria-label="{{ upsell_product.title | strip_html | escape }}">
               <div class="product-upsell__image__thumb">
                 {%- render 'image' image: upsell_variant_image, widths: '120, 180, 240, 300, 360', width: '240', sizes: '120px', cover: true -%}
               </div>
-            </button>
+            </a>
           {%- endif -%}
         </div>
 
@@ -109,7 +103,7 @@
               </button>
             {%- endif -%}
 
-            <!-- Always use the modal button approach, even for single variant products -->
+            <!-- This is the only part that changes - always use the modal button approach, even for single variant products -->
             <div class="btn__outer">
               <button class="product-upsell__btn"
                 type="button"
@@ -135,7 +129,7 @@
         </div>
       </div>
 
-      <!-- Always render the quick-add-modal-template regardless of variant count -->
+      <!-- Always render the quick-add modal template regardless of variant count -->
       {%- render 'product-quick-add-modal-template', product_id: upsell_product.id, unique: unique -%}
     </div>
   </quick-add-product>
