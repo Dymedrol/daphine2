@@ -3,13 +3,16 @@
     assign show_upsell = false
     assign upsell_error = true
   endif
-
+  
   if request.design_mode or upsell_product != blank
     assign show_upsell = true
   endif
-
-  assign upsell_variant = upsell_product.selected_or_first_available_variant
+  
+  # Change this line to use first variant instead of first available variant
+  assign upsell_variant = upsell_product.selected_variant | default: upsell_product.first_variant | default: upsell_product.variants.first
+  
   assign upsell_variant_image = upsell_variant.featured_media | default: upsell_product.featured_media.preview_image
+  
 
   if settings.currency_code_enable
     assign upsell_variant_price = upsell_variant.price | money_with_currency
