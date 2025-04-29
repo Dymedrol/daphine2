@@ -1,3 +1,7 @@
+{%- if settings.show_bubble -%}
+  <div class="product__block__count-text back-in-door count-text-container" id="count-text-container"></div>
+{%- endif -%}
+
 {%- liquid
   assign uniq_id = section_id | append: 'product-' | append: product.id | append: '-'
   assign hide_labels_class = ''
@@ -255,9 +259,7 @@
   {%- endif -%}
 {%- endcapture -%}
 
-{%- if settings.show_bubble -%}
-  <div class="product__block__count-text back-in-door count-text-container" id="count-text-container"></div>
-{%- endif -%}
+
 
 {%- unless product_variant_options == blank -%}
   <div class="product__block{% if settings.show_lines %} product__block--lines{% endif %}{% if settings.form_style == 'classic' %} product__block--classic{% endif %} product__form__holder"
