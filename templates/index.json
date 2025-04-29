@@ -113,6 +113,7 @@
         "heading_B7kGXE",
         "button_V3d8t6"
       ],
+      "disabled": true,
       "settings": {
         "height": "image-height",
         "width": "wrapper--full",
@@ -154,7 +155,6 @@
         "heading_wpz8PE",
         "button_eWjAQz"
       ],
-      "disabled": true,
       "settings": {
         "height": "image-height",
         "width": "wrapper--full",
