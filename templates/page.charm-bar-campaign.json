@@ -272,7 +272,7 @@
           "type": "buttons",
           "settings": {
             "button_text": "create your necklace",
-            "button_url": "shopify://collections/zodiac-coins",
+            "button_url": "shopify://products/zodiac-coin-charms",
             "button_type": "btn--primary",
             "button_size": "btn--small",
             "button_style": "btn--text",
