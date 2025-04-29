@@ -220,12 +220,12 @@
         "description": "",
         "layout": "inline",
         "link_text": "explore all",
-        "link_url": "shopify://collections/our-spring-edit",
+        "link_url": "shopify://collections/charm-bar-zodiac-coins",
         "button_type": "btn--primary",
         "button_size": "btn--small",
         "button_style": "btn--text",
         "show_arrow": false,
-        "featured_collection": "our-spring-edit",
+        "featured_collection": "charm-bar-zodiac-coins",
         "style": "slider",
         "grid": 4,
         "rows": 1,
@@ -288,6 +288,29 @@
         "color": "#ffffff"
       }
     },
+    "section_collection_HeJBit": {
+      "type": "section-collection",
+      "settings": {
+        "heading": "Trending",
+        "description": "",
+        "layout": "inline",
+        "link_text": "explore all",
+        "link_url": "shopify://collections/our-spring-edit",
+        "button_type": "btn--primary",
+        "button_size": "btn--small",
+        "button_style": "btn--text",
+        "show_arrow": false,
+        "featured_collection": "our-spring-edit",
+        "style": "slider",
+        "grid": 4,
+        "rows": 1,
+        "layout_mobile": "carousel",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 60,
+        "padding_bottom": 50
+      }
+    },
     "section_hero_MfCYXm": {
       "type": "section-hero",
       "blocks": {
@@ -343,6 +366,7 @@
     },
     "section_divider_AX3pBq": {
       "type": "section-divider",
+      "disabled": true,
       "settings": {
         "show_line": true,
         "width": "wrapper",
@@ -564,7 +588,7 @@
       "settings": {
         "height": "image-height",
         "width": "wrapper--full",
-        "image_1": "shopify://shop_images/Chris_tennis_necklace_1.jpg",
+        "image_1": "shopify://shop_images/Daphine_Ella_Necklaces_on_Tray_d51b3b0a-ad0d-42f7-ba78-3f13e124995c.jpg",
         "mobile_height": "image-height--mobile",
         "mobile_image": "shopify://shop_images/Daphine_Ella_Necklaces_on_Tray_fa1170d8-a89c-49f9-93b7-1286d77cb8b4.jpg",
         "flex_align": "align--middle-center",
@@ -947,6 +971,7 @@
     "080de123-cd67-4a8f-b095-390fa30c932d",
     "section_collection_BFWXfV",
     "section_hero_aaHpBE",
+    "section_collection_HeJBit",
     "section_hero_MfCYXm",
     "section_divider_AX3pBq",
     "21a05252-aed6-490f-aa5f-589a9685314f",
