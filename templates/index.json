@@ -213,19 +213,19 @@
         "padding_bottom": 10
       }
     },
-    "section_collection_BFWXfV": {
+    "section_collection_HeJBit": {
       "type": "section-collection",
       "settings": {
-        "heading": "New In",
+        "heading": "Trending",
         "description": "",
         "layout": "inline",
         "link_text": "explore all",
-        "link_url": "shopify://collections/charm-bar-zodiac-coins",
+        "link_url": "shopify://collections/our-spring-edit",
         "button_type": "btn--primary",
         "button_size": "btn--small",
         "button_style": "btn--text",
         "show_arrow": false,
-        "featured_collection": "charm-bar-zodiac-coins",
+        "featured_collection": "our-spring-edit",
         "style": "slider",
         "grid": 4,
         "rows": 1,
@@ -288,29 +288,6 @@
         "color": "#ffffff"
       }
     },
-    "section_collection_HeJBit": {
-      "type": "section-collection",
-      "settings": {
-        "heading": "Trending",
-        "description": "",
-        "layout": "inline",
-        "link_text": "explore all",
-        "link_url": "shopify://collections/our-spring-edit",
-        "button_type": "btn--primary",
-        "button_size": "btn--small",
-        "button_style": "btn--text",
-        "show_arrow": false,
-        "featured_collection": "our-spring-edit",
-        "style": "slider",
-        "grid": 4,
-        "rows": 1,
-        "layout_mobile": "carousel",
-        "bg_color": "",
-        "color": "",
-        "padding_top": 60,
-        "padding_bottom": 50
-      }
-    },
     "section_hero_MfCYXm": {
       "type": "section-hero",
       "blocks": {
@@ -366,7 +343,6 @@
     },
     "section_divider_AX3pBq": {
       "type": "section-divider",
-      "disabled": true,
       "settings": {
         "show_line": true,
         "width": "wrapper",
@@ -374,6 +350,30 @@
         "bg_color": "",
         "padding_top": 64,
         "padding_bottom": 0
+      }
+    },
+    "section_collection_BFWXfV": {
+      "type": "section-collection",
+      "disabled": true,
+      "settings": {
+        "heading": "New In",
+        "description": "",
+        "layout": "inline",
+        "link_text": "explore all",
+        "link_url": "shopify://collections/charm-bar-zodiac-coins",
+        "button_type": "btn--primary",
+        "button_size": "btn--small",
+        "button_style": "btn--text",
+        "show_arrow": false,
+        "featured_collection": "charm-bar-zodiac-coins",
+        "style": "slider",
+        "grid": 4,
+        "rows": 1,
+        "layout_mobile": "carousel",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 60,
+        "padding_bottom": 50
       }
     },
     "21a05252-aed6-490f-aa5f-589a9685314f": {
@@ -660,6 +660,7 @@
         "text_4pALDH",
         "button_bCzUQq"
       ],
+      "disabled": true,
       "settings": {
         "height": "sixty-fifty-height-hero",
         "width": "wrapper--full",
@@ -969,11 +970,11 @@
     "section_hero_73jmJi",
     "section_hero_JAkpFJ",
     "080de123-cd67-4a8f-b095-390fa30c932d",
-    "section_collection_BFWXfV",
-    "section_hero_aaHpBE",
     "section_collection_HeJBit",
+    "section_hero_aaHpBE",
     "section_hero_MfCYXm",
     "section_divider_AX3pBq",
+    "section_collection_BFWXfV",
     "21a05252-aed6-490f-aa5f-589a9685314f",
     "section_divider_baciga",
     "section_columns_JNkRLG",
