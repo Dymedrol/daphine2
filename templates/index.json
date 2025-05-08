@@ -277,9 +277,9 @@
       "settings": {
         "height": "image-height",
         "width": "wrapper--full",
-        "image_1": "shopify://shop_images/Daphine_Cora-cuff_silver_gold_2.jpg",
+        "image_1": "shopify://shop_images/Ada_necklace_banner.png",
         "mobile_height": "image-height--mobile",
-        "mobile_image": "shopify://shop_images/Daphine_Cora-cuff_silver_gold_3.jpg",
+        "mobile_image": "shopify://shop_images/Ada_necklace_banner.png",
         "flex_align": "align--middle-center",
         "overlay_opacity": 0,
         "overlay_color": "#000000",
