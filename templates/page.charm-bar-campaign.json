@@ -521,7 +521,7 @@
         "button_size": "btn--small",
         "button_style": "btn--text",
         "show_arrow": false,
-        "featured_collection": "charm-bar-zodiac-coins",
+        "featured_collection": "charm-bar",
         "style": "slider",
         "grid": 4,
         "rows": 3,
