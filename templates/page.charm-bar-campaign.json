@@ -508,113 +508,6 @@
         "padding_bottom": 50
       }
     },
-    "section_rich_text_R7zxHK": {
-      "type": "section-rich-text",
-      "blocks": {
-        "subheading_nHpNF4": {
-          "type": "subheading",
-          "settings": {
-            "subheading": "Chapter Three",
-            "text_size": 3,
-            "mobile_text_size": 3
-          }
-        },
-        "heading_fHm6Ym": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "title": "THE CHARM BAR",
-            "text_size": 5,
-            "mobile_text_size": 3
-          }
-        },
-        "heading_QqXQUM": {
-          "type": "heading",
-          "settings": {
-            "title": "TALISMAN CHARMS",
-            "text_size": 5,
-            "mobile_text_size": 3
-          }
-        },
-        "heading_QfFUaL": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "title": "Chapter One",
-            "text_size": 3,
-            "mobile_text_size": 3
-          }
-        },
-        "divider_iUKpCK": {
-          "type": "divider",
-          "disabled": true,
-          "settings": {
-            "show_line": true,
-            "padding_top": 20,
-            "padding_bottom": 0
-          }
-        },
-        "subheading_XBazzq": {
-          "type": "subheading",
-          "disabled": true,
-          "settings": {
-            "subheading": "Chapter One",
-            "text_size": 3,
-            "mobile_text_size": 3
-          }
-        },
-        "text_6nqHUJ": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<p>A collection designed to evolve with you. </p><p>Meaningful jewellery should reflect your individual story. Whether purchased for yourself or shared with friends, this is a collection that acknowledges personal style as something that grows and adapts over time—just like you do.</p>",
-            "text_size": 3,
-            "mobile_text_size": 3,
-            "text_style": "font-body"
-          }
-        },
-        "text_KQHjMU": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<p>A collection designed to evolve with you. </p><p>The Charm Bar embodies a simple philosophy: meaningful jewellery should reflect your individual story. Whether purchased for yourself or shared with friends, this is a collection that acknowledges personal style as something that grows and adapts over time—just like you do.</p>",
-            "text_size": 3,
-            "mobile_text_size": 3,
-            "text_style": "font-body"
-          }
-        },
-        "buttons_WidDXQ": {
-          "type": "buttons",
-          "settings": {
-            "button_text": "SHOP",
-            "button_url": "shopify://collections/charm-bar-chapter-three",
-            "button_type": "btn--primary",
-            "button_size": "btn--small",
-            "button_style": "btn--text",
-            "show_arrow": false
-          }
-        }
-      },
-      "block_order": [
-        "subheading_nHpNF4",
-        "heading_fHm6Ym",
-        "heading_QqXQUM",
-        "heading_QfFUaL",
-        "divider_iUKpCK",
-        "subheading_XBazzq",
-        "text_6nqHUJ",
-        "text_KQHjMU",
-        "buttons_WidDXQ"
-      ],
-      "settings": {
-        "width": "wrapper--narrow",
-        "align_text": "text-center",
-        "bg_color": "",
-        "color": "",
-        "padding_top": 0,
-        "padding_bottom": 50
-      }
-    },
     "section_collection_7jnifn": {
       "type": "section-collection",
       "disabled": true,
@@ -641,33 +534,6 @@
     },
     "section_hero_Dnjiw4": {
       "type": "section-hero",
-      "blocks": {
-        "heading_TeafD9": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "title": "Anna Necklace",
-            "heading_size": 4,
-            "mobile_heading_size": 3
-          }
-        },
-        "button_T6dGHK": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "link_text": "SHOP",
-            "link": "shopify://products/anna-necklace",
-            "button_type": "btn--white",
-            "button_size": "btn--small",
-            "button_style": "btn--text",
-            "show_arrow": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_TeafD9",
-        "button_T6dGHK"
-      ],
       "settings": {
         "height": "image-height",
         "width": "wrapper--full-padded",
@@ -725,6 +591,134 @@
       "block_order": [
         "image_iEwiy9",
         "image_xm8GE4"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": 5,
+        "mobile_heading_size": 5,
+        "align_text": "text-center",
+        "align_columns": "flex-align-center",
+        "width": "wrapper",
+        "image_aspect_ratio": 1.2,
+        "mobile_image_aspect_ratio": 1.2,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "layout_mobile": "grid"
+      }
+    },
+    "section_rich_text_R7zxHK": {
+      "type": "section-rich-text",
+      "blocks": {
+        "subheading_nHpNF4": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Chapter Three",
+            "text_size": 3,
+            "mobile_text_size": 3
+          }
+        },
+        "heading_QqXQUM": {
+          "type": "heading",
+          "settings": {
+            "title": "TALISMAN CHARMS",
+            "text_size": 5,
+            "mobile_text_size": 3
+          }
+        },
+        "buttons_WidDXQ": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "SHOP",
+            "button_url": "shopify://collections/charm-bar-chapter-three",
+            "button_type": "btn--primary",
+            "button_size": "btn--small",
+            "button_style": "btn--text",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "subheading_nHpNF4",
+        "heading_QqXQUM",
+        "buttons_WidDXQ"
+      ],
+      "settings": {
+        "width": "wrapper--narrow",
+        "align_text": "text-center",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 50
+      }
+    },
+    "section_collection_EeMcVK": {
+      "type": "section-collection",
+      "settings": {
+        "heading": "",
+        "description": "",
+        "layout": "inline",
+        "link_text": "",
+        "link_url": "",
+        "button_type": "btn--primary",
+        "button_size": "btn--small",
+        "button_style": "btn--text",
+        "show_arrow": false,
+        "featured_collection": "charm-bar-chapter-three",
+        "style": "grid",
+        "grid": 3,
+        "rows": 1,
+        "layout_mobile": "carousel",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 20,
+        "padding_bottom": 50
+      }
+    },
+    "section_columns_QQyC99": {
+      "type": "section-columns",
+      "blocks": {
+        "image_wDyYMb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Daphine_Giselecharm_zodiaccoincharm.jpg",
+            "title": "",
+            "heading_size": 3,
+            "mobile_heading_size": 2,
+            "text": "",
+            "text_size": 3,
+            "mobile_text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--text",
+            "show_arrow": false
+          }
+        },
+        "image_jE6yHD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Daphine_paperclip_chain_zodiac_gisele_egg_oli_hoops_e5b7c03f-91f3-4ae4-8122-e21c9270fd65.jpg",
+            "title": "",
+            "heading_size": 3,
+            "mobile_heading_size": 2,
+            "text": "",
+            "text_size": 3,
+            "mobile_text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--text",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_wDyYMb",
+        "image_jE6yHD"
       ],
       "settings": {
         "title": "",
@@ -834,7 +828,7 @@
         "padding_bottom": 0
       }
     },
-    "section_collection_EeMcVK": {
+    "section_collection_4wgwdq": {
       "type": "section-collection",
       "settings": {
         "heading": "",
@@ -1046,14 +1040,16 @@
     "section_rich_text_PLq8hX",
     "section_columns_rAkbMk",
     "section_rich_text_WidcNy",
-    "section_rich_text_R7zxHK",
     "section_collection_7jnifn",
     "section_hero_Dnjiw4",
     "section_columns_WTjn7f",
+    "section_rich_text_R7zxHK",
+    "section_collection_EeMcVK",
+    "section_columns_QQyC99",
     "section_rich_text_U7GnyV",
     "section_hero_JJNGVR",
     "section_divider_9VbTRD",
-    "section_collection_EeMcVK",
+    "section_collection_4wgwdq",
     "section_hero_VPhR9b",
     "section_columns_4c6BmR",
     "section_collection_rEMGi6",
