@@ -774,6 +774,29 @@
         "padding_bottom": 60
       }
     },
+    "section_collection_4wgwdq": {
+      "type": "section-collection",
+      "settings": {
+        "heading": "",
+        "description": "",
+        "layout": "inline",
+        "link_text": "",
+        "link_url": "",
+        "button_type": "btn--primary",
+        "button_size": "btn--small",
+        "button_style": "btn--text",
+        "show_arrow": false,
+        "featured_collection": "chains-charm-bar",
+        "style": "slider",
+        "grid": 4,
+        "rows": 1,
+        "layout_mobile": "carousel",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 20,
+        "padding_bottom": 50
+      }
+    },
     "section_hero_JJNGVR": {
       "type": "section-hero",
       "blocks": {
@@ -826,29 +849,6 @@
         "bg_color": "",
         "padding_top": 50,
         "padding_bottom": 0
-      }
-    },
-    "section_collection_4wgwdq": {
-      "type": "section-collection",
-      "settings": {
-        "heading": "",
-        "description": "",
-        "layout": "inline",
-        "link_text": "",
-        "link_url": "",
-        "button_type": "btn--primary",
-        "button_size": "btn--small",
-        "button_style": "btn--text",
-        "show_arrow": false,
-        "featured_collection": "chains-charm-bar",
-        "style": "slider",
-        "grid": 4,
-        "rows": 1,
-        "layout_mobile": "carousel",
-        "bg_color": "",
-        "color": "",
-        "padding_top": 20,
-        "padding_bottom": 50
       }
     },
     "section_hero_VPhR9b": {
@@ -1047,9 +1047,9 @@
     "section_collection_EeMcVK",
     "section_columns_QQyC99",
     "section_rich_text_U7GnyV",
+    "section_collection_4wgwdq",
     "section_hero_JJNGVR",
     "section_divider_9VbTRD",
-    "section_collection_4wgwdq",
     "section_hero_VPhR9b",
     "section_columns_4c6BmR",
     "section_collection_rEMGi6",
