@@ -142,7 +142,7 @@
         "button_eWjAQz": {
           "type": "button",
           "settings": {
-            "link_text": "DISCOVER chapter one",
+            "link_text": "DISCOVER NEW IN",
             "link": "shopify://pages/about-charm-bar",
             "button_type": "btn--white",
             "button_size": "btn--small",
@@ -158,9 +158,9 @@
       "settings": {
         "height": "image-height",
         "width": "wrapper--full",
-        "image_1": "shopify://shop_images/zodiac_coins_banner.png",
+        "image_1": "shopify://shop_images/Screenshot_2025-05-28_at_11.53.21.png",
         "mobile_height": "image-height--mobile",
-        "mobile_image": "shopify://shop_images/zodiac_coins_banner_mob.png",
+        "mobile_image": "shopify://shop_images/Daphine_charms-on-chains-2.jpg",
         "flex_align": "align--middle-center",
         "overlay_opacity": 0,
         "overlay_color": "#000000",
@@ -213,19 +213,19 @@
         "padding_bottom": 10
       }
     },
-    "section_collection_BFWXfV": {
+    "section_collection_HeJBit": {
       "type": "section-collection",
       "settings": {
         "heading": "New In",
         "description": "",
         "layout": "inline",
         "link_text": "explore all",
-        "link_url": "shopify://collections/charm-bar-zodiac-coins",
+        "link_url": "shopify://collections/charm-bar",
         "button_type": "btn--primary",
         "button_size": "btn--small",
         "button_style": "btn--text",
         "show_arrow": false,
-        "featured_collection": "charm-bar-zodiac-coins",
+        "featured_collection": "charm-bar",
         "style": "slider",
         "grid": 4,
         "rows": 1,
@@ -242,7 +242,7 @@
         "heading_EG8HVi": {
           "type": "heading",
           "settings": {
-            "title": "Pre-Spring",
+            "title": "Our Summer Edit",
             "heading_size": 7,
             "mobile_heading_size": 6
           }
@@ -277,38 +277,15 @@
       "settings": {
         "height": "image-height",
         "width": "wrapper--full",
-        "image_1": "shopify://shop_images/Daphine_Cora-cuff_silver_gold_2.jpg",
+        "image_1": "shopify://shop_images/Screenshot_2025-05-28_at_12.08.51.png",
         "mobile_height": "image-height--mobile",
-        "mobile_image": "shopify://shop_images/Daphine_Cora-cuff_silver_gold_3.jpg",
+        "mobile_image": "shopify://shop_images/Daphine_paperclip_chain_zodiac_gisele_egg_oli_hoops_e5b7c03f-91f3-4ae4-8122-e21c9270fd65.jpg",
         "flex_align": "align--middle-center",
         "overlay_opacity": 0,
         "overlay_color": "#000000",
         "show_overlay_text": false,
         "bg_color": "",
         "color": "#ffffff"
-      }
-    },
-    "section_collection_HeJBit": {
-      "type": "section-collection",
-      "settings": {
-        "heading": "Trending",
-        "description": "",
-        "layout": "inline",
-        "link_text": "explore all",
-        "link_url": "shopify://collections/our-spring-edit",
-        "button_type": "btn--primary",
-        "button_size": "btn--small",
-        "button_style": "btn--text",
-        "show_arrow": false,
-        "featured_collection": "our-spring-edit",
-        "style": "slider",
-        "grid": 4,
-        "rows": 1,
-        "layout_mobile": "carousel",
-        "bg_color": "",
-        "color": "",
-        "padding_top": 60,
-        "padding_bottom": 50
       }
     },
     "section_hero_MfCYXm": {
@@ -366,7 +343,6 @@
     },
     "section_divider_AX3pBq": {
       "type": "section-divider",
-      "disabled": true,
       "settings": {
         "show_line": true,
         "width": "wrapper",
@@ -374,6 +350,30 @@
         "bg_color": "",
         "padding_top": 64,
         "padding_bottom": 0
+      }
+    },
+    "section_collection_BFWXfV": {
+      "type": "section-collection",
+      "disabled": true,
+      "settings": {
+        "heading": "New In",
+        "description": "",
+        "layout": "inline",
+        "link_text": "explore all",
+        "link_url": "shopify://collections/charm-bar",
+        "button_type": "btn--primary",
+        "button_size": "btn--small",
+        "button_style": "btn--text",
+        "show_arrow": false,
+        "featured_collection": "charm-bar",
+        "style": "slider",
+        "grid": 4,
+        "rows": 1,
+        "layout_mobile": "carousel",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 60,
+        "padding_bottom": 50
       }
     },
     "21a05252-aed6-490f-aa5f-589a9685314f": {
@@ -395,7 +395,7 @@
           "settings": {
             "heading": "Necklaces",
             "url": "shopify://collections/necklaces",
-            "image": "shopify://shop_images/Daphine_Christy-necklace.jpg",
+            "image": "shopify://shop_images/Daphine_Giselecharm_zodiaccoincharm.jpg",
             "color": "#ffffff",
             "bg_color": "#f0f0f0",
             "border_color": ""
@@ -660,6 +660,7 @@
         "text_4pALDH",
         "button_bCzUQq"
       ],
+      "disabled": true,
       "settings": {
         "height": "sixty-fifty-height-hero",
         "width": "wrapper--full",
@@ -969,11 +970,11 @@
     "section_hero_73jmJi",
     "section_hero_JAkpFJ",
     "080de123-cd67-4a8f-b095-390fa30c932d",
-    "section_collection_BFWXfV",
-    "section_hero_aaHpBE",
     "section_collection_HeJBit",
+    "section_hero_aaHpBE",
     "section_hero_MfCYXm",
     "section_divider_AX3pBq",
+    "section_collection_BFWXfV",
     "21a05252-aed6-490f-aa5f-589a9685314f",
     "section_divider_baciga",
     "section_columns_JNkRLG",
