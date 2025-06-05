@@ -135,11 +135,6 @@ $( document ).ready(function() {
                 console.error('Ошибка:', error);
             });
 
-
-
-
-
-
     }
 
     function changePic() {

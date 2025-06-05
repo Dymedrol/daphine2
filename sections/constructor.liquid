@@ -7,9 +7,19 @@
   <div class="constructor-wrapper js-constructor-step" id="step-0">
     <div class="constructor-col">
       <div class="constructor-result">
-        <img src="{{ 'chain.png' | asset_url }}" alt="" class="constructor-result-chain-example">
+        {%  if section.settings.chain_image %}
+          <img src="{{ section.settings.chain_image | img_url: '1734x3784' }}" alt="" class="constructor-result-chain-example">
+        {%  else %}
+          <img src="{{ 'chain.png' | asset_url }}" alt="" class="constructor-result-chain-example">
+        {% endif %}
+
         <div class="constructor-result-charm-example">
-          <img src="{{ 'charm.png' | asset_url }}" alt="" class="constructor-result-charm">
+
+          {%  if section.settings.charm_image %}
+            <img src="{{ section.settings.charm_image | img_url: '680x680' }}" alt="" class="constructor-result-charm">
+          {%  else %}
+            <img src="{{ 'charm.png' | asset_url }}" alt="" class="constructor-result-charm">
+          {% endif %}
         </div>
       </div>
     </div>
@@ -26,7 +36,7 @@
         <div class="constructor-result-title">Your creation</div>
         {%  for product in section.settings.chains %}
           <img
-                  src="{{ product.metafields.custom.constructor_chain_picture | img_url: '2716x3784' }} }}"
+                  src="{{ product.metafields.custom.constructor_chain_picture | img_url: '2716x3784' }}"
                   alt=""
                   class="constructor-result-chain{% unless forloop.first %} constructor-result-chain_hidden{% endunless %}"
                   data-count="{{ forloop.index }}"
@@ -120,7 +130,11 @@
             >
               <div class="constructor-choice-item-pic-wrapper">
                 {% comment %}<div class="constructor-choice-item-size">60 CM</div>{% endcomment %}
-                <img src="{{ product.featured_image | img_url: 'medium' }}" alt="{{ product.title }}">
+                {% if product.metafields.custom.constructor_chain_alt_picture %}
+                  <img src="{{ product.metafields.custom.constructor_chain_alt_picture | img_url: 'medium' }}" alt="{{ product.title }}">
+                {% else %}
+                  <img src="{{ product.metafields.custom.constructor_charm_picture | img_url: 'medium' }}" alt="{{ product.title }}">
+                {% endif %}
               </div>
               <div class="constructor-choice-item-title">{{ product.title }}</div>
               <div class="constructor-choice-item-price">{{ product.price | money }}</div>
@@ -168,6 +182,16 @@
       "id": "constructor_title",
       "label": "Title",
       "default": "Customize your jewel"
+    },
+    {
+      "type": "image_picker",
+      "id": "chain_image",
+      "label": "First page Chain Image",
+    },
+    {
+      "type": "image_picker",
+      "id": "charm_image",
+      "label": "First page Charm Image",
     },
     {
       "type": "product_list",
