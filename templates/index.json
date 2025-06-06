@@ -169,6 +169,64 @@
         "color": "#ffffff"
       }
     },
+    "section_rich_text_Ujrqkc": {
+      "type": "section-rich-text",
+      "blocks": {
+        "subheading_n9BeXb": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "",
+            "text_size": 3,
+            "mobile_text_size": 3
+          }
+        },
+        "heading_4LWnUT": {
+          "type": "heading",
+          "settings": {
+            "title": "Our Farewell",
+            "text_size": 7,
+            "mobile_text_size": 6
+          }
+        },
+        "text_GAkybJ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>After 7 incredible years, we come to you with the bittersweet news that Daphine will be closing in Fall 2025. Founded in 2018 by Damasia Ball and Philippine de Follin, our brand has been a champion of beautiful timeless heirlooms - little luxuries that could be reached for again and again. We hope that whilst we are gone, you continue to reach for these treasures and remember these 7 years fondly. </p><p>The seven-year cycle is a whirlwind of personal growth and change. In spiritual contexts, the number 7, and therefore \"7 years,\" often represents completion, wholeness, and a period of significant growth. These past 7 years have been monumental for us - we started a business, had children, relocated to different countries and grew this brand that we love so much. These seven years didn't just build a brand - they shaped who we are as women, mothers, and entrepreneurs. </p><p>We are happy to be leaving Daphine on a high, having had our pieces in iconic publications including Vanity Fair, The Wall Street Journal and the cover of British Vogue; and on iconic women including Beyonce, Bella Hadid and Iris Law.</p><p>We will be taking the time to evolve on our individual journeys and are looking forward to taking our expertise from Daphine into new and exciting challenges - in both our personal and professional lives. </p><p>Women have always been at the centre of what we do and we are so grateful to our all women team here in London, as well as the many women who have supported our brand during our tenure. We can’t thank these women enough: Milagros, Laura & Lauren, Viola, Bettina Looney, Monikh Dale, Abi Omole, Daniela & Sabrina, our friends at Sheerluxe who championed us from early on, Lucy Pilz, Tarra Orssich, Nina Litchfield, Laura Vidrequin and of course you, our community. To every woman who wore our pieces or simply believed in what we were building - you made this dream possible, and we'll carry that with us forever. </p>",
+            "text_size": 3,
+            "mobile_text_size": 3,
+            "text_style": "font-heading"
+          }
+        },
+        "buttons_9KYzCe": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "subheading_n9BeXb",
+        "heading_4LWnUT",
+        "text_GAkybJ",
+        "buttons_9KYzCe"
+      ],
+      "disabled": true,
+      "name": "Rich text",
+      "settings": {
+        "width": "wrapper--narrow",
+        "align_text": "text-center",
+        "bg_color": "#ffffff",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
     "080de123-cd67-4a8f-b095-390fa30c932d": {
       "type": "section-announcement",
       "blocks": {
@@ -969,6 +1027,7 @@
     "slideshow",
     "section_hero_73jmJi",
     "section_hero_JAkpFJ",
+    "section_rich_text_Ujrqkc",
     "080de123-cd67-4a8f-b095-390fa30c932d",
     "section_collection_HeJBit",
     "section_hero_aaHpBE",
