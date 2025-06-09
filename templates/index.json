@@ -319,7 +319,7 @@
           "type": "button",
           "settings": {
             "link_text": "discover",
-            "link": "shopify://collections/charm-bar",
+            "link": "shopify://pages/daphine-charm-bar",
             "button_type": "btn--white",
             "button_size": "",
             "button_style": "btn--text",
