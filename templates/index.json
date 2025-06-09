@@ -134,7 +134,7 @@
         "heading_wpz8PE": {
           "type": "heading",
           "settings": {
-            "title": "The Charm Bar",
+            "title": "The Final Edit",
             "heading_size": 8,
             "mobile_heading_size": 7
           }
@@ -158,7 +158,7 @@
       "settings": {
         "height": "image-height",
         "width": "wrapper--full",
-        "image_1": "shopify://shop_images/Screenshot_2025-05-28_at_11.53.21.png",
+        "image_1": "shopify://shop_images/daphine_summer_25_our_final_edit_1_banner.jpg",
         "mobile_height": "image-height--mobile",
         "mobile_image": "shopify://shop_images/Daphine_charms-on-chains-2.jpg",
         "flex_align": "align--middle-center",
