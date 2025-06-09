@@ -142,8 +142,8 @@
         "button_eWjAQz": {
           "type": "button",
           "settings": {
-            "link_text": "DISCOVER NEW IN",
-            "link": "shopify://pages/about-charm-bar",
+            "link_text": "DISCOVER",
+            "link": "shopify://collections/the-final-edit",
             "button_type": "btn--white",
             "button_size": "btn--small",
             "button_style": "btn--text",
