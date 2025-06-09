@@ -31,6 +31,8 @@
       "type": "constructor",
       "settings": {
         "constructor_title": "Customise your necklace",
+        "chain_image": "shopify://shop_images/daphine_paperclip-chain_charm-bar_constructor.png",
+        "charm_image": "shopify://shop_images/cover-image-charm-bar-charms.png",
         "chains": [
           "forcat-chain",
           "double-link-chain",
