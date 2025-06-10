@@ -30,7 +30,9 @@
     "constructor_NCddkB": {
       "type": "constructor",
       "settings": {
-        "constructor_title": "Customize your jewel",
+        "constructor_title": "Customise your necklace",
+        "chain_image": "shopify://shop_images/daphine_paperclip-chain_charm-bar_constructor.png",
+        "charm_image": "shopify://shop_images/cover-image-charm-bar-charms.png",
         "chains": [
           "forcat-chain",
           "double-link-chain",
@@ -38,8 +40,21 @@
           "rope-cord"
         ],
         "charms": [
+          "aries-zodiac-coin",
+          "taurus-zodiac-coin",
+          "gemini-zodiac-coin",
+          "cancer-zodiac-coin",
+          "leo-zodiac-coin",
+          "virgo-zodiac-coin",
+          "libra-zodiac-coin",
+          "scorpio-zodiac-coin",
+          "sagittarius-zodiac-coin",
+          "capricorn-zodiac-coin",
+          "aquarius-zodiac-coin",
           "pisces-zodiac-coin",
-          "aquarius-zodiac-coin"
+          "laurita-charm",
+          "gisele-charm",
+          "eva-charm"
         ]
       }
     }
