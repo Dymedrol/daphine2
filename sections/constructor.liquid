@@ -101,7 +101,6 @@
                 data-variant-id="{{ product.first_available_variant.id }}"
               >
                 <div class="constructor-choice-item-pic-wrapper{% if product.metafields.custom.constructor_chain_alt_picture %} constructor-choice-item-alt-pic{% endif %}">
-                  <div class="constructor-choice-item-length-label">{{ product.first_available_variant.option1 }}</div>
                   <div class="constructor-choice-item-pics">
                     <img src="{{ product.featured_image | img_url: 'medium' }}" alt="{{ product.title }}" class="constructor-choice-item-pic constructor-choice-item-pic-main">
                     {% if product.metafields.custom.constructor_chain_alt_picture %}
