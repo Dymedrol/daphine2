@@ -848,3 +848,21 @@
   background-color: #f5f3ef;
   border-radius: 8px;
 }
+
+.constructor-choice-item-length-label {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  background: #fff;
+  display: flex;
+  padding: 6px 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-size: 9px;
+  color: #000;
+  border-radius: 4px;
+  z-index: 2;
+  font-weight: 500;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+}
