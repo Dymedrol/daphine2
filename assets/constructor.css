@@ -842,3 +842,9 @@
     display: none;
   }
 }
+
+/* Add background color for alt image in step 1 */
+.constructor-step-1 .constructor-choice-item-pic-alt {
+  background: #f5f3ef;
+  border-radius: 8px;
+}
