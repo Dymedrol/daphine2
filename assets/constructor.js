@@ -138,24 +138,20 @@ $( document ).ready(function() {
     }
 
     function changePic() {
-        console.log('2', currentPic)
-        const item = currentPic.closest('.constructor-choice-item-alt-pic');
-
-        item.find("img").each(function() {
-            if ($(this).css("display") === "none") {
-                $(this).css("display", "block");
-            } else {
-                $(this).css("display", "none");
-            }
-        });
-
-        item.find(".constructor-choice-item-dots-dot").each(function() {
-            if ($(this).hasClass('constructor-choice-item-dots-dot_active')) {
-                $(this).removeClass('constructor-choice-item-dots-dot_active');
-            } else {
-                $(this).addClass('constructor-choice-item-dots-dot_active');
-            }
-        });
+        const pics = currentPic.closest('.constructor-choice-item-pics');
+        if (!pics.length) return;
+        const altPic = pics.find('.constructor-choice-item-pic-alt');
+        const mainPic = pics.find('.constructor-choice-item-pic-main');
+        if (altPic.css('display') === 'none') {
+            altPic.css('display', 'block');
+            mainPic.css('display', 'none');
+        } else {
+            altPic.css('display', 'none');
+            mainPic.css('display', 'block');
+        }
+        // Dots
+        const dots = pics.closest('.constructor-choice-item-pic-wrapper').find('.constructor-choice-item-dots-dot');
+        dots.toggleClass('constructor-choice-item-dots-dot_active');
     }
 
     startButton.click(function () {showStep(1)});

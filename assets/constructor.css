@@ -1,4 +1,3 @@
-
 @font-face {
     font-family: "ITC Galliard Std";
     src: url('./GalliardStd-Italic.ttf')  format('truetype');
@@ -806,4 +805,40 @@
 
 .ui-loader {
     display: none !important;
+}
+
+/* --- Chain choice images: desktop vs mobile --- */
+.constructor-choice-item-pics {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.constructor-choice-item-pic {
+  display: none;
+  width: 100px;
+  height: auto;
+  object-fit: contain;
+}
+/* Show only the first image by default on mobile */
+.constructor-choice-item-pic-alt {
+  display: block;
+}
+/* Dots for mobile swiper */
+.constructor-choice-item-dots {
+  display: flex;
+  justify-content: center;
+  margin-top: 8px;
+}
+@media (min-width: 820px) {
+  /* On desktop, show both images side by side */
+  .constructor-choice-item-pic {
+    display: block;
+    margin-right: 8px;
+  }
+  .constructor-choice-item-pic:last-child {
+    margin-right: 0;
+  }
+  .constructor-choice-item-dots {
+    display: none;
+  }
 }
