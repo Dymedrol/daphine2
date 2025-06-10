@@ -27,6 +27,9 @@ $( document ).ready(function() {
     let totalPriceText = Number(totalPrice) + charmsPrice + '.00';
     totalPriceBlock.text(totalPriceText);
 
+    // Track selected variant id globally
+    let selectedChainVariantId = null;
+
     function renderPrice () {
         chainPriceBlock.text(chainPrice);
         totalPriceText = Number(chainPrice) +  Number(charmsPrice) + '.00';
@@ -44,11 +47,13 @@ $( document ).ready(function() {
     function changeCurrentChain() {
         const target = $(this);
         const targetCount = target.attr('data-count');
+        const variantId = target.attr('data-variant-id');
         $('.constructor-result-chain').addClass('constructor-result-chain_hidden');
         $(`.constructor-result-chain[data-count='${targetCount}']`).removeClass('constructor-result-chain_hidden');
         chainItems.removeClass('constructor-choice-item_active');
         target.addClass('constructor-choice-item_active');
         chainPrice = Number(target.attr('data-price'));
+        selectedChainVariantId = variantId;
         renderPrice();
     }
 
@@ -93,9 +98,12 @@ $( document ).ready(function() {
         const finalContainer = $('.constructor-result-final');
 
         $('#constructor').addClass('constructor-loading');
-        const selectedChain = finalContainer.find('.constructor-result-chain:not(.constructor-result-chain_hidden)');
+        // Use selectedChainVariantId if set, otherwise fallback
+        const selectedChain = selectedChainVariantId
+            ? $(`.constructor-result-chain[data-variant-id='${selectedChainVariantId}']`)
+            : finalContainer.find('.constructor-result-chain:not(.constructor-result-chain_hidden)');
         const chain = {
-            id: selectedChain.attr('data-variant-id'),
+            id: selectedChainVariantId || selectedChain.attr('data-variant-id'),
             quantity: 1
         }
         items.push(chain);
@@ -134,7 +142,6 @@ $( document ).ready(function() {
             .catch(error => {
                 console.error('Ошибка:', error);
             });
-
     }
 
     function changePic() {
