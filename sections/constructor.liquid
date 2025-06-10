@@ -35,12 +35,25 @@
       <div class="constructor-result">
         <div class="constructor-result-title">Your creation</div>
         {%  for product in section.settings.chains %}
-          <img
-                  src="{{ product.metafields.custom.constructor_chain_picture | img_url: '2716x3784' }}"
-                  alt=""
-                  class="constructor-result-chain{% unless forloop.first %} constructor-result-chain_hidden{% endunless %}"
-                  data-count="{{ forloop.index }}"
-          >
+          {% if product.variants and product.variants.size == 2 and product.options and product.options contains 'Length' %}
+            {% for variant in product.variants %}
+              <img
+                src="{{ product.metafields.custom.constructor_chain_picture | img_url: '2716x3784' }}"
+                alt=""
+                class="constructor-result-chain{% unless forloop.parentloop.first and forloop.first %} constructor-result-chain_hidden{% endunless %}"
+                data-count="{{ forloop.parentloop.index }}-{{ forloop.index }}"
+                data-variant-id="{{ variant.id }}"
+              >
+            {% endfor %}
+          {% else %}
+            <img
+              src="{{ product.metafields.custom.constructor_chain_picture | img_url: '2716x3784' }}"
+              alt=""
+              class="constructor-result-chain{% unless forloop.first %} constructor-result-chain_hidden{% endunless %}"
+              data-count="{{ forloop.index }}"
+              data-variant-id="{{ product.first_available_variant.id }}"
+            >
+          {% endif %}
         {% endfor %}
       </div>
     </div>
