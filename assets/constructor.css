@@ -97,7 +97,7 @@
     .constructor-col {
         min-height: unset;
         width: 50%;
-        max-height: 85vh;
+        max-height: calc(100vh - 109px);
         overflow-y: scroll;
     }
 
