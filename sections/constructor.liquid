@@ -130,11 +130,7 @@
             >
               <div class="constructor-choice-item-pic-wrapper">
                 {% comment %}<div class="constructor-choice-item-size">60 CM</div>{% endcomment %}
-                {% if product.metafields.custom.constructor_chain_alt_picture %}
-                  <img src="{{ product.metafields.custom.constructor_chain_alt_picture | img_url: 'medium' }}" alt="{{ product.title }}">
-                {% else %}
-                  <img src="{{ product.metafields.custom.constructor_charm_picture | img_url: 'medium' }}" alt="{{ product.title }}">
-                {% endif %}
+                <img src="{{ product.featured_image | img_url: 'medium' }}" alt="{{ product.title }}">
               </div>
               <div class="constructor-choice-item-title">{{ product.title }}</div>
               <div class="constructor-choice-item-price">{{ product.price | money }}</div>
