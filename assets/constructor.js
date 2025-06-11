@@ -168,14 +168,21 @@ $( document ).ready(function() {
     chainItems.click(changeCurrentChain);
     charmsItems.click(changeCurrentCharm);
 
+    let touchMoved = false;
 
     $('.constructor-choice-item-alt-pic').on('touchstart', function (e) {
+        touchMoved = false;
         currentPic = $(e.target);
-        console.log('1', currentPic);
     });
 
-    $('.constructor-choice-item-alt-pic').swipe(changePic);
+    $('.constructor-choice-item-alt-pic').on('touchmove', () => {
+        touchMoved = true;
+    });
 
-
+    $('.constructor-choice-item-alt-pic').on('touchend', function (e) {
+        if (touchMoved) {
+           changePic();
+        }
+    });
 
 });
