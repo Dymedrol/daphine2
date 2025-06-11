@@ -35,12 +35,25 @@
       <div class="constructor-result">
         <div class="constructor-result-title">Your creation</div>
         {%  for product in section.settings.chains %}
-          <img
-                  src="{{ product.metafields.custom.constructor_chain_picture | img_url: '2716x3784' }}"
-                  alt=""
-                  class="constructor-result-chain{% unless forloop.first %} constructor-result-chain_hidden{% endunless %}"
-                  data-count="{{ forloop.index }}"
-          >
+          {% if product.variants and product.variants.size == 2 and product.options and product.options contains 'Length' %}
+            {% for variant in product.variants %}
+              <img
+                src="{{ product.metafields.custom.constructor_chain_picture | img_url: '2716x3784' }}"
+                alt=""
+                class="constructor-result-chain{% unless forloop.parentloop.first and forloop.first %} constructor-result-chain_hidden{% endunless %}"
+                data-count="{{ forloop.parentloop.index }}-{{ forloop.index }}"
+                data-variant-id="{{ variant.id }}"
+              >
+            {% endfor %}
+          {% else %}
+            <img
+              src="{{ product.metafields.custom.constructor_chain_picture | img_url: '2716x3784' }}"
+              alt=""
+              class="constructor-result-chain{% unless forloop.first %} constructor-result-chain_hidden{% endunless %}"
+              data-count="{{ forloop.index }}"
+              data-variant-id="{{ product.first_available_variant.id }}"
+            >
+          {% endif %}
         {% endfor %}
       </div>
     </div>
@@ -52,27 +65,59 @@
         </div>
         <div class="constructor-choice-layout">
           {%  for product in section.settings.chains %}
-            <div
-                    class="constructor-choice-item js-chain-item {% if forloop.first %}constructor-choice-item_active{% endif %}"
-                    data-price="{{ product.price | money_without_currency }}"
-                    data-count="{{ forloop.index }}"
-            >
-              <div class="constructor-choice-item-pic-wrapper {% if product.metafields.custom.constructor_chain_alt_picture %}constructor-choice-item-alt-pic{% endif %}">
-                {% if  product.options.size %}
-                  {% comment %}<div class="constructor-choice-item-size"></div>{% endcomment %}
-                {% endif %}
-                <img src="{{ product.featured_image | img_url: 'medium' }}" alt="{{ product.title }}" class="constructor-choice-item-pic1">
-                {% if product.metafields.custom.constructor_chain_alt_picture %}
-                  <img src="{{ product.metafields.custom.constructor_chain_alt_picture | img_url: 'medium' }}" alt="{{ product.title }}" class="constructor-choice-item-pic2">
-                  <div class="constructor-choice-item-dots">
-                    <div class="constructor-choice-item-dots-dot constructor-choice-item-dots-dot_active"></div>
-                    <div class="constructor-choice-item-dots-dot"></div>
+            {% if product.variants and product.variants.size == 2 and product.options and product.options contains 'Length' %}
+              {% for variant in product.variants %}
+                <div
+                  class="constructor-choice-item js-chain-item"
+                  data-price="{{ variant.price | money_without_currency }}"
+                  data-count="{{ forloop.parentloop.index }}-{{ forloop.index }}"
+                  data-variant-id="{{ variant.id }}"
+                  data-length="{{ variant.option1 }}"
+                >
+                  <div class="constructor-choice-item-pic-wrapper{% if product.metafields.custom.constructor_chain_alt_picture %} constructor-choice-item-alt-pic{% endif %}">
+                    <div class="constructor-choice-item-length-label">{{ variant.option1 }}</div>
+                    <div class="constructor-choice-item-pics">
+                      <img src="{{ product.featured_image | img_url: 'medium' }}" alt="{{ product.title }}" class="constructor-choice-item-pic constructor-choice-item-pic-main">
+                      {% if product.metafields.custom.constructor_chain_alt_picture %}
+                        <img src="{{ product.metafields.custom.constructor_chain_alt_picture | img_url: 'medium' }}" alt="{{ product.title }}" class="constructor-choice-item-pic constructor-choice-item-pic-alt">
+                      {% endif %}
+                    </div>
+                    {% if product.metafields.custom.constructor_chain_alt_picture %}
+                      <div class="constructor-choice-item-dots">
+                        <div class="constructor-choice-item-dots-dot constructor-choice-item-dots-dot_active"></div>
+                        <div class="constructor-choice-item-dots-dot"></div>
+                      </div>
+                    {% endif %}
                   </div>
-                {% endif %}
+                  <div class="constructor-choice-item-title">{{ product.title }}</div>
+                  <div class="constructor-choice-item-price">{{ variant.price | money }}</div>
+                </div>
+              {% endfor %}
+            {% else %}
+              <div
+                class="constructor-choice-item js-chain-item"
+                data-price="{{ product.price | money_without_currency }}"
+                data-count="{{ forloop.index }}"
+                data-variant-id="{{ product.first_available_variant.id }}"
+              >
+                <div class="constructor-choice-item-pic-wrapper{% if product.metafields.custom.constructor_chain_alt_picture %} constructor-choice-item-alt-pic{% endif %}">
+                  <div class="constructor-choice-item-pics">
+                    <img src="{{ product.featured_image | img_url: 'medium' }}" alt="{{ product.title }}" class="constructor-choice-item-pic constructor-choice-item-pic-main">
+                    {% if product.metafields.custom.constructor_chain_alt_picture %}
+                      <img src="{{ product.metafields.custom.constructor_chain_alt_picture | img_url: 'medium' }}" alt="{{ product.title }}" class="constructor-choice-item-pic constructor-choice-item-pic-alt">
+                    {% endif %}
+                  </div>
+                  {% if product.metafields.custom.constructor_chain_alt_picture %}
+                    <div class="constructor-choice-item-dots">
+                      <div class="constructor-choice-item-dots-dot constructor-choice-item-dots-dot_active"></div>
+                      <div class="constructor-choice-item-dots-dot"></div>
+                    </div>
+                  {% endif %}
+                </div>
+                <div class="constructor-choice-item-title">{{ product.title }}</div>
+                <div class="constructor-choice-item-price">{{ product.price | money }}</div>
               </div>
-              <div class="constructor-choice-item-title">{{ product.title }}</div>
-              <div class="constructor-choice-item-price">{{ product.price | money }}</div>
-            </div>
+            {% endif %}
           {% endfor %}
         </div>
       </div>
@@ -93,12 +138,25 @@
           <div class="constructor-choice-header-title">Select up to 3 charms</div>
         </div>
         {%  for product in section.settings.chains %}
-          <img
-                  src="{{ product.metafields.custom.constructor_chain_picture | img_url: '2716x3784' }} }}"
-                  alt=""
-                  class="constructor-result-chain{% unless forloop.first %} constructor-result-chain_hidden{% endunless %}"
-                  data-count="{{ forloop.index }}"
-          >
+          {% if product.variants and product.variants.size == 2 and product.options and product.options contains 'Length' %}
+            {% for variant in product.variants %}
+              <img
+                src="{{ product.metafields.custom.constructor_chain_picture | img_url: '2716x3784' }}"
+                alt=""
+                class="constructor-result-chain{% unless forloop.parentloop.first and forloop.first %} constructor-result-chain_hidden{% endunless %}"
+                data-count="{{ forloop.parentloop.index }}-{{ forloop.index }}"
+                data-variant-id="{{ variant.id }}"
+              >
+            {% endfor %}
+          {% else %}
+            <img
+              src="{{ product.metafields.custom.constructor_chain_picture | img_url: '2716x3784' }}"
+              alt=""
+              class="constructor-result-chain{% unless forloop.first %} constructor-result-chain_hidden{% endunless %}"
+              data-count="{{ forloop.index }}"
+              data-variant-id="{{ product.first_available_variant.id }}"
+            >
+          {% endif %}
         {% endfor %}
         <div class="constructor-result-charms">
         </div>
@@ -149,13 +207,25 @@
   <div class="constructor-wrapper js-constructor-step constructor-final constructor-step-3" id="step-3">
     <div class="constructor-result constructor-result-final">
       {%  for product in section.settings.chains %}
-        <img
-                src="{{ product.metafields.custom.constructor_chain_picture | img_url: '2716x3784' }} }}"
-                alt=""
-                class="constructor-result-chain{% unless forloop.first %} constructor-result-chain_hidden{% endunless %}"
-                data-count="{{ forloop.index }}"
-                data-variant-id="{{ product.first_available_variant.id }}"
-        >
+        {% if product.variants and product.variants.size == 2 and product.options and product.options contains 'Length' %}
+          {% for variant in product.variants %}
+            <img
+              src="{{ product.metafields.custom.constructor_chain_picture | img_url: '2716x3784' }}"
+              alt=""
+              class="constructor-result-chain{% unless forloop.parentloop.first and forloop.first %} constructor-result-chain_hidden{% endunless %}"
+              data-count="{{ forloop.parentloop.index }}-{{ forloop.index }}"
+              data-variant-id="{{ variant.id }}"
+            >
+          {% endfor %}
+        {% else %}
+          <img
+            src="{{ product.metafields.custom.constructor_chain_picture | img_url: '2716x3784' }}"
+            alt=""
+            class="constructor-result-chain{% unless forloop.first %} constructor-result-chain_hidden{% endunless %}"
+            data-count="{{ forloop.index }}"
+            data-variant-id="{{ product.first_available_variant.id }}"
+          >
+        {% endif %}
       {% endfor %}
       <div class="constructor-result-charms">
       </div>
