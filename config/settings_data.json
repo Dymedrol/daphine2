@@ -78,7 +78,7 @@
     "message": "",
     "free_shipping_limit": "150",
     "free_shipping_gradient": "linear-gradient(180deg, rgba(255, 211, 226, 1), rgba(255, 213, 220, 1) 55.755%, rgba(168, 255, 251, 1) 100%)",
-    "cart_custom_message_text": "<p><strong>PLEASE NOTE ALL SALES ARE FINAL</strong></p>",
+    "cart_custom_message_text": "<p><strong>PLEASE NOTE ALL SALES ARE FINAL!</strong></p>",
     "cart_product": "gift-wrap",
     "currency_code_enable": false,
     "checkout_logo_image": "shopify://shop_images/NEW_LOGO_BLACK_1.png",
