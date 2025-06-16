@@ -1,1 +1,362 @@
-{"sections":{"hero":{"type":"collection-image-with-title","custom_css":[".hero__description,.hero__title {max-width: 720px !important; margin: 0 auto;}",".hero__description {line-height: 25px;}","@media screen and (max-width: 480px) {.hero__description {padding: 10px 30px; line-height: 22px; } .hero__title {padding-top: 10px; }}"],"settings":{"show_title":true,"show_description":true,"flex_align":"align--middle-center","bg_color":"","color":"","show_image":false,"banner_layout":"overlay","height":"screen-height-one-third","mobile_height":"screen-height-one-half--mobile","overlay_opacity":0,"overlay_color":"#000000","show_overlay_text":false,"padding_top":0,"padding_bottom":0}},"subcollections":{"type":"subcollections","disabled":true,"settings":{"subcollection_layout":"grid","subcollection_description":false,"select_image":"collection","color":"#ffffff","bg_color":"","padding_top":20,"padding_bottom":20}},"section_hero_z9kYFp":{"type":"section-hero","disabled":true,"settings":{"height":"screen-height-three-quarters","width":"wrapper--full","image_1":"{{ collection.metafields.custom.collection_page_banner.value }}","mobile_height":"screen-height-three-quarters--mobile","flex_align":"align--middle-center","overlay_opacity":0,"overlay_color":"#000000","show_overlay_text":false,"bg_color":"","color":"#ffffff"}},"main":{"type":"collection","blocks":{"f476d08a-623e-4337-b0df-21f02b5bb8d1":{"type":"featured_image","disabled":true,"settings":{"coll":"earrings","featured_image":"shopify:\/\/shop_images\/Daphine_Thea-earrings-mobile.jpg","featured_heading":"Meet Thea","featured_text":"","featured_button_text":"Early access","featured_button_link":"","button_type":"btn--primary","button_size":"btn--small","button_style":"btn--outline","show_arrow":false,"featured_color_text":"#ffffff","featured_color_overlay":"#222222","featured_overlay_opacity":10}},"b64cd888-7f9d-4ecd-bd88-81a2b78b7697":{"type":"featured_image","disabled":true,"settings":{"coll":"all","featured_image":"shopify:\/\/shop_images\/Daphine_Abi_Ayoka_earrings_2_3904dd65-41de-4d2a-960b-eda1f070c847.jpg","featured_heading":"The Collective","featured_text":"<p>x Abisola Omole<\/p>","featured_button_text":"Learn more","featured_button_link":"shopify:\/\/products\/ayoka-earrings","button_type":"btn--primary","button_size":"","button_style":"btn--outline","show_arrow":false,"featured_color_text":"#ffffff","featured_color_overlay":"#222222","featured_overlay_opacity":10}}},"block_order":["f476d08a-623e-4337-b0df-21f02b5bb8d1","b64cd888-7f9d-4ecd-bd88-81a2b78b7697"],"settings":{"show_on_model_pic":false,"enable_sort":true,"enable_filters":true,"filter_layout":"slide-out","collection_linklist":"","grid":3,"grid_mobile":"2","product_limit":36,"padding_top":0,"padding_bottom":0}},"section_tab_collections_hFJNGi":{"type":"section-tab-collections","blocks":{"collection_FVjPBW":{"type":"collection","settings":{"title":"EARRINGS","featured_collection":"earrings","show_image":false,"align_with_product_images":false,"overlay_opacity":0,"overlay_color":"#000000","description":"","color":"#ffffff","link_text":"View products","link":"","button_type":"btn--white","button_size":"","button_style":"btn--outline","show_arrow":false}},"collection_k3BH7T":{"type":"collection","settings":{"title":"BRACELETS","featured_collection":"bracelets","show_image":false,"align_with_product_images":false,"overlay_opacity":0,"overlay_color":"#000000","description":"","color":"#ffffff","link_text":"View products","link":"","button_type":"btn--white","button_size":"","button_style":"btn--outline","show_arrow":false}},"collection_jBpj37":{"type":"collection","settings":{"title":"RINGS","featured_collection":"rings","show_image":false,"align_with_product_images":false,"overlay_opacity":0,"overlay_color":"#000000","description":"","color":"#ffffff","link_text":"View products","link":"","button_type":"btn--white","button_size":"","button_style":"btn--outline","show_arrow":false}},"collection_dbm3qB":{"type":"collection","settings":{"title":"NECKLACES","featured_collection":"necklaces","show_image":false,"align_with_product_images":false,"overlay_opacity":0,"overlay_color":"#000000","description":"","color":"#ffffff","link_text":"View products","link":"","button_type":"btn--white","button_size":"","button_style":"btn--outline","show_arrow":false}}},"block_order":["collection_FVjPBW","collection_k3BH7T","collection_jBpj37","collection_dbm3qB"],"settings":{"title":"","text":"<h5><a href=\"\/collections\/all\" title=\"ALL\">VIEW MORE<\/a><\/h5>","layout":"stacked","show_product_count":false,"product_limit":12,"bg_color":"","color":"","padding_top":32,"padding_bottom":32}},"section_multicolumn_YPdQec":{"type":"section-multicolumn","blocks":{"icon_FUwjHR":{"type":"icon","settings":{"column_width":33,"icon_name":"icon-fast-shipment","icon_size":20,"icon_alignment":"icon--top","icon_color":"#ffffff","title":"Next Day Shipping","heading_size":3,"mobile_heading_size":3,"text":"","text_size":3,"mobile_text_size":3}},"icon_X8HKtb":{"type":"icon","settings":{"column_width":33,"icon_name":"icon-heart","icon_size":20,"icon_alignment":"icon--top","icon_color":"#ffffff","title":"Independently Women Owned","heading_size":3,"mobile_heading_size":3,"text":"","text_size":3,"mobile_text_size":3}},"icon_tzLhdE":{"type":"icon","settings":{"column_width":33,"icon_name":"icon-shield","icon_size":20,"icon_alignment":"icon--top","icon_color":"#ffffff","title":"Shop Now, Pay Later with Klarna","heading_size":3,"mobile_heading_size":3,"text":"","text_size":3,"mobile_text_size":3}}},"block_order":["icon_FUwjHR","icon_X8HKtb","icon_tzLhdE"],"settings":{"title":"","heading_size":5,"mobile_heading_size":5,"align_text":"text-center","align_columns":"flex-align-center","width":"wrapper","bg_color":"#5b5e3f","color":"#ffffff","padding_top":30,"padding_bottom":32,"layout_mobile":"grid"}}},"order":["hero","subcollections","section_hero_z9kYFp","main","section_tab_collections_hFJNGi","section_multicolumn_YPdQec"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "hero": {
+      "type": "collection-image-with-title",
+      "disabled": true,
+      "custom_css": [
+        ".hero__description,.hero__title {max-width: 720px !important; margin: 0 auto;}",
+        ".hero__description {line-height: 25px;}",
+        "@media screen and (max-width: 480px) {.hero__description {padding: 10px 30px; line-height: 22px; } .hero__title {padding-top: 10px; }}"
+      ],
+      "settings": {
+        "show_title": true,
+        "show_description": true,
+        "flex_align": "align--middle-center",
+        "bg_color": "",
+        "color": "",
+        "show_image": false,
+        "banner_layout": "overlay",
+        "height": "screen-height-one-third",
+        "mobile_height": "screen-height-one-half--mobile",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_rich_text_TTyNcL": {
+      "type": "section-rich-text",
+      "blocks": {
+        "subheading_FyAtBU": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "subheading": "Introducing",
+            "text_size": 3,
+            "mobile_text_size": 3
+          }
+        },
+        "heading_d4KG6g": {
+          "type": "heading",
+          "settings": {
+            "title": "Our Farewell",
+            "text_size": 7,
+            "mobile_text_size": 6
+          }
+        },
+        "text_Kmxcw3": {
+          "type": "text",
+          "settings": {
+            "text": "<p>After 7 incredible years, we come to you with the bittersweet news that Daphine will be closing in Fall 2025. Founded in 2018 by Damasia Ball and Philippine de Follin, our brand has been a champion of beautiful timeless heirlooms - little luxuries that could be reached for again and again. We hope that whilst we are gone, you continue to reach for these treasures and remember these 7 years fondly. </p><p>The seven-year cycle is a whirlwind of personal growth and change. In spiritual contexts, the number 7, and therefore \"7 years,\" often represents completion, wholeness, and a period of significant growth. These past 7 years have been monumental for us - we started a business, had children, relocated to different countries and grew this brand that we love so much. These seven years didn't just build a brand - they shaped who we are as women, mothers, and entrepreneurs. </p><p>We are happy to be leaving Daphine on a high, having had our pieces in iconic publications including Vanity Fair, The Wall Street Journal and the cover of British Vogue; and on iconic women including Beyonce, Bella Hadid and Iris Law.</p><p>We will be taking the time to evolve on our individual journeys and are looking forward to taking our expertise from Daphine into new and exciting challenges - in both our personal and professional lives. </p><p>Women have always been at the centre of what we do and we are so grateful to our all women team here in London, as well as the many women who have supported our brand during our tenure. We can’t thank these women enough: Milagros, Laura & Lauren, Viola, Bettina Looney, Monikh Dale, Abi Omole, Daniela & Sabrina, our friends at Sheerluxe who championed us from early on, Lucy Pilz, Tarra Orssich, Nina Litchfield, Laura Vidrequin, our sisters and mothers and of course you, our community. To every woman who wore our pieces or simply believed in what we were building - you made this dream possible, and we'll carry that with us forever. </p>",
+            "text_size": 4,
+            "mobile_text_size": 3,
+            "text_style": "font-heading"
+          }
+        },
+        "buttons_E7iJWQ": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "subheading_FyAtBU",
+        "heading_d4KG6g",
+        "text_Kmxcw3",
+        "buttons_E7iJWQ"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "width": "wrapper--narrow",
+        "align_text": "text-center",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "subcollections": {
+      "type": "subcollections",
+      "disabled": true,
+      "settings": {
+        "subcollection_layout": "grid",
+        "subcollection_description": false,
+        "select_image": "collection",
+        "color": "#ffffff",
+        "bg_color": "",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "section_hero_z9kYFp": {
+      "type": "section-hero",
+      "disabled": true,
+      "settings": {
+        "height": "screen-height-three-quarters",
+        "width": "wrapper--full",
+        "image_1": "{{ collection.metafields.custom.collection_page_banner.value }}",
+        "mobile_height": "screen-height-three-quarters--mobile",
+        "flex_align": "align--middle-center",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "bg_color": "",
+        "color": "#ffffff"
+      }
+    },
+    "main": {
+      "type": "collection",
+      "blocks": {
+        "f476d08a-623e-4337-b0df-21f02b5bb8d1": {
+          "type": "featured_image",
+          "disabled": true,
+          "settings": {
+            "coll": "earrings",
+            "featured_image": "shopify://shop_images/Daphine_Thea-earrings-mobile.jpg",
+            "featured_heading": "Meet Thea",
+            "featured_text": "",
+            "featured_button_text": "Early access",
+            "featured_button_link": "",
+            "button_type": "btn--primary",
+            "button_size": "btn--small",
+            "button_style": "btn--outline",
+            "show_arrow": false,
+            "featured_color_text": "#ffffff",
+            "featured_color_overlay": "#222222",
+            "featured_overlay_opacity": 10
+          }
+        },
+        "b64cd888-7f9d-4ecd-bd88-81a2b78b7697": {
+          "type": "featured_image",
+          "disabled": true,
+          "settings": {
+            "coll": "all",
+            "featured_image": "shopify://shop_images/Daphine_Abi_Ayoka_earrings_2_3904dd65-41de-4d2a-960b-eda1f070c847.jpg",
+            "featured_heading": "The Collective",
+            "featured_text": "<p>x Abisola Omole</p>",
+            "featured_button_text": "Learn more",
+            "featured_button_link": "shopify://products/ayoka-earrings",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--outline",
+            "show_arrow": false,
+            "featured_color_text": "#ffffff",
+            "featured_color_overlay": "#222222",
+            "featured_overlay_opacity": 10
+          }
+        }
+      },
+      "block_order": [
+        "f476d08a-623e-4337-b0df-21f02b5bb8d1",
+        "b64cd888-7f9d-4ecd-bd88-81a2b78b7697"
+      ],
+      "settings": {
+        "show_on_model_pic": false,
+        "enable_sort": true,
+        "enable_filters": true,
+        "filter_layout": "slide-out",
+        "collection_linklist": "",
+        "grid": 3,
+        "grid_mobile": "2",
+        "product_limit": 36,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_tab_collections_hFJNGi": {
+      "type": "section-tab-collections",
+      "blocks": {
+        "collection_FVjPBW": {
+          "type": "collection",
+          "settings": {
+            "title": "EARRINGS",
+            "featured_collection": "earrings",
+            "show_image": false,
+            "align_with_product_images": false,
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "description": "",
+            "color": "#ffffff",
+            "link_text": "View products",
+            "link": "",
+            "button_type": "btn--white",
+            "button_size": "",
+            "button_style": "btn--outline",
+            "show_arrow": false
+          }
+        },
+        "collection_k3BH7T": {
+          "type": "collection",
+          "settings": {
+            "title": "BRACELETS",
+            "featured_collection": "bracelets",
+            "show_image": false,
+            "align_with_product_images": false,
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "description": "",
+            "color": "#ffffff",
+            "link_text": "View products",
+            "link": "",
+            "button_type": "btn--white",
+            "button_size": "",
+            "button_style": "btn--outline",
+            "show_arrow": false
+          }
+        },
+        "collection_jBpj37": {
+          "type": "collection",
+          "settings": {
+            "title": "RINGS",
+            "featured_collection": "rings",
+            "show_image": false,
+            "align_with_product_images": false,
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "description": "",
+            "color": "#ffffff",
+            "link_text": "View products",
+            "link": "",
+            "button_type": "btn--white",
+            "button_size": "",
+            "button_style": "btn--outline",
+            "show_arrow": false
+          }
+        },
+        "collection_dbm3qB": {
+          "type": "collection",
+          "settings": {
+            "title": "NECKLACES",
+            "featured_collection": "necklaces",
+            "show_image": false,
+            "align_with_product_images": false,
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "description": "",
+            "color": "#ffffff",
+            "link_text": "View products",
+            "link": "",
+            "button_type": "btn--white",
+            "button_size": "",
+            "button_style": "btn--outline",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "collection_FVjPBW",
+        "collection_k3BH7T",
+        "collection_jBpj37",
+        "collection_dbm3qB"
+      ],
+      "settings": {
+        "title": "",
+        "text": "<h5><a href=\"/collections/all\" title=\"ALL\">VIEW MORE</a></h5>",
+        "layout": "stacked",
+        "show_product_count": false,
+        "product_limit": 12,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 32,
+        "padding_bottom": 32
+      }
+    },
+    "section_multicolumn_YPdQec": {
+      "type": "section-multicolumn",
+      "blocks": {
+        "icon_FUwjHR": {
+          "type": "icon",
+          "settings": {
+            "column_width": 33,
+            "icon_name": "icon-fast-shipment",
+            "icon_size": 20,
+            "icon_alignment": "icon--top",
+            "icon_color": "#ffffff",
+            "title": "Next Day Shipping",
+            "heading_size": 3,
+            "mobile_heading_size": 3,
+            "text": "",
+            "text_size": 3,
+            "mobile_text_size": 3
+          }
+        },
+        "icon_X8HKtb": {
+          "type": "icon",
+          "settings": {
+            "column_width": 33,
+            "icon_name": "icon-heart",
+            "icon_size": 20,
+            "icon_alignment": "icon--top",
+            "icon_color": "#ffffff",
+            "title": "Independently Women Owned",
+            "heading_size": 3,
+            "mobile_heading_size": 3,
+            "text": "",
+            "text_size": 3,
+            "mobile_text_size": 3
+          }
+        },
+        "icon_tzLhdE": {
+          "type": "icon",
+          "settings": {
+            "column_width": 33,
+            "icon_name": "icon-shield",
+            "icon_size": 20,
+            "icon_alignment": "icon--top",
+            "icon_color": "#ffffff",
+            "title": "Shop Now, Pay Later with Klarna",
+            "heading_size": 3,
+            "mobile_heading_size": 3,
+            "text": "",
+            "text_size": 3,
+            "mobile_text_size": 3
+          }
+        }
+      },
+      "block_order": [
+        "icon_FUwjHR",
+        "icon_X8HKtb",
+        "icon_tzLhdE"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": 5,
+        "mobile_heading_size": 5,
+        "align_text": "text-center",
+        "align_columns": "flex-align-center",
+        "width": "wrapper",
+        "bg_color": "#5b5e3f",
+        "color": "#ffffff",
+        "padding_top": 30,
+        "padding_bottom": 32,
+        "layout_mobile": "grid"
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "section_rich_text_TTyNcL",
+    "subcollections",
+    "section_hero_z9kYFp",
+    "main",
+    "section_tab_collections_hFJNGi",
+    "section_multicolumn_YPdQec"
+  ]
+}
