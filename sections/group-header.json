@@ -167,10 +167,11 @@
         },
         "text_BahWiA": {
           "type": "text",
+          "disabled": true,
           "settings": {
-            "text": "<p><a href=\"/pages/newsletter-sign-up\" title=\"Newsletter sign up\">Sign up for 10% off your first order</a></p>",
+            "text": "<p>THE FINAL SALE</p>",
             "target_url_enabled": false,
-            "target_url": "",
+            "target_url": "shopify://collections/all",
             "target_referrer_enabled": false,
             "target_referrer": "",
             "target_device_enabled": false,
