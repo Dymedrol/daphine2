@@ -129,7 +129,7 @@
         "b89b8dee-c00f-47b0-a4ef-e4683116dfb3": {
           "type": "text",
           "settings": {
-            "text": "<p> 30% OFF SITEWIDE </p>",
+            "text": "<p><a href=\"https://www.shop-daphine.com/collections/all\" title=\"https://www.shop-daphine.com/collections/all\"> 30% OFF SITEWIDE </a></p>",
             "target_url_enabled": false,
             "target_url": "shopify://collections/all",
             "target_referrer_enabled": false,
