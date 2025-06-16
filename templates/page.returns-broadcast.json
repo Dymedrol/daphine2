@@ -39,7 +39,7 @@
             "title": "Returns",
             "heading_size": 6,
             "mobile_heading_size": 6,
-            "text": "<p>In the unlikely event that you are unhappy with your purchase, we are happy to exchange or refund items returned within 14 days of delivery. Regrettably any returns received outside of the returns window will be refused or issued with a credit. </p>",
+            "text": "<p>Please note that all sales are final during this closing period and we will not be accepting any returns or exchanges for any pieces unless faulty. We will only accept returns or exchanges for orders placed before June 16th.</p>",
             "text_size": 3,
             "mobile_text_size": 3,
             "text_style": "font-body",
@@ -240,6 +240,7 @@
         "question_TqPqnb",
         "question_rnBnkz"
       ],
+      "disabled": true,
       "settings": {
         "width": "wrapper--narrow",
         "bg_color": "",
