@@ -129,7 +129,7 @@
         "b89b8dee-c00f-47b0-a4ef-e4683116dfb3": {
           "type": "text",
           "settings": {
-            "text": "<p>THE FINAL SALE 30% OFF</p>",
+            "text": "<p> 30% OFF SITEWIDE</p>",
             "target_url_enabled": false,
             "target_url": "shopify://collections/all",
             "target_referrer_enabled": false,
