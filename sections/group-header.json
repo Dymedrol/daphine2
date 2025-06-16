@@ -128,9 +128,8 @@
       "blocks": {
         "b89b8dee-c00f-47b0-a4ef-e4683116dfb3": {
           "type": "text",
-          "disabled": true,
           "settings": {
-            "text": "<p>OUR ONLY SALE IS HERE</p>",
+            "text": "<p>THE FINAL SALE 30% OFF</p>",
             "target_url_enabled": false,
             "target_url": "shopify://collections/all",
             "target_referrer_enabled": false,
