@@ -83,6 +83,7 @@
         },
         "heading_aiRPGM": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "title": "Start your return:",
             "heading_size": 5,
@@ -91,6 +92,7 @@
         },
         "template--16858200375542__b5de629f-24af-4cf1-a72a-0551b1f61ea0-question-1": {
           "type": "question",
+          "disabled": true,
           "settings": {
             "title": "United Kingdom Returns",
             "heading_size": 4,
@@ -114,6 +116,7 @@
         },
         "628276ff-126c-4281-baa7-6e5b0a0d0db8": {
           "type": "question",
+          "disabled": true,
           "settings": {
             "title": "International Returns",
             "heading_size": 4,
