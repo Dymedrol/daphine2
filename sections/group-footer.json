@@ -42,6 +42,7 @@
         },
         "footer-0": {
           "type": "newsletter",
+          "disabled": true,
           "settings": {
             "title": "",
             "text": "<h6>Receive 10% off your first order </h6><p>By signing up, you agree to our <a href=\"/pages/privacy-policy\" target=\"_blank\" title=\"PRIVACY POLICY\">Privacy & Policy *</a></p>",
