@@ -434,8 +434,6 @@
     }
   },
   "platform_customizations": {
-    "custom_css": [
-      ".image-wrapper img {background-color: #f5f3ef !important;}"
-    ]
+    "custom_css": []
   }
 }
