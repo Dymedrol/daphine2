@@ -258,6 +258,7 @@
         "text_GAkybJ",
         "buttons_9KYzCe"
       ],
+      "disabled": true,
       "name": "Rich text",
       "settings": {
         "width": "wrapper--narrow",
