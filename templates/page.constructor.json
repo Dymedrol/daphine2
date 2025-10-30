@@ -34,11 +34,14 @@
         "chain_image": "shopify://shop_images/finpic.jpg",
         "charm_image": "shopify://shop_images/transparent.png",
         "chains": [
-          "forcat-chain",
           "double-link-chain",
-          "rope-cord"
+          "rope-cord-copy-1",
+          "forcat-chain-copy"
         ],
         "charms": [
+          "initial-charms",
+          "zodiac-coin-charms",
+          "laurita-charm",
           "estelle-pendants"
         ]
       }
