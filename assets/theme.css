@@ -20852,7 +20852,7 @@ predictive-search[open=true] .predictive-search {
   flex-flow: row wrap;
   justify-content: flex-start;
   align-items: stretch;
-  background-color: var(--bg-accent);
+ /* background-color: var(--bg-accent);*/
 }
 
 /*.product-upsell__image {
