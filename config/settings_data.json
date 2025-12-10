@@ -114,34 +114,9 @@
         "disabled": false,
         "settings": {}
       },
-      "5858961087409699889": {
-        "type": "shopify://apps/geolocation-orbe/blocks/app-embed-footer-selector/7cb09287-cd2b-4646-837c-f1f9b6ea703e",
-        "disabled": false,
-        "settings": {
-          "footer_ui_type": "selector",
-          "option_language": false,
-          "style_corners": "square",
-          "style_dropdown": "outlined",
-          "option_classic_flag_style": "none",
-          "option_classic_currency_type": "none",
-          "search_country": true,
-          "block_background": "#f5f3ef",
-          "style_colors_background": "#f5f3ef",
-          "style_colors_border": "#ab8c52",
-          "style_colors_text": "#000000",
-          "option_modal_continent": false,
-          "option_flag_style": "square",
-          "option_currency_type": "iso",
-          "option_modal_language": false,
-          "title": "Select Your Region",
-          "language_title": "Preferred Language",
-          "helper_text": "Changing language will not affect your selected region",
-          "block_alignement": "flex-start"
-        }
-      },
       "15912215999290715800": {
-        "type": "shopify://apps/geolocation-orbe/blocks/app-embed-modal/7cb09287-cd2b-4646-837c-f1f9b6ea703e",
-        "disabled": false,
+        "type": "shopify://apps/orbe-geolocation/blocks/app-embed-modal/7cb09287-cd2b-4646-837c-f1f9b6ea703e",
+        "disabled": true,
         "settings": {
           "test_mode": false,
           "modal_closeButton": false,
@@ -149,7 +124,7 @@
           "option_currency_type": "symbol_flag",
           "option_language": false,
           "option_search_country": true,
-          "title": "",
+          "title": "Are you in the right place?",
           "text": "Please select your shipping country:",
           "helper_text": "<p>You are on the {country} site, shopping in {currency_symbol}. Please confirm or change your store preferences below.</p>",
           "cta_text": "CONFIRM & CLOSE",
@@ -166,6 +141,32 @@
           "style_colors_cta_text": "#ffffff",
           "style_colors_cta_button": "#ab8c52",
           "style_colors_text": "#000000"
+        }
+      },
+      "5858961087409699889": {
+        "type": "shopify://apps/orbe-geolocation/blocks/app-embed-footer-selector/7cb09287-cd2b-4646-837c-f1f9b6ea703e",
+        "disabled": true,
+        "settings": {
+          "footer_ui_type": "selector",
+          "block_position": "",
+          "option_language": false,
+          "style_corners": "square",
+          "style_dropdown": "outlined",
+          "option_classic_flag_style": "none",
+          "option_classic_currency_type": "none",
+          "search_country": true,
+          "option_modal_continent": false,
+          "option_flag_style": "square",
+          "option_currency_type": "iso",
+          "option_modal_language": false,
+          "title": "Select Your Region",
+          "language_title": "Preferred Language",
+          "helper_text": "Changing language will not affect your selected region",
+          "block_background": "#f5f3ef",
+          "style_colors_background": "#f5f3ef",
+          "style_colors_border": "#ab8c52",
+          "style_colors_text": "#000000",
+          "block_alignement": "flex-start"
         }
       }
     }
