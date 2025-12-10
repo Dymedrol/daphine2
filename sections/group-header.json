@@ -184,6 +184,7 @@
         "text_jadxzM",
         "text_BahWiA"
       ],
+      "disabled": true,
       "custom_css": [
         ".announcement__slide {font-family: \"ITC Galliard\" !important; font-style: italic;}"
       ],
