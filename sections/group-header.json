@@ -126,12 +126,12 @@
     "announcement": {
       "type": "announcement",
       "blocks": {
-        "b89b8dee-c00f-47b0-a4ef-e4683116dfb3": {
+        "text_ewDNqU": {
           "type": "text",
           "settings": {
-            "text": "<p><a href=\"https://www.shop-daphine.com/collections/all\" title=\"https://www.shop-daphine.com/collections/all\">NOW 50% OFF SITEWIDE </a></p>",
+            "text": "<p><a href=\"/pages/newsletter-sign-up\" target=\"_blank\" title=\"Newsletter sign up\">Join the Daphine community — enjoy 10% off your first order</a></p>",
             "target_url_enabled": false,
-            "target_url": "shopify://collections/all",
+            "target_url": "",
             "target_referrer_enabled": false,
             "target_referrer": "",
             "target_device_enabled": false,
@@ -150,39 +150,11 @@
             "target_device_enabled": false,
             "target_device": "mobile"
           }
-        },
-        "text_jadxzM": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<p><a href=\"/collections/summer-sale\" title=\"SALE\">SALE SALE SALE</a></p>",
-            "target_url_enabled": false,
-            "target_url": "shopify://collections/summer-sale",
-            "target_referrer_enabled": false,
-            "target_referrer": "",
-            "target_device_enabled": false,
-            "target_device": "mobile"
-          }
-        },
-        "text_BahWiA": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<p><a href=\"https://www.shop-daphine.com/collections/all\" title=\"https://www.shop-daphine.com/collections/all\"> 50% OFF SITEWIDE </a></p>",
-            "target_url_enabled": false,
-            "target_url": "shopify://collections/all",
-            "target_referrer_enabled": false,
-            "target_referrer": "",
-            "target_device_enabled": false,
-            "target_device": "mobile"
-          }
         }
       },
       "block_order": [
-        "b89b8dee-c00f-47b0-a4ef-e4683116dfb3",
-        "text_ykWbn7",
-        "text_jadxzM",
-        "text_BahWiA"
+        "text_ewDNqU",
+        "text_ykWbn7"
       ],
       "disabled": true,
       "custom_css": [

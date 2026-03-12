@@ -92,16 +92,16 @@
         "heading_B7kGXE": {
           "type": "heading",
           "settings": {
-            "title": "A New Chapter Begins",
-            "heading_size": 7,
-            "mobile_heading_size": 7
+            "title": "Timeless Icons",
+            "heading_size": 8,
+            "mobile_heading_size": 8
           }
         },
         "button_V3d8t6": {
           "type": "button",
           "settings": {
-            "link_text": "coming soon",
-            "link": "",
+            "link_text": "EXPLORE",
+            "link": "shopify://collections/all",
             "button_type": "btn--white",
             "button_size": "btn--small",
             "button_style": "btn--text",
@@ -116,10 +116,10 @@
       "settings": {
         "height": "image-height",
         "width": "wrapper--full",
-        "image_1": "shopify://shop_images/new_banner_desktop1.jpg",
+        "image_1": "shopify://shop_images/Screenshot_2026-03-12_at_12.52.38_2.jpg",
         "mobile_height": "image-height--mobile",
-        "mobile_image": "shopify://shop_images/new_banner_mobile_daphine_staples.jpg",
-        "flex_align": "align--bottom-right",
+        "mobile_image": "shopify://shop_images/005711--002--VK.jpg",
+        "flex_align": "align--bottom-center",
         "overlay_opacity": 0,
         "overlay_color": "#000000",
         "show_overlay_text": false,
@@ -956,10 +956,10 @@
         "icon_alignment": "icon--top",
         "align_columns": "flex-align-center",
         "width": "wrapper--full-padded",
-        "bg_color": "#5b5e3f",
+        "bg_color": "#861b1b",
         "color": "#ffffff",
-        "padding_top": 30,
-        "padding_bottom": 32,
+        "padding_top": 16,
+        "padding_bottom": 16,
         "layout_mobile": "grid"
       }
     },
