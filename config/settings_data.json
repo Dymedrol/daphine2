@@ -77,7 +77,7 @@
     "show_free_shipping_message": false,
     "message": "",
     "free_shipping_limit": "250",
-    "free_shipping_gradient": "linear-gradient(180deg, rgba(255, 211, 226, 1), rgba(255, 213, 220, 1) 55.755%, rgba(168, 255, 251, 1) 100%)",
+    "free_shipping_gradient": "linear-gradient(180deg, rgba(134, 27, 27, 1), rgba(255, 213, 220, 1) 55.755%, rgba(255, 255, 255, 1) 100%)",
     "cart_custom_message_text": "",
     "cart_cust_message_color": "#d20000",
     "cart_product": "",
