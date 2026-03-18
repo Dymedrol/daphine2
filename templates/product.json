@@ -61,10 +61,6 @@
             "padding_bottom": 32
           }
         },
-        "drop_hint_2_0_app_dah_wpBGw4": {
-          "type": "shopify://apps/drop-hint/blocks/app_dah/2087e30d-3884-4008-9b6b-545028750b80",
-          "settings": {}
-        },
         "divider_1": {
           "type": "divider",
           "settings": {
@@ -246,8 +242,8 @@
             "icon_size": 80,
             "title": "",
             "text": "{{ product.metafields.custom.gold_plating_description | metafield_tag }}",
-            "bg_color": "#f8f7f6",
-            "color": "#212121",
+            "bg_color": "#861b1b",
+            "color": "#ffffff",
             "padding_bottom": 16
           }
         }
@@ -259,7 +255,6 @@
         "variants",
         "text_Whz3dC",
         "buttons",
-        "drop_hint_2_0_app_dah_wpBGw4",
         "divider_1",
         "text_rHnfJx",
         "siblings_VPthXh",

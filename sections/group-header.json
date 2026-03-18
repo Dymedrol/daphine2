@@ -156,7 +156,6 @@
         "text_ewDNqU",
         "text_ykWbn7"
       ],
-      "disabled": true,
       "custom_css": [
         ".announcement__slide {font-family: \"ITC Galliard\" !important; font-style: italic;}"
       ],
@@ -166,7 +165,7 @@
         "show_arrows": false,
         "marquee_speed": 50,
         "text_size": 3,
-        "bg_color": "#5b5e3f",
+        "bg_color": "#861b1b",
         "color": "#ffffff"
       }
     },
