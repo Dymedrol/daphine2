@@ -105,22 +105,6 @@
         "padding_bottom": 20
       }
     },
-    "section_hero_z9kYFp": {
-      "type": "section-hero",
-      "disabled": true,
-      "settings": {
-        "height": "screen-height-three-quarters",
-        "width": "wrapper--full",
-        "image_1": "{{ collection.metafields.custom.collection_page_banner.value }}",
-        "mobile_height": "screen-height-three-quarters--mobile",
-        "flex_align": "align--middle-center",
-        "overlay_opacity": 0,
-        "overlay_color": "#000000",
-        "show_overlay_text": false,
-        "bg_color": "",
-        "color": "#ffffff"
-      }
-    },
     "main": {
       "type": "collection",
       "blocks": {
@@ -178,6 +162,21 @@
         "product_limit": 36,
         "padding_top": 0,
         "padding_bottom": 0
+      }
+    },
+    "section_hero_z9kYFp": {
+      "type": "section-hero",
+      "settings": {
+        "height": "screen-height-two-thirds",
+        "width": "wrapper--full",
+        "image_1": "shopify://shop_images/DAPHINE_ENE269903.png",
+        "mobile_height": "screen-height-one-third--mobile",
+        "flex_align": "align--middle-center",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "bg_color": "",
+        "color": "#ffffff"
       }
     },
     "section_tab_collections_hFJNGi": {
@@ -355,8 +354,8 @@
     "hero",
     "section_rich_text_TTyNcL",
     "subcollections",
-    "section_hero_z9kYFp",
     "main",
+    "section_hero_z9kYFp",
     "section_tab_collections_hFJNGi",
     "section_multicolumn_YPdQec"
   ]
