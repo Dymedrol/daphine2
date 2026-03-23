@@ -11,7 +11,6 @@
   "sections": {
     "hero": {
       "type": "collection-image-with-title",
-      "disabled": true,
       "custom_css": [
         ".hero__description,.hero__title {max-width: 720px !important; margin: 0 auto;}",
         ".hero__description {line-height: 25px;}",
@@ -82,6 +81,7 @@
         "text_Kmxcw3",
         "buttons_E7iJWQ"
       ],
+      "disabled": true,
       "name": "Rich text",
       "settings": {
         "width": "wrapper--narrow",
@@ -170,7 +170,7 @@
       "settings": {
         "show_on_model_pic": false,
         "enable_sort": true,
-        "enable_filters": true,
+        "enable_filters": false,
         "filter_layout": "slide-out",
         "collection_linklist": "",
         "grid": 3,
@@ -266,6 +266,7 @@
         "collection_jBpj37",
         "collection_dbm3qB"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "text": "<h5><a href=\"/collections/all\" title=\"ALL\">VIEW MORE</a></h5>",
@@ -342,7 +343,7 @@
         "align_text": "text-center",
         "align_columns": "flex-align-center",
         "width": "wrapper",
-        "bg_color": "#5b5e3f",
+        "bg_color": "#861b1b",
         "color": "#ffffff",
         "padding_top": 30,
         "padding_bottom": 32,
