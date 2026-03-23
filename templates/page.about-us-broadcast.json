@@ -131,74 +131,6 @@
         "padding_bottom": 0
       }
     },
-    "section_custom_content_FMaD9k": {
-      "type": "section-custom-content",
-      "blocks": {
-        "text_HwKG7T": {
-          "type": "text",
-          "settings": {
-            "subheading": "MADE WITH CARE",
-            "subheading_size": 4,
-            "mobile_subheading_size": 4,
-            "title": "There's a special kind of magic to something crafted by hand",
-            "heading_size": 5,
-            "mobile_heading_size": 5,
-            "text": "<p>That’s why all of our pieces are handmade in our atelier in Jaipur – an Indian city known for its long history of skilled craftsmanship and design. We are uncompromising in our commitment to working directly with local artisans, whose passion, dedication and care keeps quality as high as possible, while they are able to reap the full reward of their work. This also allows us to offer honest pricing – which, along with ethical sourcing and sustainable production, will always be our thing.</p>",
-            "text_size": 3,
-            "mobile_text_size": 3,
-            "button_text": "READ MORE ABOUT SUSTAINABILITY AND ETHOS",
-            "button_url": "shopify://pages/sustainability-ethics",
-            "button_type": "btn--primary",
-            "button_size": "btn--small",
-            "button_style": "btn--text",
-            "show_arrow": false,
-            "show_social_links": false,
-            "text_columns": 1,
-            "align_text": "text-center",
-            "bg_color": "",
-            "color": ""
-          }
-        },
-        "image_mJgEW9": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/IMG_4834_703ca1d8-e250-41b4-ac00-a30eebcf91c6.jpg",
-            "overlay_opacity": 0,
-            "overlay_color": "#ffffff",
-            "show_overlay_text": false,
-            "title": "",
-            "heading_size": 7,
-            "mobile_heading_size": 4,
-            "description": "",
-            "text_size": 3,
-            "mobile_text_size": 3,
-            "flex_align": "align--middle-center",
-            "bg_color": "",
-            "color": "#ffffff",
-            "link_text": "",
-            "link": "",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false
-          }
-        }
-      },
-      "block_order": [
-        "text_HwKG7T",
-        "image_mJgEW9"
-      ],
-      "disabled": true,
-      "settings": {
-        "height": "image-height",
-        "mobile_height": "image-height--mobile",
-        "width": "wrapper--full-padded",
-        "borders": false,
-        "reverse_blocks": true,
-        "padding_top": 50,
-        "padding_bottom": 50
-      }
-    },
     "section_rich_text_PUDwPU": {
       "type": "section-rich-text",
       "blocks": {
@@ -257,6 +189,123 @@
         "bg_color": "",
         "color": "#FFFFFF"
       }
+    },
+    "section_custom_content_FMaD9k": {
+      "type": "section-custom-content",
+      "blocks": {
+        "text_HwKG7T": {
+          "type": "text",
+          "settings": {
+            "subheading": "ABOUT US",
+            "subheading_size": 4,
+            "mobile_subheading_size": 3,
+            "title": "We believe in how a piece of jewellery can make you feel",
+            "heading_size": 5,
+            "mobile_heading_size": 4,
+            "text": "<p>Whether it’s a pearl to bring light to a dull morning or a pair of swishy earrings that make you want to dance, we design with one wish in mind – that you’ll find a piece in our collection that lifts your mood, and brings you comfort. A piece that fits, like the missing item from your wardrobe you’ve been searching for, forever.</p><p>We want our creations to be your daily companions, that won’t go out of fashion in a matter of months. Classic, timeless icons. For this reason, our collections explore the heritage design details that resonate now – giving them new, contemporary life.</p>",
+            "text_size": 3,
+            "mobile_text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "btn--small",
+            "button_style": "btn--text",
+            "show_arrow": false,
+            "show_social_links": false,
+            "text_columns": 1,
+            "align_text": "text-center",
+            "bg_color": "",
+            "color": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_HwKG7T"
+      ],
+      "settings": {
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "width": "wrapper--full-padded",
+        "borders": false,
+        "reverse_blocks": true,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "section_hero_8qL9yp": {
+      "type": "section-hero",
+      "blocks": {
+        "button_GMUMHw": {
+          "type": "button",
+          "settings": {
+            "link_text": "",
+            "link": "shopify://collections/necklaces",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "button_GMUMHw"
+      ],
+      "name": "Image banner",
+      "settings": {
+        "height": "image-height",
+        "width": "wrapper--full-padded",
+        "image_1": "shopify://shop_images/new_banner_5_desktop.jpg",
+        "mobile_height": "image-height--mobile",
+        "mobile_image": "shopify://shop_images/new_banner_5_mobile.jpg",
+        "flex_align": "align--middle-center",
+        "overlay_opacity": 0,
+        "overlay_color": "#000",
+        "show_overlay_text": false,
+        "bg_color": "",
+        "color": "#FFFFFF"
+      }
+    },
+    "section_custom_content_zKCgD6": {
+      "type": "section-custom-content",
+      "blocks": {
+        "text_3UEgkE": {
+          "type": "text",
+          "settings": {
+            "subheading": "MADE WITH CARE",
+            "subheading_size": 4,
+            "mobile_subheading_size": 3,
+            "title": "There's a special kind of magic to something crafted by hand",
+            "heading_size": 5,
+            "mobile_heading_size": 4,
+            "text": "<p>That’s why all of our pieces are handmade in our atelier in Jaipur – an Indian city known for its long history of skilled craftsmanship and design. We are uncompromising in our commitment to working directly with local artisans, whose passion, dedication and care keeps quality as high as possible, while they are able to reap the full reward of their work. This also allows us to offer honest pricing – which, along with ethical sourcing and sustainable production, will always be our thing.</p>",
+            "text_size": 3,
+            "mobile_text_size": 3,
+            "button_text": "READ MORE ABOUT SUSTAINABILITY AND ETHOS",
+            "button_url": "shopify://pages/sustainability-ethics",
+            "button_type": "btn--primary",
+            "button_size": "btn--small",
+            "button_style": "btn--text",
+            "show_arrow": false,
+            "show_social_links": false,
+            "text_columns": 1,
+            "align_text": "text-center",
+            "bg_color": "",
+            "color": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_3UEgkE"
+      ],
+      "settings": {
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "width": "wrapper",
+        "borders": false,
+        "reverse_blocks": true,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
     }
   },
   "order": [
@@ -264,8 +313,10 @@
     "55431cf2-9b35-4a37-b011-34d43d068a6b",
     "divider",
     "section_custom_content_Km4Tkf",
-    "section_custom_content_FMaD9k",
     "section_rich_text_PUDwPU",
-    "section_hero_gT7XCx"
+    "section_hero_gT7XCx",
+    "section_custom_content_FMaD9k",
+    "section_hero_8qL9yp",
+    "section_custom_content_zKCgD6"
   ]
 }
