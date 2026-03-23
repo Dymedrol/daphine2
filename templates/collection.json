@@ -318,7 +318,7 @@
           "type": "icon",
           "settings": {
             "column_width": 33,
-            "icon_name": "icon-shield",
+            "icon_name": "icon-recycle",
             "icon_size": 20,
             "icon_alignment": "icon--top",
             "icon_color": "#ffffff",
