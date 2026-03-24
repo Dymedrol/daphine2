@@ -16,7 +16,7 @@
           "type": "image",
           "settings": {
             "column_width": 40,
-            "image": "shopify://shop_images/Screenshot_2024-04-05_at_18.01.50.png",
+            "image": "shopify://shop_images/260204_Daphine_CO_151_RT.jpg",
             "image_aspect_ratio": 0.7,
             "mobile_image_aspect_ratio": 0.7,
             "title": "",
@@ -39,7 +39,7 @@
             "title": "Returns",
             "heading_size": 6,
             "mobile_heading_size": 6,
-            "text": "<p>Please note that all sales are final during this closing period and we will not be accepting any returns or exchanges for any pieces unless faulty. </p><p><strong>We will only accept returns or exchanges for orders placed before June 16th. Items must be  in new and unworn condition and returned within 14 days of your receipt of shipment. </strong></p><p></p>",
+            "text": "<p>In the unlikely event that you are unhappy with your purchase, we are happy to exchange or refund items returned within 14 days of delivery*. Regrettably any returns received outside of the returns window will be refused or issued with a credit.</p>",
             "text_size": 3,
             "mobile_text_size": 3,
             "text_style": "font-body",
@@ -92,11 +92,10 @@
         },
         "template--16858200375542__b5de629f-24af-4cf1-a72a-0551b1f61ea0-question-1": {
           "type": "question",
-          "disabled": true,
           "settings": {
-            "title": "United Kingdom Returns",
+            "title": "Click here to start your return",
             "heading_size": 4,
-            "mobile_heading_size": 5,
+            "mobile_heading_size": 4,
             "content": "<p><a href=\"https://returns.bigblue.co/daphine\" target=\"_blank\" title=\"https://returns.bigblue.co/daphine\">Please click here to start your return.</a></p>",
             "text_size": 3,
             "mobile_text_size": 3
@@ -154,8 +153,20 @@
             "mobile_heading_size": 5
           }
         },
+        "question_hJayyd": {
+          "type": "question",
+          "settings": {
+            "title": "A New Chapter for Daphine",
+            "heading_size": 4,
+            "mobile_heading_size": 4,
+            "content": "<p>Daphine continues under new leadership while remaining true to its original spirit. Sign up to our <a href=\"/pages/newsletter-sign-up\" target=\"_blank\" title=\"Newsletter sign up\">newsletter</a> to receive all updates on this new chapter and be the first to know what’s coming.</p>",
+            "text_size": 3,
+            "mobile_text_size": 3
+          }
+        },
         "question_4mHPp4": {
           "type": "question",
+          "disabled": true,
           "settings": {
             "title": "Holiday period",
             "heading_size": 4,
@@ -171,7 +182,7 @@
             "title": "What can I return?",
             "heading_size": 4,
             "mobile_heading_size": 4,
-            "content": "<p>We are only able to accept returns on items - including earrings - if they are sent back unworn and in their original packaging.</p><p>However we can’t accept returns on engraved items - unless they were received faulty - as we’ve customised these pieces especially for you.</p><p>We are also unable to accept returns on items purchased from our stockists, and all purchases made will need to be returned directly to them.</p>",
+            "content": "<p>We are only able to accept returns on items - including earrings - if they are sent back unworn and in their original packaging.</p><p>We are also unable to accept returns on items purchased from our stockists, and all purchases made will need to be returned directly to them.</p>",
             "text_size": 3,
             "mobile_text_size": 3
           }
@@ -193,7 +204,7 @@
             "title": "UK Return Policy",
             "heading_size": 4,
             "mobile_heading_size": 4,
-            "content": "<p>Daphine is currently offering free returns for items in new and unworn condition within 14 days of your receipt of shipment. </p><p><a href=\"https://returns.bigblue.co/daphine\" target=\"_blank\" title=\"https://returns.bigblue.co/daphine\">Please click here to start your return</a></p><p>Within 7-10 business days of our receipt of your return, you will receive an email that your refund has been processed. If your return package shows as having been delivered but you haven't yet received a refund notification, we appreciate your patience in allowing us time to complete the return process. Your refund will be credited to the same form of payment used to make the original purchase. Refunds are for product only and do not include original shipping cost. Please allow 7-10 business days for your bank to post the refund to your account.</p>",
+            "content": "<p>We accept returns for items in new and unworn condition. We must receive your return within 14 days from the date you originally received your order. We cannot be responsible for return shipments that are lost in transit, so please make sure that you obtain tracking info for your return and insure your package appropriately.</p><p>Customer will be responsible for all return shipping costs from the UK.</p><p><a href=\"https://returns.bigblue.co/daphine\" target=\"_blank\" title=\"https://returns.bigblue.co/daphine\">Please click here to start your return</a></p><p>Within 7-10 business days of our receipt of your return, you will receive an email that your refund has been processed. If your return package shows as having been delivered but you haven't yet received a refund notification, we appreciate your patience in allowing us time to complete the return process. Your refund will be credited to the same form of payment used to make the original purchase. Refunds are for product only and do not include original shipping cost. Please allow 7-10 business days for your bank to post the refund to your account.</p>",
             "text_size": 3,
             "mobile_text_size": 3
           }
@@ -235,6 +246,7 @@
       },
       "block_order": [
         "heading_yfh83j",
+        "question_hJayyd",
         "question_4mHPp4",
         "question_pBy6bP",
         "question_Di89Ba",
@@ -243,7 +255,6 @@
         "question_TqPqnb",
         "question_rnBnkz"
       ],
-      "disabled": true,
       "settings": {
         "width": "wrapper--narrow",
         "bg_color": "",
