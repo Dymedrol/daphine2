@@ -53,7 +53,7 @@
           "type": "image",
           "settings": {
             "column_width": 40,
-            "image": "shopify://shop_images/DAPHINE_SCAN_5-Edit.jpg",
+            "image": "shopify://shop_images/rings_banner_mobile.jpg",
             "image_aspect_ratio": 0.7,
             "mobile_image_aspect_ratio": 0.7,
             "title": "",
@@ -184,9 +184,31 @@
         "question_BKPBja": {
           "type": "question",
           "settings": {
+            "title": "A New Chapter for Daphine",
+            "heading_size": 4,
+            "mobile_heading_size": 4,
+            "content": "<p>Daphine continues under new leadership while remaining true to its original spirit. Sign up to our <a href=\"/pages/newsletter-sign-up\" target=\"_blank\" title=\"Newsletter Sign Up\">newsletter</a> to receive all updates on this new chapter and be the first to know what’s coming.</p>",
+            "text_size": 3,
+            "mobile_text_size": 3
+          }
+        },
+        "question_6K8P3E": {
+          "type": "question",
+          "settings": {
+            "title": "A New Chapter for Daphine",
+            "heading_size": 4,
+            "mobile_heading_size": 4,
+            "content": "<p>Daphine is continuing its story under new ownership. As part of this transition, we are not able to access or manage any orders, returns, or customer accounts created before December 2025.<br/><br/>We understand this may be disappointing, and we want to reassure you that our focus moving forward is to honour Daphine’s spirit and quality while building a renewed experience for our community.<br/><br/>If you have questions about your jewellery or need guidance, our team will do their best to assist where possible.</p><p>You can contact us at <a href=\"mailto:info@shop-daphine.com\" target=\"_blank\" title=\"mailto:info@shop-daphine.com\">info@shop-daphine.com.</a></p>",
+            "text_size": 3,
+            "mobile_text_size": 3
+          }
+        },
+        "question_UtGrQL": {
+          "type": "question",
+          "settings": {
             "title": "What forms of payment do we accept?",
-            "heading_size": 5,
-            "mobile_heading_size": 5,
+            "heading_size": 4,
+            "mobile_heading_size": 4,
             "content": "<p>We accept all major credit cards (Visa, MasterCard, AMEX), PayPal, ApplePay, Google Pay and Klarna. Payment will be taken from your credit or debit card as soon as the order has been placed. If you have ordered an engraved item or purchased a pre-order item, the payment will also be taken at the time of ordering.</p>",
             "text_size": 3,
             "mobile_text_size": 3
@@ -196,8 +218,8 @@
           "type": "question",
           "settings": {
             "title": "What material is our jewellery made of?",
-            "heading_size": 5,
-            "mobile_heading_size": 5,
+            "heading_size": 4,
+            "mobile_heading_size": 4,
             "content": "<p>We invest in the production of our <a href=\"/collections/all\" title=\"ALL\">jewellery </a>so that it’s made to last. Every piece is handmade in our Jaipur atelier, with 18ct gold laid over recycled brass that is Responsible Jewellery Council certified. The methods we use produce a resilient layer of gold that doesn’t easily wear away (and also happens to be hypoallergenic and nickel-free).</p>",
             "text_size": 3,
             "mobile_text_size": 3
@@ -207,8 +229,8 @@
           "type": "question",
           "settings": {
             "title": "What types of jewellery do we offer?",
-            "heading_size": 5,
-            "mobile_heading_size": 5,
+            "heading_size": 4,
+            "mobile_heading_size": 4,
             "content": "<p>Each of our pieces are handmade to perfection. Browse <a href=\"/collections/rings\" title=\"RINGS\">chunky gold rings </a>drizzled in 18k gold, carefully designed <a href=\"/collections/earrings\" title=\"EARRINGS\">gold plated hoops</a>; <a href=\"/collections/necklaces\" title=\"NECKLACES\">gold chain necklaces</a>; <a href=\"/collections/tennis\" title=\"Tennis Jewellery\">tennis inspired pieces</a> and more.</p>",
             "text_size": 3,
             "mobile_text_size": 3
@@ -218,15 +240,27 @@
           "type": "question",
           "settings": {
             "title": "How long does the plating last for?",
-            "heading_size": 5,
-            "mobile_heading_size": 5,
-            "content": "<p>We’re committed to creating pieces that will stand the test of time. So if your plating fades, or something comes loose, we promise to repair or replate your Daphine jewellery for free within a year of purchase or receipt under standard conditions of normal wear-and-tear.</p>",
+            "heading_size": 4,
+            "mobile_heading_size": 4,
+            "content": "<p>Our pieces are designed to be worn and loved every day, and plated jewellery can be very durable when cared for properly. The longevity of the plating depends on how the jewellery is worn and maintained, but with mindful care, your pieces will keep their finish beautifully over time.<br/><br/>We’re committed to creating jewellery that stands the test of time. If your plating fades or something comes loose within a year of purchase under normal wear and tear, our team will be here to support you and help you find the best solution.</p>",
+            "text_size": 3,
+            "mobile_text_size": 3
+          }
+        },
+        "question_LPxRpX": {
+          "type": "question",
+          "settings": {
+            "title": "How do I care for my jewellery?",
+            "heading_size": 4,
+            "mobile_heading_size": 4,
+            "content": "<p>To ensure your pieces stay looking their best and can be worn again and again, it helps to show them a little care. We recommend removing jewellery before exercising, bathing, swimming, or applying lotions, perfume, or hand sanitiser. When not in use, store each piece separately — ideally in its Daphine pouch — in a cool, dry place.<br/><br/>As with all plated jewellery, natural variations in skin pH, sweat and body chemistry, as well as contact with moisture or products, can affect the finish over time. Keeping your pieces dry and away from chemicals will help preserve their plating and extend their life.</p>",
             "text_size": 3,
             "mobile_text_size": 3
           }
         },
         "8e1977d1-5db7-45e1-8aee-4c4666a1a20b": {
           "type": "question",
+          "disabled": true,
           "settings": {
             "title": "What does our guarantee cover?",
             "heading_size": 5,
@@ -236,8 +270,20 @@
             "mobile_text_size": 3
           }
         },
+        "question_mLayrW": {
+          "type": "question",
+          "settings": {
+            "title": "Is Daphine a sustainable brand?",
+            "heading_size": 4,
+            "mobile_heading_size": 4,
+            "content": "<p>At Daphine, sustainability is always on our minds – because we believe that producing pieces to treasure shouldn’t come at the expense of the planet.</p><p>Less really is more. We’re passionate about encouraging conscious consumption – we only want our customers to buy pieces that truly bring joy. Daphine jewellery is intended to be loved for years to come, which is why we create timeless designs that can be worn season after season.</p><p>You can find more information in our <a href=\"/pages/sustainability-ethics\" target=\"_blank\" title=\"OUR ETHOS\">Sustainability</a> page.</p>",
+            "text_size": 3,
+            "mobile_text_size": 3
+          }
+        },
         "question_acWyrF": {
           "type": "question",
+          "disabled": true,
           "settings": {
             "title": "Repair & Restore",
             "heading_size": 5,
@@ -249,6 +295,7 @@
         },
         "question_JBcc44": {
           "type": "question",
+          "disabled": true,
           "settings": {
             "title": "What are our silver styles made of?",
             "heading_size": 5,
@@ -260,6 +307,7 @@
         },
         "question_Nh6aCk": {
           "type": "question",
+          "disabled": true,
           "settings": {
             "title": "What is 925 Sterling?",
             "heading_size": 5,
@@ -269,23 +317,12 @@
             "mobile_text_size": 3
           }
         },
-        "question_mLayrW": {
-          "type": "question",
-          "settings": {
-            "title": "Is Daphine a sustainable brand?",
-            "heading_size": 5,
-            "mobile_heading_size": 5,
-            "content": "<p>At Daphine, sustainability is always on our minds – because we believe that producing pieces to treasure shouldn’t come at the expense of the planet.</p><p>Less really is more. We’re passionate about encouraging conscious consumption – we only want our customers to buy pieces that truly bring joy. Daphine jewellery is intended to be loved for years to come, which is why we create timeless designs that can be worn season after season.</p><p>You can find more information in our <a href=\"/pages/sustainability-ethics\" target=\"_blank\" title=\"OUR ETHOS\">Sustainability</a> page.</p>",
-            "text_size": 3,
-            "mobile_text_size": 3
-          }
-        },
         "question_39nRTj": {
           "type": "question",
           "settings": {
             "title": "How do I determine my ring size?",
-            "heading_size": 5,
-            "mobile_heading_size": 5,
+            "heading_size": 4,
+            "mobile_heading_size": 4,
             "content": "<p>Our <a href=\"/pages/size-guide\" title=\"Size Guide\">Ring Sizing Guide</a> gives you several ways to measure your own ring size, or find out someone else's ring size if the ring is a gift.</p>",
             "text_size": 3,
             "mobile_text_size": 3
@@ -295,26 +332,16 @@
           "type": "question",
           "settings": {
             "title": "How do I determine my bangle size?",
-            "heading_size": 5,
-            "mobile_heading_size": 5,
+            "heading_size": 4,
+            "mobile_heading_size": 4,
             "content": "<p><strong>1.</strong> Measure your palm at its widest</p><p><strong>2.</strong> Add 0.4mm</p><p><strong>3.</strong> If the total size of your palm (including the 0.4mm) is :</p><p> - 8.1 to 8.3cm, you are a size S (60mm) in our <a href=\"/collections/bracelets\" title=\"BRACELETS\">bangles</a>.   </p><p> - 8.4 to 8.6cm, you are a size M (64mm) in our bangles.   </p><p> - 8.6 to 8.8cm, you are a size L (68mm) in our bangles. </p>",
-            "text_size": 3,
-            "mobile_text_size": 3
-          }
-        },
-        "question_LPxRpX": {
-          "type": "question",
-          "settings": {
-            "title": "How do I care for my jewellery?",
-            "heading_size": 5,
-            "mobile_heading_size": 5,
-            "content": "<p>To make sure that they stay looking their best and can be worn again and again, it’s a good idea to show your pieces a little love. We recommend taking jewellery off while exercising, bathing, swimming or applying lotions and perfumes. Store each piece individually – preferably in its Daphine pouch – and in a cool, dry place. </p>",
             "text_size": 3,
             "mobile_text_size": 3
           }
         },
         "question_UiUAmd": {
           "type": "question",
+          "disabled": true,
           "settings": {
             "title": "What happens if my jewellery is faulty?",
             "heading_size": 5,
@@ -328,8 +355,8 @@
           "type": "question",
           "settings": {
             "title": "How do I receive my 10% discount?",
-            "heading_size": 5,
-            "mobile_heading_size": 5,
+            "heading_size": 4,
+            "mobile_heading_size": 4,
             "content": "<p>Once you’ve signed up to receive our newsletter, your discount code will be emailed to you. It may have gone to your junk folder, so please check there too. If you have any issues, please email us at <a href=\"mailto:info@shop-daphine.com\" target=\"_blank\" title=\"Customer service email\">info@shop-daphine.com</a>.</p>",
             "text_size": 3,
             "mobile_text_size": 3
@@ -337,6 +364,7 @@
         },
         "question_9LgbPD": {
           "type": "question",
+          "disabled": true,
           "settings": {
             "title": "Do you offer gift wrapping?",
             "heading_size": 5,
@@ -348,6 +376,7 @@
         },
         "question_zQbHbK": {
           "type": "question",
+          "disabled": true,
           "settings": {
             "title": "Brexit: will I have to pay customs duty to the EU?",
             "heading_size": 5,
@@ -362,17 +391,19 @@
         "template--16858200375542__b5de629f-24af-4cf1-a72a-0551b1f61ea0-heading-1",
         "template--16858200375542__b5de629f-24af-4cf1-a72a-0551b1f61ea0-question-1",
         "question_BKPBja",
+        "question_6K8P3E",
+        "question_UtGrQL",
         "template--16858200375542__b5de629f-24af-4cf1-a72a-0551b1f61ea0-question-2",
         "template--16858200375542__b5de629f-24af-4cf1-a72a-0551b1f61ea0-question-3",
         "628276ff-126c-4281-baa7-6e5b0a0d0db8",
+        "question_LPxRpX",
         "8e1977d1-5db7-45e1-8aee-4c4666a1a20b",
+        "question_mLayrW",
         "question_acWyrF",
         "question_JBcc44",
         "question_Nh6aCk",
-        "question_mLayrW",
         "question_39nRTj",
         "question_cCCGh3",
-        "question_LPxRpX",
         "question_UiUAmd",
         "question_pUNcH8",
         "question_9LgbPD",
