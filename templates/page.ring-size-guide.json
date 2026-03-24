@@ -109,8 +109,8 @@
           "type": "heading",
           "settings": {
             "title": "OUR MEASURING TIPS",
-            "text_size": 5,
-            "mobile_text_size": 3
+            "text_size": 4,
+            "mobile_text_size": 4
           }
         },
         "text_HDexLR": {
@@ -172,7 +172,7 @@
             "button_text": "PRINTABLE RING SIZE GUIDE",
             "button_url": "https://www.shop-daphine.com/cdn/shop/files/Daphine___Ring_sizing_chart_F_to_Q.pdf?v=9633094366208678712",
             "button_type": "btn--primary",
-            "button_size": "",
+            "button_size": "btn--small",
             "button_style": "btn--outline",
             "show_arrow": false
           }
@@ -212,8 +212,8 @@
           "type": "heading",
           "settings": {
             "title": "MEASURE A RING YOU OWN",
-            "text_size": 5,
-            "mobile_text_size": 3
+            "text_size": 4,
+            "mobile_text_size": 4
           }
         },
         "text_KTeHD4": {
@@ -515,8 +515,8 @@
           "type": "heading",
           "settings": {
             "title": "MEASURE YOUR FINGER",
-            "text_size": 5,
-            "mobile_text_size": 3
+            "text_size": 4,
+            "mobile_text_size": 4
           }
         },
         "text_m6gp7D": {
