@@ -34,6 +34,7 @@
         "chain_image": "shopify://shop_images/finpic.jpg",
         "charm_image": "shopify://shop_images/transparent.png",
         "chains": [
+          "gaia-chain",
           "double-link-chain",
           "rope-cord-copy-1",
           "forcat-chain-copy"
