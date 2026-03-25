@@ -41,9 +41,23 @@
         ],
         "charms": [
           "initial-charms",
-          "zodiac-coin-charms",
+          "estelle-charm-gold",
+          "estelle-charm-silver",
+          "uma-charm",
+          "estelle-pendants",
           "laurita-charm",
-          "estelle-pendants"
+          "zodiac-coin-charms",
+          "zodiac-coin-charm-aquarius",
+          "zodiac-coin-charm-cancer",
+          "zodiac-coin-charm-capricorn",
+          "zodiac-coin-charm-gemini",
+          "zodiac-coin-charm-leo",
+          "zodiac-coin-charm-libra",
+          "zodiac-coin-charm-pisces",
+          "zodiac-coin-charm-sagittarius",
+          "zodiac-coin-charm-scorpio",
+          "zodiac-coin-charm-taurus",
+          "zodiac-coin-charm-virgo"
         ]
       }
     }
